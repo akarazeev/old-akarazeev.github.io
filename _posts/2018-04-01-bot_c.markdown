@@ -1,0 +1,11 @@
+---
+layout: post
+title: CropperBot
+date: 2018-04-01 00:00:01 +0000
+header:
+  image: &header /assets/images/cb.jpg
+  teaser: *header
+tags: [Telegram, Chat-bot, Python, Instagram]
+---
+
+[Project](https://github.com/akarazeevprojects/CropperBot)

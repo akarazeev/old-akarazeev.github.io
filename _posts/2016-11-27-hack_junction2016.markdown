@@ -1,0 +1,11 @@
+---
+layout: post
+title: Junction2016
+date: 2016-11-27 00:00:01 +0000
+header:
+  image: &header /assets/images/junction2016.jpg
+  teaser: *header
+tags: [Hackathon, Junction, Finland, Helsinki]
+---
+
+My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/data/XAJMULJH.pdf)

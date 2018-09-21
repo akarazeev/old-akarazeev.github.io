@@ -1,0 +1,11 @@
+---
+layout: post
+title: MIPT Deep Learning Club
+date: 2017-09-15 00:00:01 +0000
+header:
+  image: &header /assets/images/dlmipt.jpg
+  teaser: *header
+tags: [MIPT, Deep Learning, Club, Papers]
+---
+
+MIPT Deep Learning Club at [Facebook](https://www.facebook.com/dlmipt/) and [Vk](https://vk.com/dlmipt)

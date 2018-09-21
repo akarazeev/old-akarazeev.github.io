@@ -1,0 +1,11 @@
+---
+layout: post
+title: Sciblog
+date: 2017-07-04 00:00:01 +0000
+header:
+  image: &header /assets/images/sciblog.jpg
+  teaser: *header
+tags: [Sciblog, Telegram, Channel]
+---
+
+Make some notes about researches and other scientific stuff -> [https://t.me/sciblog](https://t.me/sciblog).

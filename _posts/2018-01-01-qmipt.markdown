@@ -1,0 +1,11 @@
+---
+layout: post
+title: MIPT Quantum Club
+date: 2018-01-01 00:00:01 +0000
+header:
+  image: &header /assets/images/qmipt.jpg
+  teaser: *header
+tags: [MIPT, Quantum, Club, Papers]
+---
+
+[MIPT Quantum Club](https://vk.com/qmipt)

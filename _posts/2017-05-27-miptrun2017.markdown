@@ -1,0 +1,11 @@
+---
+layout: post
+title: MIPT Run 2017
+date: 2017-05-27 00:00:01 +0000
+header:
+  image: &header /assets/images/miptrun2017.jpg
+  teaser: *header
+tags: [MIPT, MIPT Run, Running]
+---
+
+Running

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Superconducting Quantum Technologies Conference
+date: 2018-07-30 00:00:01 +0000
+header:
+  image: &header /assets/images/sqt2018.jpg
+  teaser: *header
+tags: [MIPT, RQC, Conference]
+---
+
+[http://sqt-conference.ru](http://sqt-conference.ru)

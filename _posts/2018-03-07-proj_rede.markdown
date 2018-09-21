@@ -1,0 +1,11 @@
+---
+layout: post
+title: Reverse Engineering in Dispersion Engineering
+date: 2018-03-07 00:00:01 +0000
+header:
+  image: &header /assets/images/rede.jpg
+  teaser: *header
+tags: [PyTorch, Dispersion Engineering, MIPT, EPFL]
+---
+
+[Project](https://github.com/akarazeev/REDE)
