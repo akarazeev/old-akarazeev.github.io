@@ -9,7 +9,7 @@ tags:
 ---
 
 Примерный план:
-1. Склонировать репозиторий [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot), в котором лежит работающий код бота и необходимые файлы: `git clone https://github.com/akarazeevprojects/TinyTelegramBot`
+1. Склонировать репозиторий [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot), в котором лежит работающий код бота и необходимые файлы: ```git clone https://github.com/akarazeevprojects/TinyTelegramBot```
 2. Определиться с его названием (выбрать username) -> помощью специального бота [`@BotFather`](https://t.me/BotFather) получить токен, который будет соответствовать твоему боту
 3. Реализовать бота. Представленный здесь код будет написан на Python'e и с использованием библиотеки [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot)
 4. Поднять socks-proxy сервер на порте `9050` (получится адрес `127.0.0.1:9050`)
@@ -61,8 +61,6 @@ def start(bot, update):
 Аргументы `bot` и `update` должны присутствовать. Из `update` можно получить текст сообщения пользоваеля, id пользователя и многое другое.
 
 Эта функция `start()` всего лишь отправляет текст `start_text` в ответ на вызов команды `/start`.
-
-Полный код бота лежит здесь -> [https://github.com/akarazeevprojects/TinyTelegramBot/blob/master/main.py](https://github.com/akarazeevprojects/TinyTelegramBot/blob/master/main.py)
 
 **На всякий случай!** Все указанные здесь файлы из репозитория [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot). Его надо было скачать первым делом :blush:.
 {: .notice--warning}
