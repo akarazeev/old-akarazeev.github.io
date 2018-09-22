@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Setting up of Raspberry Pi"
+title:  "Home Automation with Raspberry Pi"
 tags:
   - Raspberry Pi
-  - Raspbian
+  - Home Automation
 ---
 
 First of all we need to install OS on our micro computer -- Raspberry Pi.
