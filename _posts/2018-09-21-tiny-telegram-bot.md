@@ -1,14 +1,14 @@
 ---
 title: Пишем простого Телеграм-бота
-layout: single
-date: 2018-09-21 15:00:00 +0000
+date: 2018-09-21 18:00:00 +03:00
 tags:
 - Telegram
 - Bot
 - Tutorial
 - Chatbot
-
+layout: single
 ---
+
 ![](assets/images/telegrambot.jpg)
 
 Примерный план:
