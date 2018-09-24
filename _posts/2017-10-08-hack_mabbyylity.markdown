@@ -1,11 +1,16 @@
 ---
-layout: post
 title: mABBYYlity Hackathon
-date: 2017-10-08 00:00:01 +0000
+date: 2017-10-08 03:00:01 +03:00
+tags:
+- Hackathon
+- Russia
+- Moscow
+- Phystechpark
+- ABBYY
+layout: post
 header:
-  image: &header /assets/images/mabbyylity.jpg
-  teaser: *header
-tags: [Hackathon, Russia, Moscow, Phystechpark, ABBYY]
+  image: "/assets/images/mabbyylity.jpg"
+  teaser: "/assets/images/mabbyylity.jpg"
 ---
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/app_in_the_restaurant.pdf)

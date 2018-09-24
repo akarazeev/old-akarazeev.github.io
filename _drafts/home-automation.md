@@ -1,9 +1,10 @@
 ---
-layout: single
-title:  "Home Automation with Raspberry Pi"
+title: Home Automation with Raspberry Pi
+date: 2018-09-24 17:06:13.457000000 +03:00
 tags:
-  - Raspberry Pi
-  - Home Automation
+- Raspberry Pi
+- Home Automation
+layout: single
 ---
 
 First of all we need to install OS on our micro computer -- Raspberry Pi.

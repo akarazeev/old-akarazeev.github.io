@@ -1,11 +1,15 @@
 ---
-layout: post
 title: MIPT Quantum Club
-date: 2018-01-01 00:00:01 +0000
+date: 2018-01-01 03:00:01 +03:00
+tags:
+- MIPT
+- Quantum
+- Club
+- Papers
+layout: post
 header:
-  image: &header /assets/images/qmipt.jpg
-  teaser: *header
-tags: [MIPT, Quantum, Club, Papers]
+  image: "/assets/images/qmipt.jpg"
+  teaser: "/assets/images/qmipt.jpg"
 ---
 
 [MIPT Quantum Club](https://vk.com/qmipt)

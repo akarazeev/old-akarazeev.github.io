@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Junction2017
-date: 2017-11-29 00:00:01 +0000
+date: 2017-11-29 03:00:01 +03:00
+tags:
+- Hackathon
+- Junction
+- Finland
+- Helsinki
+layout: post
 header:
-  image: &header /assets/images/junction2017.jpg
-  teaser: *header
-tags: [Hackathon, Junction, Finland, Helsinki]
+  image: "/assets/images/junction2017.jpg"
+  teaser: "/assets/images/junction2017.jpg"
 ---
 
 LegalEngine - "qqmbr" team. [Project](https://github.com/akarazeev/LegalTech), [Devpost](https://devpost.com/software/legalengine), [Diploma]({{ site.url }}{{ site.baseurl }}/data/Junction17-Certificate_participation.IgjcQtem.pdf)

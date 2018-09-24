@@ -1,12 +1,18 @@
 ---
-layout: post
 title: Quantum Hackathon
-date: 2018-05-18 00:00:01 +0000
+date: 2018-05-18 03:00:01 +03:00
+tags:
+- Quantum
+- Hackathon
+- Skoltech
+- Russia
+- Moscow
+layout: post
 header:
-  image: &header /assets/images/qch.jpg
-  teaser: *header
-tags: [Quantum, Hackathon, Skoltech, Russia, Moscow]
+  image: "/assets/images/qch.jpg"
+  teaser: "/assets/images/qch.jpg"
 ---
+
 Post on [Facebook](https://www.facebook.com/jakeland/posts/10156473595828854)
 
 [Link](http://deepquantum.ai/moscow-quantum-hackathon-msu-skoltech/) to description of hackathon

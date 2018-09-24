@@ -1,14 +1,14 @@
 ---
 title: Пишем простого Телеграм-бота
-layout: single
-date: 2018-09-21 15:00:00 +0000
+date: 2018-09-21 18:00:00 +03:00
 tags:
 - Telegram
 - Bot
 - Tutorial
 - Chatbot
-
+layout: single
 ---
+
 Примерный план:
 1. Склонировать репозиторий [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot), в котором лежит работающий код бота и необходимые файлы: ```git clone https://github.com/akarazeevprojects/TinyTelegramBot```
 2. Определиться с его названием (выбрать username) -> помощью специального бота [`@BotFather`](https://t.me/BotFather) получить токен, который будет соответствовать твоему боту

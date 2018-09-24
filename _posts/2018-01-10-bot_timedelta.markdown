@@ -1,11 +1,14 @@
 ---
-layout: post
 title: TimeDelta Bot
-date: 2018-01-10 00:00:01 +0000
+date: 2018-01-10 03:00:01 +03:00
+tags:
+- Telegram
+- Chat-bot
+- Python
+layout: post
 header:
-  image: &header /assets/images/timedeltabot.jpg
-  teaser: *header
-tags: [Telegram, Chat-bot, Python]
+  image: "/assets/images/timedeltabot.jpg"
+  teaser: "/assets/images/timedeltabot.jpg"
 ---
 
 You can test it [here](https://t.me/TimeDeltaBot). [Project](https://github.com/akarazeevprojects/TimeDeltaBot)

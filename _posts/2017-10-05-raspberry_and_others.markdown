@@ -1,11 +1,19 @@
 ---
-layout: post
 title: Raspberry Pi + AirPlay + AirPrint + Telegram chat-bots + Apple HomeKit
-date: 2017-10-05 00:00:00 +0300
+date: 2017-10-05 00:00:00 +03:00
+tags:
+- Raspberry Pi
+- AirPlay
+- AirPrint
+- HomeKit
+- Telegram
+- Chat-bot
+- Git
+- Python
+layout: post
 header:
-  image: &header /assets/images/raspberry_and_others.jpg
-  teaser: *header
-tags: [Raspberry Pi, AirPlay, AirPrint, HomeKit, Telegram, Chat-bot, Git, Python] # add tag
+  image: "/assets/images/raspberry_and_others.jpg"
+  teaser: "/assets/images/raspberry_and_others.jpg"
 ---
 
 Если не оч дружишь с питоном и есть желание это исправить -> [https://vk.com/pythontutor](https://vk.com/pythontutor)

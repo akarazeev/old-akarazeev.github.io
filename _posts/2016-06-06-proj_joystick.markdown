@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Joystick using Raspberry Pi
-date: 2016-06-06 00:00:01 +0000
+date: 2016-06-06 03:00:01 +03:00
+tags:
+- Joystick
+- DIY
+- Python
+- Raspberry Pi
+layout: post
 header:
-  image: &header /assets/images/joystick.jpg
-  teaser: *header
-tags: [Joystick, DIY, Python, Raspberry Pi]
+  image: "/assets/images/joystick.jpg"
+  teaser: "/assets/images/joystick.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/joystick)

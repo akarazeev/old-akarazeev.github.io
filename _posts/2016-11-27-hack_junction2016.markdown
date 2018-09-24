@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Junction2016
-date: 2016-11-27 00:00:01 +0000
+date: 2016-11-27 03:00:01 +03:00
+tags:
+- Hackathon
+- Junction
+- Finland
+- Helsinki
+layout: post
 header:
-  image: &header /assets/images/junction2016.jpg
-  teaser: *header
-tags: [Hackathon, Junction, Finland, Helsinki]
+  image: "/assets/images/junction2016.jpg"
+  teaser: "/assets/images/junction2016.jpg"
 ---
 
 My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/data/XAJMULJH.pdf)

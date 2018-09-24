@@ -1,11 +1,13 @@
 ---
-layout: post
 title: click_click_ipynb
-date: 2017-09-26 00:00:01 +0000
+date: 2017-09-26 03:00:01 +03:00
+tags:
+- Python
+- Jupyter
+layout: post
 header:
-  image: &header /assets/images/click_click_ipynb.jpg
-  teaser: *header
-tags: [Python, Jupyter]
+  image: "/assets/images/click_click_ipynb.jpg"
+  teaser: "/assets/images/click_click_ipynb.jpg"
 ---
 
 [Project](https://github.com/akarazeev/click_click_ipynb)

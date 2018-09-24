@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Deep\|Bayes Summer School
-date: 2017-08-30 00:00:01 +0000
+date: 2017-08-30 03:00:01 +03:00
+tags:
+- School
+- Russia
+- HSE
+- Moscow
+layout: post
 header:
-  image: &header /assets/images/deepbayes.jpg
-  teaser: *header
-tags: [School, Russia, HSE, Moscow]
+  image: "/assets/images/deepbayes.jpg"
+  teaser: "/assets/images/deepbayes.jpg"
 ---
 
 Summer school on Bayesian methods in Deep Learning. [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/data/deepbayes_school.pdf)

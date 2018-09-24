@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Home Automation
-date: 2018-07-22 15:00:00 +0300
+date: 2018-07-22 15:00:00 +03:00
+tags:
+- DIY
+- Raspberry Pi
+- Python
+- Home Automation
+layout: post
 header:
-  image: &header /assets/images/homeautomation.jpg
-  teaser: *header
-tags: [DIY, Raspberry Pi, Python, Home Automation]
+  image: "/assets/images/homeautomation.jpg"
+  teaser: "/assets/images/homeautomation.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/HomeAutomation)

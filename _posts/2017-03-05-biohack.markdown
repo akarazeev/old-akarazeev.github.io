@@ -1,11 +1,16 @@
 ---
-layout: post
 title: BioHack2017
-date: 2017-03-05 00:00:01 +0000
+date: 2017-03-05 03:00:01 +03:00
+tags:
+- Hackathon
+- Bioinformatics
+- Russia
+- Saint-Petersburg
+- ITMO
+layout: post
 header:
-  image: &header /assets/images/biohack2017.jpg
-  teaser: *header
-tags: [Hackathon, Bioinformatics, Russia, Saint-Petersburg, ITMO]
+  image: "/assets/images/biohack2017.jpg"
+  teaser: "/assets/images/biohack2017.jpg"
 ---
 
 [Project](https://github.com/akarazeev/BioHack2017), [Presentation]({{ site.url }}{{ site.baseurl }}/data/biohack_alzheimers.pdf), [Post](http://news.ifmo.ru/ru/science/life_science/news/6500/) on ITMO.NEWS
