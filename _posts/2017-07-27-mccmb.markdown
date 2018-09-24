@@ -1,11 +1,16 @@
 ---
-layout: post
 title: MCCMB'17 - Advanced Parser for Biomedical Texts
-date: 2017-07-27 00:00:01 +0000
+date: 2017-07-27 03:00:01 +03:00
+tags:
+- Conference
+- MCCMB
+- Moscow
+- Biology
+- Bioinformatics
+layout: post
 header:
-  image: &header /assets/images/mccmb2017.jpg
-  teaser: *header
-tags: [Conference, MCCMB, Moscow, Biology, Bioinformatics]
+  image: "/assets/images/mccmb2017.jpg"
+  teaser: "/assets/images/mccmb2017.jpg"
 ---
 
 [Poster]({{ site.url }}{{ site.baseurl }}/data/poster_mccmb2017.pdf), [Thesis]({{ site.url }}{{ site.baseurl }}/data/thesis_mccmb2017.pdf)

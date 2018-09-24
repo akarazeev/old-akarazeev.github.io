@@ -1,9 +1,9 @@
 ---
-title: Setting up of Raspberry Pi
-date: 2018-09-24 17:06:13.523000000 +03:00
+title: Home Automation with Raspberry Pi
+date: 2018-09-24 17:06:13.457000000 +03:00
 tags:
 - Raspberry Pi
-- Raspbian
+- Home Automation
 layout: single
 ---
 

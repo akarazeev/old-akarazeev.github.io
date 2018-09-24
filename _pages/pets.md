@@ -1,7 +1,7 @@
 ---
 title: Pets
+permalink: "/pets/"
 layout: collection
-permalink: /pets/
 collection: pets
 entries_layout: grid
 classes: wide

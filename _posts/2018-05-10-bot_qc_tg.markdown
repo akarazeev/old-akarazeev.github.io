@@ -1,11 +1,20 @@
 ---
-layout: post
 title: Quantum Computing Bot for Telegram
-date: 2018-05-10 00:00:01 +0000
+date: 2018-05-10 03:00:01 +03:00
+tags:
+- IBM Q
+- Telegram
+- QISKit
+- Chat-bot
+- Quantum
+- Quantum Computing
+- Python
+- RQC
+- Russian Quantum Center
+layout: post
 header:
-  image: &header /assets/images/qcb_tg.jpg
-  teaser: *header
-tags: [IBM Q, Telegram, QISKit, Chat-bot, Quantum, Quantum Computing, Python, RQC, Russian Quantum Center]
+  image: "/assets/images/qcb_tg.jpg"
+  teaser: "/assets/images/qcb_tg.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/QuantumComputingBot), Post on [Facebook](https://www.facebook.com/anton.karazeev/posts/1683068225147972)

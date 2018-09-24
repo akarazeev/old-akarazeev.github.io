@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Sciblog
-date: 2017-07-04 00:00:01 +0000
+date: 2017-07-04 03:00:01 +03:00
+tags:
+- Sciblog
+- Telegram
+- Channel
+layout: post
 header:
-  image: &header /assets/images/sciblog.jpg
-  teaser: *header
-tags: [Sciblog, Telegram, Channel]
+  image: "/assets/images/sciblog.jpg"
+  teaser: "/assets/images/sciblog.jpg"
 ---
 
 Make some notes about researches and other scientific stuff -> [https://t.me/sciblog](https://t.me/sciblog).

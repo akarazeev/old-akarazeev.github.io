@@ -1,6 +1,6 @@
 ---
-permalink: /
-title: "whoami?"
+title: whoami?
+permalink: "/"
 ---
 
 Hi, my name is Anton.

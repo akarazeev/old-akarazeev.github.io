@@ -1,11 +1,15 @@
 ---
-layout: post
 title: Camera slider using Raspberry Pi
-date: 2016-08-03 00:00:01 +0000
+date: 2016-08-03 03:00:01 +03:00
+tags:
+- Slider
+- DIY
+- Python
+- Raspberry Pi
+layout: post
 header:
-  image: &header /assets/images/camera_slider.jpg
-  teaser: *header
-tags: [Slider, DIY, Python, Raspberry Pi]
+  image: "/assets/images/camera_slider.jpg"
+  teaser: "/assets/images/camera_slider.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/slider)

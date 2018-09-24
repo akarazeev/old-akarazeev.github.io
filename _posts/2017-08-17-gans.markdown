@@ -1,11 +1,13 @@
 ---
-layout: post
 title: Generative Adversarial Networks (GANs) - Engine and Applications
-date: 2017-08-17 00:00:01 +0000
+date: 2017-08-17 03:00:01 +03:00
+tags:
+- Medium
+- GANs
+layout: post
 header:
-  image: &header /assets/images/gans.jpg
-  teaser: *header
-tags: [Medium, GANs]
+  image: "/assets/images/gans.jpg"
+  teaser: "/assets/images/gans.jpg"
 ---
 
 My [Post](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47) on Medium

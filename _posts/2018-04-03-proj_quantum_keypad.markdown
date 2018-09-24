@@ -1,11 +1,19 @@
 ---
-layout: post
 title: Quantum Keypad
-date: 2018-04-03 00:00:01 +0000
+date: 2018-04-03 03:00:01 +03:00
+tags:
+- Quantum
+- Keypad
+- DIY
+- Raspberry Pi
+- Quantum Computing
+- QISKit
+- RQC
+- Russian Quantum Center
+layout: post
 header:
-  image: &header /assets/images/quantum_keypad.jpg
-  teaser: *header
-tags: [Quantum, Keypad, DIY, Raspberry Pi, Quantum Computing, QISKit, RQC, Russian Quantum Center]
+  image: "/assets/images/quantum_keypad.jpg"
+  teaser: "/assets/images/quantum_keypad.jpg"
 ---
 
 Quantum Keypad for real quantum programmers

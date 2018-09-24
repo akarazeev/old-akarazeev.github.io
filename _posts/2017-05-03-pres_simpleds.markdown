@@ -1,11 +1,14 @@
 ---
-layout: post
 title: SimpleDS - A Simple Deep Reinforcement Learning Dialogue System
-date: 2017-05-03 00:00:01 +0000
+date: 2017-05-03 03:00:01 +03:00
+tags:
+- Dialogue Systems
+- Reinforcement Learning
+- Presentation
+layout: post
 header:
-  image: &header /assets/images/simpleds.jpg
-  teaser: *header
-tags: [Dialogue Systems, Reinforcement Learning, Presentation]
+  image: "/assets/images/simpleds.jpg"
+  teaser: "/assets/images/simpleds.jpg"
 ---
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/simpleds.pdf)

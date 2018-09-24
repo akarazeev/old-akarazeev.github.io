@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Football Cup of DIHT
-date: 2017-05-01 00:00:01 +0000
+date: 2017-05-01 03:00:01 +03:00
+tags:
+- MIPT
+- DIHT
+- Football
+layout: post
 header:
-  image: &header /assets/images/diht_football.jpg
-  teaser: *header
-tags: [MIPT, DIHT, Football]
+  image: "/assets/images/diht_football.jpg"
+  teaser: "/assets/images/diht_football.jpg"
 ---
 
 Football team "Spirit", 3rd place

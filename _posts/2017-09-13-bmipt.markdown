@@ -1,11 +1,15 @@
 ---
-layout: post
 title: MIPT Bioinformatics Club
-date: 2017-09-13 00:00:01 +0000
+date: 2017-09-13 03:00:01 +03:00
+tags:
+- MIPT
+- Bioinformatics
+- Club
+- Papers
+layout: post
 header:
-  image: &header /assets/images/bmipt.jpg
-  teaser: *header
-tags: [MIPT, Bioinformatics, Club, Papers]
+  image: "/assets/images/bmipt.jpg"
+  teaser: "/assets/images/bmipt.jpg"
 ---
 
 [MIPT Bioinformatics Club](http://vk.com/bioinfomipt)

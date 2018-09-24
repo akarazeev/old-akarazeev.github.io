@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Parser Bot
-date: 2018-06-07 00:00:01 +0000
+date: 2018-06-07 03:00:01 +03:00
+tags:
+- MIPT
+- Telegram
+- Bot
+layout: post
 header:
-  image: &header /assets/images/parserbot.jpg
-  teaser: *header
-tags: [MIPT, Telegram, Bot]
+  image: "/assets/images/parserbot.jpg"
+  teaser: "/assets/images/parserbot.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/ParserBot)

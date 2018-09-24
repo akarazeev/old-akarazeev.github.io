@@ -1,11 +1,16 @@
 ---
-layout: post
 title: Keyphrases Extraction
-date: 2018-03-17 00:00:01 +0000
+date: 2018-03-17 03:00:01 +03:00
+tags:
+- NLP
+- Keyphrases
+- Text Mining
+- Extraction
+- Presentation
+layout: post
 header:
-  image: &header /assets/images/keyphrases.jpg
-  teaser: *header
-tags: [NLP, Keyphrases, Text Mining, Extraction, Presentation]
+  image: "/assets/images/keyphrases.jpg"
+  teaser: "/assets/images/keyphrases.jpg"
 ---
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/keyphrases.pdf)

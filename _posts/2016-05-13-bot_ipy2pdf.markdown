@@ -1,11 +1,15 @@
 ---
-layout: post
 title: ipy2pdf Bot
-date: 2016-05-13 00:00:01 +0000
+date: 2016-05-13 03:00:01 +03:00
+tags:
+- MIPT
+- Telegram
+- Bot
+- Jupyter
+layout: post
 header:
-  image: &header /assets/images/ipy2pdf.jpg
-  teaser: *header
-tags: [MIPT, Telegram, Bot, Jupyter]
+  image: "/assets/images/ipy2pdf.jpg"
+  teaser: "/assets/images/ipy2pdf.jpg"
 ---
 
 [Project](https://github.com/akarazeevprojects/ipy2pdf)
