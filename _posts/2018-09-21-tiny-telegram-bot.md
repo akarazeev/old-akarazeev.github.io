@@ -4,12 +4,10 @@ date: 2018-09-21 18:00:00 +03:00
 tags:
 - Telegram
 - Bot
-- Tutorial
 - Chatbot
+- Tutorial
 layout: single
 ---
-
-![](assets/images/telegrambot.jpg)
 
 Примерный план:
 
