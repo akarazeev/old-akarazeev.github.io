@@ -14,14 +14,20 @@ layout: single
 Примерный план:
 {: .text-center}
 
-1. Склонировать репозиторий [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot), в котором лежат необходимые файлы: `git clone https://github.com/akarazeevprojects/TinyTelegramBot`
+1. Склонировать репозиторий [`TinyTelegramBot`](https://github.com/akarazeevprojects/TinyTelegramBot), в котором лежат необходимые файлы:
+```
+git clone https://github.com/akarazeevprojects/TinyTelegramBot
+```
 2. Определиться с его названием (придумать username) -> с помощью специального бота [`@BotFather`](https://t.me/BotFather) получить токен для твоего бота (для идентификации его в системе Телеграм)
 3. Реализовать бота. Представленный здесь код будет написан на Python'e и с использованием библиотеки [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot)
 4. Поднять `socks-proxy` сервер на порте `9050` (получится адрес `127.0.0.1:9050`)
 
 ## Получение токена
 
-Просим [`@BotFather`](https://t.me/BotFather) создать нового бота, сообщаем название/username/etc. -> получаем токен. Токен имеет следующий вид: ```111111111:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA```.
+Просим [`@BotFather`](https://t.me/BotFather) создать нового бота, сообщаем название/username/etc. -> получаем токен. Токен имеет следующий вид:
+```
+111111111:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+```
 
 Теперь его необходимо поместить в файл `EMPTY_TOKEN.json` вместо `<YOUR_TOKEN>`.
 
@@ -32,7 +38,11 @@ layout: single
 
 ## Бот. Реализация
 
-Если на твоей машине не стоит питоновская библиотека `python-telegram-bot`, то её необходимо поставить с помощью команды `pip install python-telegram-bot --upgrade` (для справки: [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot)).
+Если на твоей машине не стоит питоновская библиотека `python-telegram-bot`, то её необходимо поставить с помощью команды
+```
+pip install python-telegram-bot --upgrade
+```
+(для справки: [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot)).
 
 Вдаваться в подробности каждого объекта не будем, объясню основные моменты.
 
