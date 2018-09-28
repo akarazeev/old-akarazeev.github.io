@@ -5,6 +5,9 @@ permalink: "/"
 
 Hi, my name is Anton.
 
+{% include instagram.html clientId="6193b22f47664aa397ef7971e79cac39" userId="587864293" accessToken="587864293.6193b22.aa9bb07263d94144a64a5f2065d6511d" %}
+KEKKE
+
 I'm a student of [Moscow Institute of Physics and Technology](https://mipt.ru/english/), [Department of Innovation and High Technologies](https://mipt.ru/diht/). My major courses are computer science, machine learning and physics.
 
 Also I'm a researcher at [Russian Quantum Center](http://www.rqc.ru/) and founder of [MIPT SciTech Club](https://www.facebook.com/scitechmipt/).
