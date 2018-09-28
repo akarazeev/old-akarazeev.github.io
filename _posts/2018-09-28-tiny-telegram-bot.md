@@ -1,6 +1,8 @@
 ---
-title: 2018 09 21 Tiny Telegram Bott
-date: 2018-09-28 21:20:13.223000000 +03:00
+title: Пишем простого Телеграм-бота
+date: 2018-09-21 18:00:00 +03:00
+header:
+  teaser: "/assets/images/telegrambot.jpg"
 ---
 
 ![image-center](/assets/images/telegrambot.jpg){: .align-center}
