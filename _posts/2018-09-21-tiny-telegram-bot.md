@@ -7,12 +7,9 @@ tags:
 - Chatbot
 - Tutorial
 layout: single
+excerpt:
 header:
   teaser: "/assets/images/telegrambot.jpg"
-
-excerpt:
-       <h3>Add a Custom Excerpt to Your Post</h3>
-       <p>Find out how!</p>
 ---
 
 ![image-center](/assets/images/telegrambot.jpg){: .align-center}
