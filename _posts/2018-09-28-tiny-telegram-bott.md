@@ -1,19 +1,6 @@
 ---
-title: Пишем простого Телеграм-бота
-date: 2018-09-21 18:00:00 +03:00
-tags:
-- Telegram
-- Bot
-- Chatbot
-- Tutorial
-layout: single
-excerpt:
-header:
-  teaser: "/assets/images/telegrambot.jpg"
-<<<<<<< HEAD
-=======
-excerpt: "<h3>Add a Custom Excerpt to Your Post</h3> <p>Find out how!</p>"
->>>>>>> 1177bb114e68a69f0374b194482b6f0e79f6f75a
+title: 2018 09 21 Tiny Telegram Bott
+date: 2018-09-28 21:20:13.223000000 +03:00
 ---
 
 ![image-center](/assets/images/telegrambot.jpg){: .align-center}
