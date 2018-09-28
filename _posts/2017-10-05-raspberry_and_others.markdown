@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi + AirPlay + AirPrint + Telegram chat-bots + Apple HomeKit
+title: Raspberry Pi + AirPlay + AirPrint + Telegram Chatbots + Apple HomeKit
 date: 2017-10-05 00:00:00 +03:00
 tags:
 - Raspberry Pi
@@ -7,7 +7,7 @@ tags:
 - AirPrint
 - HomeKit
 - Telegram
-- Chat-bot
+- Chatbot
 - Git
 - Python
 layout: post

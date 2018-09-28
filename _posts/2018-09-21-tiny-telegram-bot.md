@@ -7,6 +7,12 @@ tags:
 - Chatbot
 - Tutorial
 layout: single
+header:
+  teaser: "/assets/images/telegrambot.jpg"
+
+excerpt:
+       <h3>Add a Custom Excerpt to Your Post</h3>
+       <p>Find out how!</p>
 ---
 
 ![image-center](/assets/images/telegrambot.jpg){: .align-center}
@@ -91,7 +97,7 @@ def start(bot, update):
 
 Для запуска бота необходимо выполнить `python main.py`. Если высветилось "-> USE PROXY", то всё ок — можно слать сообщения боту.
 
-***
+---
 
 Ввиду того, что я редко пишу подобные длинные посты, читать их будет определённо не так же кайфово как какую-нибудь художественную литературу. Сорян, я работаю над собой в этом направлении и надеюсь, что результаты станут скоро заметны.
 

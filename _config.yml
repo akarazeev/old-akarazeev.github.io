@@ -68,7 +68,7 @@ name: Anton Karazeev
 description: Anton's Website
 url: https://akarazeev.github.io
 baseurl: ''
-teaser: 
+teaser:
 words_per_minute: 200
 comments:
   provider: disqus
@@ -94,8 +94,8 @@ github:
 - meta
 og_image: "/assets/images/site-logo.jpg"
 social:
-  type: 
-  name: 
+  type:
+  name:
   links:
   - https://twitter.com/antonkarazeev
   - https://facebook.com/anton.karazeev

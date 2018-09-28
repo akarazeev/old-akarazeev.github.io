@@ -3,7 +3,7 @@ title: TimeDelta Bot
 date: 2018-01-10 03:00:01 +03:00
 tags:
 - Telegram
-- Chat-bot
+- Chatbot
 - Python
 layout: post
 header:

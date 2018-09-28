@@ -5,7 +5,7 @@ tags:
 - IBM Q
 - Slack
 - QISKit
-- Chat-bot
+- Chatbot
 - Quantum
 - Quantum Computing
 - Python

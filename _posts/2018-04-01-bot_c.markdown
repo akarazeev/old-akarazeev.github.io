@@ -3,7 +3,7 @@ title: CropperBot
 date: 2018-04-01 03:00:01 +03:00
 tags:
 - Telegram
-- Chat-bot
+- Chatbot
 - Python
 - Instagram
 layout: post

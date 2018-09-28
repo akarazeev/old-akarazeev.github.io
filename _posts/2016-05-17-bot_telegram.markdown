@@ -1,9 +1,9 @@
 ---
-title: Telegram chat-bot
+title: Telegram Chatbot
 date: 2016-05-17 03:00:01 +03:00
 tags:
 - Telegram
-- Chat-bot
+- Chatbot
 - Python
 - Raspberry Pi
 layout: post
@@ -12,4 +12,4 @@ header:
   teaser: "/assets/images/telegram_bot.jpg"
 ---
 
-My first telegram chat-bot. [Project](https://github.com/akarazeevprojects/TelegramBot)
+My first telegram Chatbot. [Project](https://github.com/akarazeevprojects/TelegramBot)
