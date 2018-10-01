@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
+  - title: "MIPT SciTech Club"
+    url: /miptscitech/
   - title: "Tags"
     url: /tags/
   - title: "Projects"
