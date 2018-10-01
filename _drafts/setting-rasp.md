@@ -1,6 +1,6 @@
 ---
 title: Setting up of Raspberry Pi
-date: 2018-09-24 17:06:13.523000000 +03:00
+date: 2018-09-24 17:06:13 +03:00
 tags:
 - Raspberry Pi
 - Raspbian
