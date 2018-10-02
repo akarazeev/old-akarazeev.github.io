@@ -10,6 +10,19 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+    <meta name="google-site-verification" content="yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8" />
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-2181399337659298",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -41,19 +54,29 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/50387566" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
-    <meta name="google-site-verification" content="yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8" />
-
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    <amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-2181399337659298">
+    </amp-auto-ads>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     <div class="initial-content">
       {{ content }}
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- ad1 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:980px;height:120px"
+           data-ad-client="ca-pub-2181399337659298"
+           data-ad-slot="8865104297"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
 
     {% if site.search == true %}
