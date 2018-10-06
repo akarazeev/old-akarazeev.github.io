@@ -1,5 +1,5 @@
 ---
-title: Home Automation with Raspberry Pi using HomeKit
+title: Автоматизация Дома с Помощью Raspberry Pi и HomeKit
 date: 2018-10-06 09:00:00 +03:00
 tags:
 - Raspberry Pi
@@ -23,9 +23,8 @@ header:
 Затем разархивируем скачанный файл, чтобы получить сам образ -- файл `.img`. Для создания загрузочной microSD флешки я использовал приложение [Etcher](https://etcher.io):
 
 ![alt](/assets/images/etcher.jpg){: .align-center}
-![alt](/assets/images/sdcard.jpg){: .align-center}
 
-После завершения процесса записи вынимаем карточку и вставляем в RPi. Нам потребуется клавиатура и монитор, чтобы провести первую настройку. Затем можно будет подключаться с помощью `ssh` к RPi.
+![alt](/assets/images/sdcard.jpg){: .align-right} После завершения процесса записи вынимаем карточку и вставляем в RPi. Нам потребуется клавиатура и монитор, чтобы провести первую настройку. Затем можно будет подключаться с помощью `ssh` к RPi.
 
 **На всякий случай!** Мне удалось уместить всё необходимое на microSD с объёмом памяти в 2GB.
 {: .notice--warning}
@@ -52,6 +51,8 @@ header:
 4. "Yes"
 5. "Ok"
 6. Press "Finish" button
+
+---
 
 ### Установка homebridge
 

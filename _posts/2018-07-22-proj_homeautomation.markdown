@@ -7,6 +7,16 @@ tags:
 - Python
 - Home Automation
 layout: post
+gallery:
+  - url: /assets/images/multi-relay-1.jpg
+    image_path: /assets/images/multi-relay-1.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/multi-relay-2.jpg
+    image_path: /assets/images/multi-relay-2.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/multi-relay-3.jpg
+    image_path: /assets/images/multi-relay-3.jpg
+    alt: "placeholder image 3"
 header:
   teaser: "/assets/images/homeautomation.jpg"
 ---
@@ -15,10 +25,10 @@ header:
 
 [Project](https://github.com/akarazeevprojects/HomeAutomation)
 
+{% include gallery caption="Gallery of relay with multiple controls." %}
+
 Used Raspberry Pi and HomeKit by Apple.
 
-Demo 1
 {% include video id="CBYfVpwmrjc" provider="youtube" %}
 
-Demo 2
 {% include video id="5WgPspO2ZKQ" provider="youtube" %}
