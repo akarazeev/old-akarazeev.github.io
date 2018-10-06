@@ -8,8 +8,9 @@ tags:
 - EPFL
 layout: post
 header:
-  image: "/assets/images/rede.jpg"
   teaser: "/assets/images/rede.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeev/REDE)

@@ -7,13 +7,17 @@ tags:
 - Programming
 - Packages
 layout: single
+header:
+  teaser: "/assets/images/atom.jpeg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Текстовым редактором [Atom](https://atom.io) я пользуюсь уже давно, поэтому решил написать про него пару слов.
 
 Одно из первых, что мне в нём понравилось -- он полностью опенсурсный. Исходники можно найти в [соответствующем репозитории](https://github.com/atom/atom). А также возможность расширения его функционала различными пакетами убедила меня перейти на него.
 
-Я решил записать список пакетов, которые я уже "насобирал" за время пользования этим редактором: [atom-packages.txt]({{ site.url }}{{ site.baseurl }}/data/atom-packages.txt).
+Я решил записать список пакетов, которые я уже "насобирал" за время пользования этим редактором: [atom-packages.txt](/data/atom-packages.txt).
 
 После установки самого Atom'a, установить пакеты из файла "atom-packages.txt" можно в одну команду: `apm install --packages-file atom-packages.txt`
 

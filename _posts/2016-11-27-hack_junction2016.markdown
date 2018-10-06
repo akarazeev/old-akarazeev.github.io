@@ -8,8 +8,9 @@ tags:
 - Helsinki
 layout: post
 header:
-  image: "/assets/images/junction2016.jpg"
   teaser: "/assets/images/junction2016.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/data/XAJMULJH.pdf)

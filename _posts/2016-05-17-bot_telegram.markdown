@@ -8,8 +8,9 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  image: "/assets/images/telegram_bot.jpg"
   teaser: "/assets/images/telegram_bot.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 My first telegram Chatbot. [Project](https://github.com/akarazeevprojects/TelegramBot)

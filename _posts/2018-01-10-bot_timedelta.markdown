@@ -7,8 +7,9 @@ tags:
 - Python
 layout: post
 header:
-  image: "/assets/images/timedeltabot.jpg"
   teaser: "/assets/images/timedeltabot.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 You can test it [here](https://t.me/TimeDeltaBot). [Project](https://github.com/akarazeevprojects/TimeDeltaBot)

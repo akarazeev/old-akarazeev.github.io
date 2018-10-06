@@ -15,17 +15,10 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
-# TODO: Implement comments section.
 comments:
   provider               : "disqus" # "facebook", "staticman_v2", false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
-  # facebook: # https://developers.facebook.com/docs/plugins/comments
-  #   appid                : 243302933050086
-  #   num_posts            : 5 # 5 (default)
-  #   colorscheme          : "light" # "light" (default), "dark"
   disqus:
     shortname            : https-akarazeev-github-io
-  # discourse:
-  #   server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
 
 # TODO: wtf?
 # reCaptcha:

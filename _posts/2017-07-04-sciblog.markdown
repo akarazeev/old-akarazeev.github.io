@@ -7,8 +7,9 @@ tags:
 - Channel
 layout: post
 header:
-  image: "/assets/images/sciblog.jpg"
   teaser: "/assets/images/sciblog.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Make some notes about researches and other scientific stuff -> [https://t.me/sciblog](https://t.me/sciblog).

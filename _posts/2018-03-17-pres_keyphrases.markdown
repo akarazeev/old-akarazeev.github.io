@@ -9,8 +9,9 @@ tags:
 - Presentation
 layout: post
 header:
-  image: "/assets/images/keyphrases.jpg"
   teaser: "/assets/images/keyphrases.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/keyphrases.pdf)

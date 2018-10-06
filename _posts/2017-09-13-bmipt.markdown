@@ -8,8 +8,9 @@ tags:
 - Papers
 layout: post
 header:
-  image: "/assets/images/bmipt.jpg"
   teaser: "/assets/images/bmipt.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [MIPT Bioinformatics Club](http://vk.com/bioinfomipt)

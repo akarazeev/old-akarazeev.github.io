@@ -8,9 +8,10 @@ tags:
 - Home Automation
 layout: post
 header:
-  image: "/assets/images/homeautomation.jpg"
   teaser: "/assets/images/homeautomation.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/HomeAutomation)
 

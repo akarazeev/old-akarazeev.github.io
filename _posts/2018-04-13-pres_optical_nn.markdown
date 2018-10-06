@@ -8,8 +8,9 @@ tags:
 - Presentation
 layout: post
 header:
-  image: "/assets/images/optical_nn.jpg"
   teaser: "/assets/images/optical_nn.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/optical_nn.pdf)

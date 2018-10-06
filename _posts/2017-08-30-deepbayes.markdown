@@ -8,8 +8,9 @@ tags:
 - Moscow
 layout: post
 header:
-  image: "/assets/images/deepbayes.jpg"
   teaser: "/assets/images/deepbayes.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Summer school on Bayesian methods in Deep Learning. [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/data/deepbayes_school.pdf)

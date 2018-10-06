@@ -12,8 +12,9 @@ tags:
 - Yandex
 layout: post
 header:
-  image: "/assets/images/datafest2018.jpg"
   teaser: "/assets/images/datafest2018.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Post](https://www.facebook.com/anton.karazeev/posts/1667493670038761) on Facebook

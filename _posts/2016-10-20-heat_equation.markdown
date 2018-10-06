@@ -9,8 +9,9 @@ tags:
 - C
 layout: post
 header:
-  image: "/assets/images/heat_equation.jpg"
   teaser: "/assets/images/heat_equation.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeev/HeatEquation-5sem-MIPT-2016)

@@ -7,7 +7,11 @@ tags:
 - Programming
 - Packages
 layout: single
+header:
+  teaser: "/assets/images/atom.jpeg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Since I've been using [Atom](https://atom.io) for a pretty long time, I decided to write a few words about it.
 

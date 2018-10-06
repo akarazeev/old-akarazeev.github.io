@@ -6,8 +6,9 @@ tags:
 - Jupyter
 layout: post
 header:
-  image: "/assets/images/click_click_ipynb.jpg"
   teaser: "/assets/images/click_click_ipynb.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeev/click_click_ipynb)

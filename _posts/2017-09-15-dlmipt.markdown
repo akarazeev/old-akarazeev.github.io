@@ -8,8 +8,9 @@ tags:
 - Papers
 layout: post
 header:
-  image: "/assets/images/dlmipt.jpg"
   teaser: "/assets/images/dlmipt.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 MIPT Deep Learning Club at [Facebook](https://www.facebook.com/dlmipt/) and [Vk](https://vk.com/dlmipt)

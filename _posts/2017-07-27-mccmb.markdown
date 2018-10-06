@@ -9,8 +9,9 @@ tags:
 - Bioinformatics
 layout: post
 header:
-  image: "/assets/images/mccmb2017.jpg"
   teaser: "/assets/images/mccmb2017.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Poster]({{ site.url }}{{ site.baseurl }}/data/poster_mccmb2017.pdf), [Thesis]({{ site.url }}{{ site.baseurl }}/data/thesis_mccmb2017.pdf)

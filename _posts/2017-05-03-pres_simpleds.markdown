@@ -7,8 +7,9 @@ tags:
 - Presentation
 layout: post
 header:
-  image: "/assets/images/simpleds.jpg"
   teaser: "/assets/images/simpleds.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/simpleds.pdf)

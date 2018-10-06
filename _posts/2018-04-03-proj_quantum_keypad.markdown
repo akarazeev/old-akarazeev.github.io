@@ -12,9 +12,10 @@ tags:
 - Russian Quantum Center
 layout: post
 header:
-  image: "/assets/images/quantum_keypad.jpg"
   teaser: "/assets/images/quantum_keypad.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Quantum Keypad for real quantum programmers
 

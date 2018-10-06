@@ -7,8 +7,9 @@ tags:
 - Running
 layout: post
 header:
-  image: "/assets/images/miptrun2017.jpg"
   teaser: "/assets/images/miptrun2017.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Running
