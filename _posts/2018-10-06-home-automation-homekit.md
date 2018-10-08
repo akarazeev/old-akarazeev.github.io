@@ -9,9 +9,45 @@ tags:
 layout: single
 header:
   teaser: "/assets/images/rpi-homekit.png"
+gallery1:
+  - url: /assets/images/home-ios-add.jpg
+    image_path: /assets/images/home-ios-add.jpg
+    title: "Подключение нового устройства"
+  - url: /assets/images/home-ios-main.jpg
+    image_path: assets/images/home-ios-main.jpg
+    title: "Главный экран в приложении Home"
+  - url: /assets/images/home-ios-office.jpg
+    image_path: /assets/images/home-ios-office.jpg
+  - url: /assets/images/home-ios-dining.jpg
+    image_path: assets/images/home-ios-dining.jpg
+  - url: /assets/images/home-ios-automation.jpg
+    image_path: /assets/images/home-ios-automation.jpg
+gallery2:
+  - url: /assets/images/home-mac-main.jpg
+    image_path: assets/images/home-mac-main.jpg
+  - url: /assets/images/home-mac-office.jpg
+    image_path: /assets/images/home-mac-office.jpg
+  - url: /assets/images/home-mac-dining.jpg
+    image_path: assets/images/home-mac-dining.jpg
+  - url: /assets/images/home-mac-automation.jpg
+    image_path: /assets/images/home-mac-automation.jpg
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
+
+### Зачем мы всё это делаем?
+
+Цель этого поста -- показать как можно поставить [`homebridge`](https://github.com/nfarina/homebridge) сервер на **Raspberry Pi**. Этот сервер позволит управлять через приложение **Home** (на iOS и macOS) подключенными к **Raspberry Pi** устройствами (лампочками, вентиляторами, etc.)
+
+Возможно, тебе будет интересно как я [делал "коробочку" с реле](https://akarazeev.github.io/proj_homeautomation/), которой можно управлять до 4ёх устройств.
+
+{% include gallery id='gallery1' caption="Подключение нового устройства и обзор приложения Home на iOS" %}
+
+{% include gallery id='gallery2' caption="Обзор программы Home на macOS" %}
+
+---
+
+### Начнём
 
 Прежде всего нам потребуется установить ОС на RPi. Ставить будем Raspbian. Скачиваем торрент-файл с [официального сайта](https://www.raspberrypi.org/downloads/raspbian/) с помощью торрент-менеджера (я использовал [Transmission](https://transmissionbt.com)):
 
