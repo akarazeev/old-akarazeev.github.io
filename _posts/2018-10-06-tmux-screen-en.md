@@ -7,6 +7,8 @@ tags:
 - Programming
 - Commands
 layout: single
+header:
+  teaser: "/assets/images/tmux.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
