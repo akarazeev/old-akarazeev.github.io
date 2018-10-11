@@ -1,6 +1,6 @@
 ---
 title: Автоматизация Дома с Помощью Raspberry Pi и HomeKit
-date: 2018-10-06 09:00:00 +03:00
+date: 2018-10-11 09:00:00 +03:00
 tags:
 - Raspberry Pi
 - Home Automation
