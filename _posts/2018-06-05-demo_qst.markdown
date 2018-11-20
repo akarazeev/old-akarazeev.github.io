@@ -13,9 +13,10 @@ tags:
 - Russian Quantum Center
 layout: post
 header:
-  image: "/assets/images/demo_qst.jpg"
   teaser: "/assets/images/demo_qst.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/StepperProjects), Post on [Facebook](https://www.facebook.com/anton.karazeev/posts/1709867399134721)
 

@@ -8,8 +8,9 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  image: "/assets/images/camera_slider.jpg"
   teaser: "/assets/images/camera_slider.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/slider)

@@ -8,8 +8,9 @@ tags:
 - C
 layout: post
 header:
-  image: "/assets/images/molecular_dynamics.jpg"
   teaser: "/assets/images/molecular_dynamics.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Presentation]({{ site.url }}{{ site.baseurl }}/data/molecular_dynamics.pdf)

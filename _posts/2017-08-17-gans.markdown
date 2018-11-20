@@ -6,9 +6,10 @@ tags:
 - GANs
 layout: post
 header:
-  image: "/assets/images/gans.jpg"
   teaser: "/assets/images/gans.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 My [Post](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47) on Medium
 

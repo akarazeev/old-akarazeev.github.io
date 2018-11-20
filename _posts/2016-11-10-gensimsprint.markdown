@@ -9,8 +9,9 @@ tags:
 - HSE
 layout: post
 header:
-  image: "/assets/images/gensimsprint.jpg"
   teaser: "/assets/images/gensimsprint.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Fixed issue #671 at [Gensim](https://github.com/RaRe-Technologies/gensim)

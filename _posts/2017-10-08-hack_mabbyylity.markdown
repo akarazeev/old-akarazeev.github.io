@@ -9,9 +9,10 @@ tags:
 - ABBYY
 layout: post
 header:
-  image: "/assets/images/mabbyylity.jpg"
   teaser: "/assets/images/mabbyylity.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/app_in_the_restaurant.pdf)
 

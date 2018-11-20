@@ -7,8 +7,9 @@ tags:
 - Football
 layout: post
 header:
-  image: "/assets/images/diht_football.jpg"
   teaser: "/assets/images/diht_football.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Football team "Spirit", 3rd place

@@ -8,9 +8,10 @@ tags:
 - Jupyter
 layout: post
 header:
-  image: "/assets/images/ipy2pdf.jpg"
   teaser: "/assets/images/ipy2pdf.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/ipy2pdf)
 

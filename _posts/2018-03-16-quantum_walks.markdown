@@ -6,8 +6,9 @@ tags:
 - Variational
 layout: post
 header:
-  image: "/assets/images/quantum_walks.jpg"
   teaser: "/assets/images/quantum_walks.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Final Project]({{ site.url }}{{ site.baseurl }}/data/quantum_walks.pdf) at Quantum Computing course

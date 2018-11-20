@@ -1,187 +1,236 @@
----
-title: Anton's Website
-timezone: Europe/Moscow
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: true
-    share: true
-    related: true
-- scope:
-    path: _pages
-    type: pages
-  values:
-    layout: single
-    author_profile: true
-- scope:
-    path: ''
-    type: docs
-  values:
-    layout: single
-    read_time: false
-    author_profile: false
-    share: false
-    comments: false
-    sidebar:
-      nav: docs
-- scope:
-    path: ''
-    type: recipes
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comments: true
-- scope:
-    path: ''
-    type: pets
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comment: true
-- scope:
-    path: ''
-    type: portfolio
-  values:
-    layout: single
-    author_profile: false
-    share: true
-minimal_mistakes_skin: default
-repository: mmistakes/minimal-mistakes
-remote_theme: mmistakes/minimal-mistakes
-locale: en-US
-title_separator: "-"
-name: Anton Karazeev
-description: Anton's Website
-url: https://akarazeev.github.io
-baseurl: ''
-teaser: 
-words_per_minute: 200
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+repository               : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
+
+# Site Settings.
+locale                   : "en-US"
+title                    : "Anton's Website"
+title_separator          : "-"
+name                     : &name "Anton Karazeev" # &name is a YAML anchor which can be *referenced later
+description              : &description "Anton's Website"
+url                      : https://akarazeev.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+
 comments:
-  provider: disqus
+  provider               : "disqus" # "facebook", "staticman_v2", false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
-    shortname: https-akarazeev-github-io
-search: false
-google_site_verification: yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8
+    shortname            : https-akarazeev-github-io
+
+# TODO: wtf?
+# reCaptcha:
+#   siteKey                : "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+  # secret                 : "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+
+# TODO: Implement search.
+search                   : false # true, false (default)
+# search_full_content      : true # true, false (default)
+# search_provider          : algolia # lunr (default), algolia
+# algolia:
+#   application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
+#   index_name             : minimal_mistakes # YOUR_INDEX_NAME
+#   search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
+#   powered_by             : true # true (default), false
+
+# SEO Related.
+google_site_verification : "yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8" # Replace this with your ID, or delete.
+
+# Social Sharing.
 twitter:
-  username: antonkarazeev
+  username               : &twitter "antonkarazeev"
 facebook:
-  username: anton.karazeev
+  username               : &facebook "anton.karazeev"
 linkedin:
-  username: akarazeev
+  username               : &linkedin "akarazeev"
 youtube:
-  username: https://www.youtube.com/c/AntonKarazeev
+  username               : &youtube https://www.youtube.com/c/AntonKarazeev
 soundcloud:
-  username: anton-karazeev
+  username               : &soundcloud "anton-karazeev"
 instagram:
-  username: akarazeev
+  username               : &instagram akarazeev
 stackoverflow:
-  username: 5080068/anton-karazeev
+  username               : &stackoverflow 5080068/anton-karazeev
 github:
-- meta
-og_image: "/assets/images/site-logo.jpg"
+  username               : &github akarazeev
+github: [meta]
+
+og_image                 : "/assets/images/site-logo.jpg" # Open Graph/Twitter default site image
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
+
 social:
-  type: 
-  name: 
-  links:
-  - https://twitter.com/antonkarazeev
-  - https://facebook.com/anton.karazeev
-  - https://in.linkedin.com/in/akarazeev
-  - http://youtube.com/c/AntonKarazeev
-  - http://github.com/akarazeev
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/antonkarazeev"
+    - "https://facebook.com/anton.karazeev"
+    - "https://in.linkedin.com/in/akarazeev"
+    - "http://youtube.com/c/AntonKarazeev"
+    - "http://github.com/akarazeev"
+
+# Analytics
 analytics:
-  provider: google-universal
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: UA-110482262-1
-    anonymize_ip: true
+    tracking_id          : "UA-110482262-1" # Replace this with your ID, or delete
+    anonymize_ip         : true
+
+
+# Site Author
 author:
-  name: Anton Karazeev
-  avatar: "/assets/images/anton-karazeev.jpg"
-  bio: research fellow, developer, photographer
-  location: Moscow, Russia
-  email: anton.karazeev@gmail.com
-  twitter: antonkarazeev
-  facebook: anton.karazeev
-  linkedin: akarazeev
-  youtube: https://www.youtube.com/c/AntonKarazeev
-  soundcloud: anton-karazeev
-  instagram: akarazeev
-  stackoverflow: 5080068/anton-karazeev
-  github: akarazeev
+  name             : *name # It is a YAML reference pointing to the &anchor earlier.
+  avatar           : /assets/images/anton-karazeev.jpg
+  bio              : research fellow, developer, photographer
+  location         : Moscow, Russia
+
+  email            : anton.karazeev@gmail.com
+  twitter: *twitter
+  facebook: *facebook
+  linkedin: *linkedin
+  youtube: *youtube
+  soundcloud: *soundcloud
+  instagram: *instagram
+  stackoverflow: *stackoverflow
+  github: *github
+
   links:
-  - label: My Curriculum Vitae
-    icon: fas fa-fw fa-link
-    url: https://akarazeev.github.io/data/cv.pdf
+    - label: "My Curriculum Vitae"
+      icon: "fas fa-fw fa-link"
+      url: "https://akarazeev.github.io/data/cv.pdf"
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     url: mailto:anton.karazeev@gmail.com
+  #   - label: "LinkedIn"
+  #     icon: "fab fa-fw fa-linkedin-square"
+  #     url: "https://in.linkedin.com/in/akarazeev"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/antonkarazeev"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     url: "https://facebook.com/anton.karazeev"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/akarazeev"
+  #   - label: "YouTube"
+  #     icon: "fab fa-fw fa-youtube-square"
+  #     url: "http://youtube.com/c/AntonKarazeev"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/akarazeev"
+  #   - label: "SoundCloud"
+  #     icon: "fab fa-fw fa-soundcloud-square"
+  #     url: "https://soundcloud.com/anton-karazeev"
+
+
+# Site Footer.
 footer:
   links:
-  - label: Email
-    icon: fas fa-fw fa-envelope-square
-    url: mailto:anton.karazeev@gmail.com
-  - label: Twitter
-    icon: fab fa-fw fa-twitter-square
-    url: https://twitter.com/antonkarazeev
-  - label: Facebook
-    icon: fab fa-fw fa-facebook-square
-    url: https://facebook.com/anton.karazeev
-  - label: GitHub
-    icon: fab fa-fw fa-github
-    url: https://github.com/akarazeev
-  - label: YouTube
-    icon: fab fa-fw fa-youtube-square
-    url: http://youtube.com/c/AntonKarazeev
-  - label: Instagram
-    icon: fab fa-fw fa-instagram
-    url: https://instagram.com/akarazeev
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:anton.karazeev@gmail.com
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/antonkarazeev"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/anton.karazeev"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/akarazeev"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "http://youtube.com/c/AntonKarazeev"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/akarazeev"
+
+
+# Collections.
+collections:
+  clubs:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults.
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _clubs
+  - scope:
+      path: ""
+      type: clubs
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+
+# Reading Files
 include:
-- ".htaccess"
-- _pages
+  - .htaccess
+  - _pages
 exclude:
-- "*.sublime-project"
-- "*.sublime-workspace"
-- vendor
-- ".asset-cache"
-- ".bundle"
-- ".jekyll-assets-cache"
-- ".sass-cache"
-- assets/js/plugins
-- assets/js/_main.js
-- assets/js/vendor
-- Capfile
-- CHANGELOG
-- config
-- Gemfile
-- Gruntfile.js
-- gulpfile.js
-- LICENSE
-- log
-- node_modules
-- package.json
-- Rakefile
-- README
-- tmp
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
 keep_files:
-- ".git"
-- ".svn"
-encoding: utf-8
-markdown_ext: markdown,mkdown,mkdn,mkd,md
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -191,28 +240,69 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
-permalink: "/:categories/:title/"
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Europe/Moscow # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
 plugins:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
 whitelist:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: "/categories/"
+  path: /categories/
 tag_archive:
   type: liquid
-  path: "/tags/"
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:

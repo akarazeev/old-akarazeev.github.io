@@ -8,8 +8,9 @@ tags:
 - Presentation
 layout: post
 header:
-  image: "/assets/images/quantum_programs.jpg"
   teaser: "/assets/images/quantum_programs.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Presentation]({{ site.url }}{{ site.baseurl }}/data/quantum_full.pdf)

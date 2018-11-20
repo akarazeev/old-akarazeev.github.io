@@ -8,8 +8,9 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  image: "/assets/images/joystick.jpg"
   teaser: "/assets/images/joystick.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/joystick)

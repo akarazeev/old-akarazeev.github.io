@@ -12,9 +12,10 @@ tags:
 - Python
 layout: post
 header:
-  image: "/assets/images/raspberry_and_others.jpg"
   teaser: "/assets/images/raspberry_and_others.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Если не оч дружишь с питоном и есть желание это исправить -> [https://vk.com/pythontutor](https://vk.com/pythontutor)
 

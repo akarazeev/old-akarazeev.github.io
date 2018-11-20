@@ -9,9 +9,10 @@ tags:
 - Moscow
 layout: post
 header:
-  image: "/assets/images/qch.jpg"
   teaser: "/assets/images/qch.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Post on [Facebook](https://www.facebook.com/jakeland/posts/10156473595828854)
 

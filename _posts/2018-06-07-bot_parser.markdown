@@ -7,9 +7,10 @@ tags:
 - Bot
 layout: post
 header:
-  image: "/assets/images/parserbot.jpg"
   teaser: "/assets/images/parserbot.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/ParserBot)
 

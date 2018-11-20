@@ -13,9 +13,10 @@ tags:
 - Russian Quantum Center
 layout: post
 header:
-  image: "/assets/images/qcb_sl.jpg"
   teaser: "/assets/images/qcb_sl.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/RQC-QApp/QuantumComputingBot), Post on [Facebook](https://www.facebook.com/anton.karazeev/posts/1686285154826279)
 

@@ -7,8 +7,9 @@ tags:
 - Conference
 layout: post
 header:
-  image: "/assets/images/sqt2018.jpg"
   teaser: "/assets/images/sqt2018.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [http://sqt-conference.ru](http://sqt-conference.ru)

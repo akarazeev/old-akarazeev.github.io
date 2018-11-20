@@ -8,8 +8,9 @@ tags:
 - Papers
 layout: post
 header:
-  image: "/assets/images/qmipt.jpg"
   teaser: "/assets/images/qmipt.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [MIPT Quantum Club](https://vk.com/qmipt)

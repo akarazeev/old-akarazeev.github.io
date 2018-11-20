@@ -8,8 +8,9 @@ tags:
 - Presentation
 layout: post
 header:
-  image: "/assets/images/context_prediction.jpg"
   teaser: "/assets/images/context_prediction.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/ContextPrediction)

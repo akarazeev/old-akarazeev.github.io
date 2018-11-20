@@ -5,7 +5,7 @@ header:
   teaser: "/assets/images/telegrambot.jpg"
 ---
 
-![image-center](/assets/images/telegrambot.jpg){: .align-center}
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Примерный план:
 {: .text-center}
