@@ -1,1 +1,1 @@
-bundle exec jekyll serve --draft
+bundle exec jekyll serve --draft --incremental
