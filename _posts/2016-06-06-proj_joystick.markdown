@@ -14,3 +14,7 @@ header:
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/joystick)
+
+{% include video id="bS0-Sjmxa1g" provider="youtube" %}
+
+{% include video id="AWBQyz4jdUo" provider="youtube" %}

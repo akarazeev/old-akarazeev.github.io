@@ -14,3 +14,7 @@ header:
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Project](https://github.com/akarazeevprojects/slider)
+
+{% include video id="qXUU8hh9DdM" provider="youtube" %}
+
+{% include video id="0HSp9uJ69Kg" provider="youtube" %}
