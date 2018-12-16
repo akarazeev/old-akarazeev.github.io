@@ -1,6 +1,5 @@
 ---
 title: whoami?
-permalink: "/"
 ---
 
 Hi, my name is Anton.

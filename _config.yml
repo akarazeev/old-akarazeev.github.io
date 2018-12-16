@@ -151,7 +151,13 @@ footer:
 
 # Collections.
 collections:
-  clubs:
+  mipt-scitech-club:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  art:
     output: true
     permalink: /:collection/:path/
 
@@ -176,10 +182,28 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _clubs
+  # _mipt-scitech-club
   - scope:
       path: ""
-      type: clubs
+      type: mipt-scitech-club
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _art
+  - scope:
+      path: ""
+      type: art
     values:
       layout: single
       author_profile: true
