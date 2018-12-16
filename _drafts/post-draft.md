@@ -5,7 +5,7 @@ categories:
 - Jekyll
 tags:
 - edge case
-layout: single
+layout: post
 header:
   teaser: unsplash-gallery-image-2-th.jpg
 ---

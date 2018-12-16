@@ -6,7 +6,7 @@ tags:
 - Text Editor
 - Programming
 - Packages
-layout: single
+layout: post
 header:
   teaser: "/assets/images/atom.jpeg"
 lang: en

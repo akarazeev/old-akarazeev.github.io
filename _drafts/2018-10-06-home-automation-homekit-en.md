@@ -6,7 +6,7 @@ tags:
 - Home Automation
 - HomeKit
 - Apple
-layout: single
+layout: post
 header:
   teaser: "/assets/images/rpi-homekit.png"
 ---

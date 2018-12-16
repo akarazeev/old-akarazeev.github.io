@@ -6,7 +6,7 @@ tags:
 - Command Line
 - Programming
 - Commands
-layout: single
+layout: post
 header:
   teaser: "/assets/images/tmux.jpg"
 lang: ru
