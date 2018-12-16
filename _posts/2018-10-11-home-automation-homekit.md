@@ -54,6 +54,8 @@ gallery2:
   - url: /assets/images/home-mac-automation.jpg
     image_path: /assets/images/home-mac-automation.jpg
     title: "Раздел автоматизации"
+lang: ru
+ref: homeautomation181011
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -9,6 +9,8 @@ tags:
 layout: single
 header:
   teaser: "/assets/images/tmux.jpg"
+lang: ru
+ref: tmux181006
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

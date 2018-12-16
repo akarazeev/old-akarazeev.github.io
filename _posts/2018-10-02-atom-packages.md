@@ -9,6 +9,8 @@ tags:
 layout: single
 header:
   teaser: "/assets/images/atom.jpeg"
+lang: ru
+ref: atom181002
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
