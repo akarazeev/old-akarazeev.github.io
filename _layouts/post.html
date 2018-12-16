@@ -27,8 +27,20 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
+          <!-- {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %} -->
+
+          <!-- Language Selector -->
+          {% assign posts=site.posts | where:"ref", page.ref %}
+          {% assign enpost=posts | where:"lang", "en" %}
+          {% assign rupost=posts | where:"lang", "ru" %}
+          {% assign enpost=enpost.first %}
+          {% assign rupost=rupost.first %}
+          {% if enpost and rupost %}
+            <p class="page__meta">
+              [ <a href="{{ enpost.url }}" class="{{ enpost.lang }}">{{ site.data.ui-text[enpost.lang].version }}</a> || <a href="{{ rupost.url }}" class="{{ rupost.lang }}">{{ site.data.ui-text[rupost.lang].version }}</a> ]
+            </p>
           {% endif %}
         </header>
       {% endunless %}
@@ -73,7 +85,8 @@ layout: default
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
+        {% assign posts=site.related_posts | where:"lang", page.lang %}
+        {% for post in posts limit:4 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
@@ -83,7 +96,8 @@ layout: default
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
+        {% assign posts=site.posts | where:"lang", page.lang %}
+        {% for post in posts limit:4 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
