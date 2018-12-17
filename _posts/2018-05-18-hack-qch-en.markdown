@@ -3,8 +3,6 @@ title: Quantum Hackathon
 redirect_from: "/hack_qch"
 lang: en
 ref: hackqch180518
-lang: en
-ref: qch180518
 date: 2018-05-18 03:00:01 +03:00
 tags:
 - Quantum

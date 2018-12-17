@@ -1,5 +1,5 @@
 ---
-title: Art
+title: Арт
 permalink: "/art-ru/"
 lang: ru
 ref: art
@@ -16,8 +16,8 @@ header:
     url: http://youtube.com/c/AntonKarazeev
   - label: GitHub
     url: https://github.com/akarazeev
-  caption: 'Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)'
-excerpt: Галерея фотографий, видео и какого-нибудь ещё арта.
+  caption: "Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)"
+excerpt: "Галерея фотографий, видео и какого-нибудь ещё арта"
 
 oshten:
 - image_path: assets/images/art/1.png
@@ -31,8 +31,8 @@ demoqst:
 - image_path: assets/images/art/demo_qst.jpg
   title: "Демонстрация томографии квантового состояния"
   excerpt: "Использовал светодиоды, шаговый двигатель, Raspberry Pi и фигурку \"нолик/единичка\", которую мне подарили из IBM"
-  url: "/demo_qst/"
-  btn_label: Read More
+  url: "/demo-qst-ru/"
+  btn_label: "Читать Далее"
   btn_class: btn--primary
 
 equipment:
@@ -55,8 +55,8 @@ qkeypad:
 - image_path: assets/images/art/quantum_keypad.jpg
   title: "Квантовый Кейпад"
   excerpt: "Китайский кейпад и Raspberry Pi Zero W. Вдохновился идеей [Model Q](https://qiskit.org/modelq/), которую в качестве первоапрельской шутки в 2018 году представил QISKit (подразделение IBM, занимающееся разработкой квантового компьютера). Из IBM мне прислали различные подарки, когда увидели мой [пост в Twitter'e](https://twitter.com/antonkarazeev/status/981671571319336960)"
-  url: "/proj_quantum_keypad/"
-  btn_label: Read More
+  url: "/proj-quantum-keypad-ru/"
+  btn_label: "Читать Далее"
   btn_class: btn--primary
 
 winery:
@@ -64,7 +64,7 @@ winery:
   title: "Винодельня"
   excerpt: "Осенью 2018 наконец-то посетили это место и полетали на дронах в лучах тёплого солнца"
   url: "https://youtu.be/3a75neNaW6c"
-  btn_label: Watch on YouTube
+  btn_label: Смотреть на YouTube
   btn_class: btn--danger
 
 yolo2017:
@@ -72,7 +72,7 @@ yolo2017:
   title: "YOLO 2017"
   excerpt: "..."
   url: "https://youtu.be/VoPkj_x4108"
-  btn_label: Watch on YouTube
+  btn_label: Смотреть на YouTube
   btn_class: btn--danger
 
 timelapse2014:
@@ -80,7 +80,7 @@ timelapse2014:
   title: "Таймлепс 2014. Крепостная"
   excerpt: "Один из первых моих таймлепсов, которые я снимал в Крепостной"
   url: "https://youtu.be/hiuO7wAwjFY"
-  btn_label: Watch on YouTube
+  btn_label: Смотреть на YouTube
   btn_class: btn--danger
 
 outro:

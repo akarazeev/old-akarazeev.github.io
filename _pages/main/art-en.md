@@ -16,28 +16,28 @@ header:
     url: http://youtube.com/c/AntonKarazeev
   - label: GitHub
     url: https://github.com/akarazeev
-  caption: 'Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)'
-excerpt: Галерея фотографий, видео и какого-нибудь ещё арта.
+  caption: "Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)"
+excerpt: "Gallery of photos, videos and different things I call \"art\""
 
 oshten:
 - image_path: assets/images/art/1.png
-  title: "Поход к Оштену"
-  excerpt: "Ходили вместе с товарищем. Ночевали прямо у подножия Оштена"
+  title: "Trip to Oshten"
+  excerpt: "Travelled with my friend. Slept right in front of Oshten mountain"
   url: ""
   btn_label: TODO
   btn_class: btn--success
 
 demoqst:
 - image_path: assets/images/art/demo_qst.jpg
-  title: "Демонстрация томографии квантового состояния"
-  excerpt: "Использовал светодиоды, шаговый двигатель, Raspberry Pi и фигурку \"нолик/единичка\", которую мне подарили из IBM"
-  url: "/demo_qst/"
+  title: "Deonstration of quantum state tomography"
+  excerpt: "Used LEDs, stepper motor, Raspberry Pi and \"zero/one\" that was given to me by IBM"
+  url: "/demo-qst-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 equipment:
 - image_path: assets/images/art/equipment.jpg
-  title: "Аппаратура"
+  title: "Equipment"
   excerpt: ""
   url: ""
   btn_label: TODO
@@ -45,7 +45,7 @@ equipment:
 
 krepostnaya:
 - image_path: assets/images/art/krepostnaya.jpg
-  title: "Крепостная"
+  title: "Krepostnaya"
   excerpt: ""
   url: ""
   btn_label: TODO
@@ -53,16 +53,16 @@ krepostnaya:
 
 qkeypad:
 - image_path: assets/images/art/quantum_keypad.jpg
-  title: "Квантовый Кейпад"
-  excerpt: "Китайский кейпад и Raspberry Pi Zero W. Вдохновился идеей [Model Q](https://qiskit.org/modelq/), которую в качестве первоапрельской шутки в 2018 году представил QISKit (подразделение IBM, занимающееся разработкой квантового компьютера). Из IBM мне прислали различные подарки, когда увидели мой [пост в Twitter'e](https://twitter.com/antonkarazeev/status/981671571319336960)"
-  url: "/proj_quantum_keypad/"
+  title: "Quantum Keypad"
+  excerpt: "Keypad and Raspberry Pi Zero W. I was inspired by [Model Q](https://qiskit.org/modelq/) that was presented as a joke on April Fool's day in 2018 by QISKit (department of IBM which develops quantum computers). IBM sent me different cool things when they saw this quantum keypad in my [post on Twitter](https://twitter.com/antonkarazeev/status/981671571319336960)"
+  url: "/proj-quantum-keypad-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 winery:
 - image_path: https://img.youtube.com/vi/3a75neNaW6c/0.jpg
-  title: "Винодельня"
-  excerpt: "Осенью 2018 наконец-то посетили это место и полетали на дронах в лучах тёплого солнца"
+  title: "Winery"
+  excerpt: "Fall 2018 we finally visited this place and made a few shots with our drones under the warm rays of the Sun"
   url: "https://youtu.be/3a75neNaW6c"
   btn_label: Watch on YouTube
   btn_class: btn--danger
@@ -77,14 +77,14 @@ yolo2017:
 
 timelapse2014:
 - image_path: https://img.youtube.com/vi/hiuO7wAwjFY/0.jpg
-  title: "Таймлепс 2014. Крепостная"
-  excerpt: "Один из первых моих таймлепсов, которые я снимал в Крепостной"
+  title: "Time-lapse 2014. Krepostnaya"
+  excerpt: "One of my first time-lapses in Krepostnaya"
   url: "https://youtu.be/hiuO7wAwjFY"
   btn_label: Watch on YouTube
   btn_class: btn--danger
 
 outro:
-- excerpt: "Если хочешь быть в курсе моих действий или есть желание меня поддержать, то такие возможности есть --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} и [<i class=\"fab fa-paypal\"></i> Поддержать](https://www.paypal.me/akarazeev){: .btn .btn--success}"
+- excerpt: "In case you want to follow my updates or consider somehow support me, there are such possibilities --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} and [<i class=\"fab fa-paypal\"></i> Support](https://www.paypal.me/akarazeev){: .btn .btn--success}"
 ---
 
 {% include feature_row id="oshten" type="left" %}

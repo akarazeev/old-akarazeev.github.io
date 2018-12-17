@@ -17,50 +17,50 @@ header:
   - label: GitHub
     url: https://github.com/akarazeev
   caption: 'Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)'
-excerpt: На этой странице я соберу свои проекты (в основном с использованием Raspberry Pi и Arduino).
+excerpt: My projects in which I usually use Raspberry Pi and Arduino
 
 demoqst:
 - image_path: assets/images/projects/demo_qst.jpg
-  title: "Демонстрация томографии квантового состояния"
-  excerpt: "Использовал светодиоды, шаговый двигатель, Raspberry Pi и фигурку \"нолик/единичка\", которую мне подарили из IBM"
-  url: "/demo_qst/"
+  title: "Deonstration of Quantum State Tomography"
+  excerpt: "Used LEDs, stepper motor, Raspberry Pi and \"zero/one\" that was given to me by IBM"
+  url: "/demo-qst-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 qkeypad:
 - image_path: assets/images/projects/quantum_keypad.jpg
-  title: "Квантовый Кейпад"
-  excerpt: "Китайский кейпад и Raspberry Pi Zero W. Вдохновился идеей [Model Q](https://qiskit.org/modelq/), которую в качестве первоапрельской шутки в 2018 году представил QISKit (подразделение IBM, занимающееся разработкой квантового компьютера). Из IBM мне прислали различные подарки, когда увидели мой [пост в Twitter'e](https://twitter.com/antonkarazeev/status/981671571319336960)"
-  url: "/proj_quantum_keypad/"
+  title: "Quantum Keypad"
+  excerpt: "Keypad and Raspberry Pi Zero W. I was inspired by [Model Q](https://qiskit.org/modelq/) that was presented as a joke on April Fool's day in 2018 by QISKit (department of IBM which develops quantum computers). IBM sent me different cool things when they saw this quantum keypad in my [post on Twitter](https://twitter.com/antonkarazeev/status/981671571319336960)"
+  url: "/proj-quantum-keypad-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 cameraslider:
 - image_path: assets/images/projects/camera_slider.jpg
-  title: "Слайдер для камеры"
-  excerpt: "Это один из моих первых проектов, в которых я использовал Raspberry Pi. После покупки всех необходимых деталей я принялся сверлить и крутить винты. Получилось довольно прикольно (по ссылке есть 2 видео -- демонстрация работы и снятый таймлепс)"
-  url: "/proj_camera_slider/"
+  title: "Camera Slider"
+  excerpt: "It's one of my first projects with Raspberry Pi. After buying of necessary parts I started to drill and twist the screws. The result turned out to be pretty cool (the link will lead you to 2 videos -- demonstration of work and a time-lapse shot using my camera slider)"
+  url: "/proj-camera-slider-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 joystick:
 - image_path: assets/images/projects/joystick.jpg
-  title: "Джойстик"
-  excerpt: "Самодельный джойстик с использованием Raspberry Pi, датчика воды и аналогового стика"
-  url: "/proj_joystick/"
+  title: "Joystick"
+  excerpt: "DIY joystick using Raspberry Pi, water-level sensor and analogue stick"
+  url: "/proj-joystick-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 homeautomation:
 - image_path: assets/images/projects/homeautomation.jpg
-  title: "Автоматизация домашних устройств. Raspberry Pi и Homekit"
-  excerpt: "HomeKit это инициатива от Apple, направленная на распространение такого понятия как \"умный дом\" (дом умнее не становится, лишь что-то можно автоматизировать). На данный момент я автоматизировал освещение вокруг моего рабочего места. Есть [туториал](/home-automation-homekit/) по настройке сервера homebridge на Raspberry Pi"
-  url: "/proj_homeautomation/"
+  title: "Home Automation with Raspberry Pi and Homekit"
+  excerpt: "HomeKit is a toolkit by Apple that helps to turn any home into the \"smart home\" (actually, the home won't become \"smart\", rather some things will become automated, e.g. the lights). Currently I automated all the lights and fan around my work place. There are [tutorial](/home-automation-homekit-en/) on how to set up homebridge server on Raspberry Pi"
+  url: "/proj-homeautomation-en/"
   btn_label: Read More
   btn_class: btn--primary
 
 outro:
-- excerpt: "Если хочешь быть в курсе моих действий или есть желание меня поддержать, то такие возможности есть --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} и [<i class=\"fab fa-paypal\"></i> Поддержать](https://www.paypal.me/akarazeev){: .btn .btn--success}"
+- excerpt: "In case you want to follow my updates or consider somehow support me, there are such possibilities --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} and [<i class=\"fab fa-paypal\"></i> Support](https://www.paypal.me/akarazeev){: .btn .btn--success}"
 ---
 
 {% include feature_row id="demoqst" type="left" %}

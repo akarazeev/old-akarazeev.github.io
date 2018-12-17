@@ -25,12 +25,12 @@ intro:
 
 hacks:
 - image_path: "/assets/images/about/junction2017.jpg"
-  title: "Хакатоны (Hackathons)"
-  excerpt: "В 2016 году я впервые участвовал в хакатоне. Он назывался Junction 2016 и проходил в столице Финляндии -- Хельсинки. С тех пор я участвовал в 10+ хакатонах.
+  title: "Hackathons"
+  excerpt: "In 2016 I attended the hackathon for the first time. It called Junction 2016 and was held in the capital of Finland -- Helsinki. Since then I've been participating in 10+ hackathons
 
 
-Мне нравится атмосфера, работа в команде и тот факт, что за короткий промежуток времени (обычно это 2 дня), мы делаем что-то \"новое и прикольное\""
-  url: "/junction-2016/"
+I love the atmosphere, joint work with team mates and the fact that after a short period of time (usually 2 days) we create something new and cool"
+  url: "/junction-2016-en/"
   btn_label: Junction 2016
   btn_class: btn--warning
 
@@ -38,35 +38,35 @@ diy:
 - image_path: "/assets/images/about/quantum_keypad.jpg"
   title: "Internet of Things (IoT) and Do It Yourself (DIY) Projects"
   excerpt: "Let me begin the introduction with one of my favorite projects -- in which I often use Raspberry Pi, Arduino and different electronic components. Due to this hobby I've learned to solder, work with wires and so on"
-  url: "/projects/"
+  url: "/projects-en/"
   btn_label: Projects
   btn_class: btn--success
 
 ml:
 - image_path: "/assets/images/about/medium.jpg"
   title: "{Machine, Deep, Reinforcement} Learning"
-  excerpt: "Проектов по ML у меня не так много. Зато есть статья на платформе Medium про GAN'ы. Когда-то я был на втором месте сразу за Goodfellow (создатель GAN'ов) на платформе Quora по количеству просмотров в теме Generative Adversarial Networks (GANs)"
+  excerpt: "I don't have many projects related to ML. But I do have an article on Medium platform about Generative Adversarial Networks (GANs). Also I was at 2nd place (right behind the Ian Goodfellow) by the views of answers on Quora platform in GANs-related section (now I'm at 3rd place)"
   url: "https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47"
   btn_label: Medium
   btn_class: btn--info
 
 photos:
-- title: "Фото и видео"
-  excerpt: "Я очень люблю обрабатывать видео, которые в последние месяцы я стал часто снимать. До этого я фотографировал и любил засесть на какое-то время за обработку фотографий в Lightroom'e
+- title: "Photo and Video"
+  excerpt: "I love video editing. During last months I've been shooting a lot, almost everywhere I go and travel. Used to I made photos and loved to edit them in Lightroom. I could do this for hours
 
 
-Хожу в лес и горы. Там заниматься съёмкой мне нравится больше всего. Тем более помехи минимальны -- это важно при съёмке дроном
+Visit forests and mountains (trying to do it more often). I love to shoot there and shootings are more effortless there too due to the absence of interference -- it's important when you're flying with the drone
 
 
-Ввиду того, что мой дрон, DJI Spark, довольно маленький и передатчик там не самый сильный, в городе у меня пропадает связь между пультом и дроном. Не очень приятно. А вот в горах и лесах ситуация совсем другая"
+My drone (DJI Spark) is pretty small and its transmitter/receiver isn't strong enough. Especially when I'm in a city (where the connection between the drone and remote controller can be lost easily). In forests and mountains the situation is far different"
 - image_path: "/assets/images/about/banya.jpg"
-  excerpt: "По этой ссылке \"Art\" я организую нечто вроде выставки из фотографий (\"оригиналов\" и ссылок на instagram) и видео (ссылки на youtube)"
-  url: "/art/"
+  excerpt: "This button \"Art\" will lead you to the place where I'll organize something similar to gallery of photos, videos and art of different kind that I've ever made. Hope you'll enjoy it"
+  url: "/art-en/"
   btn_label: Art
   btn_class: btn--danger
 
 outro:
-- excerpt:  "Поздравляю, теперь у тебя есть представление обо мне. Если хочешь быть в курсе моих действий или есть желание меня поддержать, то такие возможности есть --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} и [<i class=\"fab fa-paypal\"></i> Поддержать](https://www.paypal.me/akarazeev){: .btn .btn--success}"
+- excerpt:  "Congratulations, now you know something about me. In case you want to follow my updates or consider somehow support me, there are such possibilities --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} and [<i class=\"fab fa-paypal\"></i> Support](https://www.paypal.me/akarazeev){: .btn .btn--success}"
 ---
 
 {% include feature_row id="intro" type="center" %}
