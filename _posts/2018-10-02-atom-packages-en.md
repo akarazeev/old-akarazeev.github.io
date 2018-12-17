@@ -1,5 +1,7 @@
 ---
 title: Packages for Atom Text Editor
+lang: en
+ref: atompackages181002
 date: 2018-10-02 18:00:00 +03:00
 tags:
 - Atom
@@ -9,8 +11,6 @@ tags:
 layout: post
 header:
   teaser: "/assets/images/atom.jpeg"
-lang: en
-ref: atom181002
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

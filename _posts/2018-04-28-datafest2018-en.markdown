@@ -1,0 +1,23 @@
+---
+title: Datafest2018
+redirect_from: "/datafest2018"
+lang: en
+ref: datafest2018180428
+date: 2018-04-28 03:00:01 +03:00
+tags:
+- Datafest
+- Machine Learning
+- QISKit
+- Data Science
+- Natural Language Processing
+- Quantum Computing
+- NLP
+- Yandex
+layout: post
+header:
+  teaser: "/assets/images/datafest2018.jpg"
+---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
+
+[Post](https://www.facebook.com/anton.karazeev/posts/1667493670038761) on Facebook

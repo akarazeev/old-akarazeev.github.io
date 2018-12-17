@@ -1,0 +1,19 @@
+---
+title: MIPT Bioinformatics Club
+redirect_from: "/bmipt"
+lang: en
+ref: bmipt170913
+date: 2017-09-13 03:00:01 +03:00
+tags:
+- MIPT
+- Bioinformatics
+- Club
+- Papers
+layout: post
+header:
+  teaser: "/assets/images/bmipt.jpg"
+---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
+
+[MIPT Bioinformatics Club](http://vk.com/bioinfomipt)

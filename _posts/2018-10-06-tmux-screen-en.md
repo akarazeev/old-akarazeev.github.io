@@ -1,5 +1,7 @@
 ---
 title: tmux vs screen
+lang: en
+ref: tmuxscreen181006
 date: 2018-10-06 06:00:00 +03:00
 tags:
 - Terminal
@@ -9,8 +11,6 @@ tags:
 layout: post
 header:
   teaser: "/assets/images/tmux.jpg"
-lang: en
-ref: tmux181006
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
