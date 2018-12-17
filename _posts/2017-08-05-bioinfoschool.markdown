@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Summer School on Bioinformatics 2017](http://bioinformaticsinstitute.ru/summer2017), [Diploma]({{ site.url }}{{ site.baseurl }}/data/bioinfo_school.pdf)
+[Summer School on Bioinformatics 2017](http://bioinformaticsinstitute.ru/summer2017), [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/bioinfo_school.pdf)

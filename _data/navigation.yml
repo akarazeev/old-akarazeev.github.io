@@ -1,14 +1,14 @@
 # main links.
 main:
-  - title: "Home"
+  - title: "About"
     url: /
-  - title: "Blog"
-    url: /blog/
-  - title: "MIPT SciTech Club"
-    url: /mipt-scitech-club/
-  - title: "Tags"
-    url: /tags/
   - title: "Projects"
     url: /projects/
   - title: "Art"
     url: /art/
+  - title: "MIPT SciTech Club"
+    url: /mipt-scitech-club/
+  - title: "Blog"
+    url: /blog/
+  - title: "Tags"
+    url: /tags/

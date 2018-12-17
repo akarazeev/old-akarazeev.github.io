@@ -11,4 +11,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Final Project]({{ site.url }}{{ site.baseurl }}/data/quantum_walks.pdf) at Quantum Computing course
+[Final Project]({{ site.url }}{{ site.baseurl }}/assets/data/quantum_walks.pdf) at Quantum Computing course

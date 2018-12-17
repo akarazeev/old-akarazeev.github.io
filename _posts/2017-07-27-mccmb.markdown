@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Poster]({{ site.url }}{{ site.baseurl }}/data/poster_mccmb2017.pdf), [Thesis]({{ site.url }}{{ site.baseurl }}/data/thesis_mccmb2017.pdf)
+[Poster]({{ site.url }}{{ site.baseurl }}/assets/data/poster_mccmb2017.pdf), [Thesis]({{ site.url }}{{ site.baseurl }}/assets/data/thesis_mccmb2017.pdf)

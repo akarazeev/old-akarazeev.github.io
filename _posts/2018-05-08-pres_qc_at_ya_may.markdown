@@ -17,4 +17,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/data/qc_at_ya_may.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/qc_at_ya_may.pdf)

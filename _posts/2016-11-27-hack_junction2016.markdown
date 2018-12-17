@@ -13,4 +13,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/data/XAJMULJH.pdf)
+My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/XAJMULJH.pdf)

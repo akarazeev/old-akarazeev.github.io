@@ -69,6 +69,9 @@ paypal:
   url: "#test-link"
   btn_label: Read More
   btn_class: btn--primary
+
+outro:
+- excerpt:  "Поздравляю, теперь у тебя есть представление обо мне. Если хочешь быть в курсе моих действий или есть желание меня поддержать, то такие возможности есть --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} и [<i class=\"fab fa-paypal\"></i> Поддержать](https://www.paypal.me/akarazeev){: .btn .btn--success}"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -80,3 +83,5 @@ paypal:
 {% include feature_row id="ml" type="right" %}
 
 {% include feature_row id="photos" type="center" %}
+
+{% include feature_row id="outro" type="center" %}

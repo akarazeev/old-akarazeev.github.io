@@ -12,4 +12,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/data/simpleds.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/simpleds.pdf)

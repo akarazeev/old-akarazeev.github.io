@@ -19,7 +19,7 @@ Since I've been using [Atom](https://atom.io) for a pretty long time, I decided 
 
 One of the main points for me are: (1) it's open sourced, all sources can be found in [corresponding repository](https://github.com/atom/atom); (2) its functionality can be extended using `packages`.
 
-So I decided to save the list of my installed packages: [atom-packages.txt]({{ site.url }}{{ site.baseurl }}/data/atom-packages.txt).
+So I decided to save the list of my installed packages: [atom-packages.txt]({{ site.url }}{{ site.baseurl }}/assets/data/atom-packages.txt).
 
 After installation of Atom itself, these packages from file "atom-packages.txt" can be installed with the following command: `apm install --packages-file atom-packages.txt`
 

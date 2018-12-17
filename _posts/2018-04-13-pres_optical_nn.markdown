@@ -13,4 +13,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/data/optical_nn.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/optical_nn.pdf)
