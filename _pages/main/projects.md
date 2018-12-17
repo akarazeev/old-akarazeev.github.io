@@ -4,7 +4,7 @@ permalink: "/projects/"
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: '0.5'
+  overlay_filter: '0.3'
   overlay_image: "/assets/images/projects/header.jpg"
   actions:
   - label: Instagram
@@ -55,6 +55,9 @@ homeautomation:
   url: "/proj_homeautomation/"
   btn_label: Read More
   btn_class: btn--primary
+
+outro:
+- excerpt: "Если хочешь быть в курсе моих действий или есть желание меня поддержать, то такие возможности есть --&nbsp;[<i class=\"fab fa-twitter\"></i> @antonkarazeev](https://twitter.com/antonkarazeev){: .btn .btn--twitter} и [<i class=\"fab fa-paypal\"></i> Поддержать](https://www.paypal.me/akarazeev){: .btn .btn--success}"
 ---
 
 {% include feature_row id="demoqst" type="left" %}
@@ -66,3 +69,5 @@ homeautomation:
 {% include feature_row id="joystick" type="right" %}
 
 {% include feature_row id="homeautomation" type="left" %}
+
+{% include feature_row id="outro" type="center" %}
