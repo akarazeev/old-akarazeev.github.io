@@ -61,70 +61,45 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/50387566" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
-    {% assign posts = site.posts | where:"ref", page.ref %}
-    {% assign enpost = posts | where:"lang", "en" %}
-    {% assign rupost = posts | where:"lang", "ru" %}
+    <!-- Language Switcher -->
+    {% assign posts = site.posts | where: "ref", page.ref %}
+    {% assign enpost = posts | where: "lang", "en" %}
+    {% assign rupost = posts | where: "lang", "ru" %}
     {% assign enpost = enpost.first %}
     {% assign rupost = rupost.first %}
 
-    {% assign pages = site.pages | where:"ref", page.ref %}
-    {% assign enpage = pages | where:"lang", "en" %}
-    {% assign rupage = pages | where:"lang", "ru" %}
+    {% assign pages = site.pages | where: "ref", page.ref %}
+    {% assign enpage = pages | where: "lang", "en" %}
+    {% assign rupage = pages | where: "lang", "ru" %}
     {% assign enpage = enpage.first %}
     {% assign rupage = rupage.first %}
+
+    {% assign msccollection = site.collections | where: "label", "mipt-scitech-club" %}
+    {% assign msccollection = msccollection.first %}
+    {% assign mscposts = msccollection.docs | where: "ref", page.ref %}
+    {% assign enmscpost = mscposts | where: "lang", "en" %}
+    {% assign rumscpost = mscposts | where: "lang", "ru" %}
+    {% assign enmscpost = enmscpost.first %}
+    {% assign rumscpost = rumscpost.first %}
 
     {% if enpost and rupost %}
       {% assign ruurl = rupost.url %}
       {% assign enurl = enpost.url %}
-    {% else if enpage and rupage %}
+    {% elsif enpage and rupage %}
       {% assign ruurl = rupage.url %}
       {% assign enurl = enpage.url %}
+    {% elsif enmscpost and rumscpost %}
+      {% assign ruurl = rumscpost.url %}
+      {% assign enurl = enmscpost.url %}
     {% endif %}
-
-    <!-- <p class="page__meta">
-      [ <a href="{{ enpost.url }}" class="{{ enpost.lang }}">{{ site.data.ui-text[enpost.lang].version }}</a> || <a href="{{ rupost.url }}" class="{{ rupost.lang }}">{{ site.data.ui-text[rupost.lang].version }}</a> ]
-    </p> -->
-
-    <!-- {% if enpage and rupage %}
-      <div id="language">
-        <a href="{{ rupage.url }}" title="Russian">RU</a>
-        <a href="{{ enpage.url }}" title="English">EN</a>
-      </div>
-    {% else if enpost and rupost %}
-      <div id="language">
-        <a href="{{ rupost.url }}" title="Russian">RU</a>
-        <a href="{{ enpost.url }}" title="English">EN</a>
-      </div>
-    {% endif %} -->
 
     <div id="language">
       {% if page.lang == "en" %}
         <a id="language-link" href="{{ ruurl }}" title="Russian">Рус</a>
-      {% else page.lang == "ru" %}
+      {% elsif page.lang == "ru" %}
         <a id="language-link" href="{{ enurl }}" title="English">Eng</a>
       {% endif %}
     </div>
-
-    <!-- PageLang
-    {{ page.lang }}
-    <br>
-    RupageURL
-    {{ rupage.url }}
-    EnpageURL
-    {{ enpage.url }}
-    <br>
-    PostLang
-    {{ post.lang }}
-    <br>
-    RupostURL
-    {{ rupost.url }}
-    EnpostURL
-    {{ enpost.url }}
-    <br>
-    RuURL
-    {{ ruurl }}
-    EnURL
-    {{ enurl }} -->
 
     {% include head.html %}
     {% include head/custom.html %}

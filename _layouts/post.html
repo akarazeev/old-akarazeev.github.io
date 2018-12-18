@@ -30,18 +30,6 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-
-          <!-- Language Selector -->
-          <!-- {% assign posts=site.posts | where:"ref", page.ref %}
-          {% assign enpost=posts | where:"lang", "en" %}
-          {% assign rupost=posts | where:"lang", "ru" %}
-          {% assign enpost=enpost.first %}
-          {% assign rupost=rupost.first %}
-          {% if enpost and rupost %}
-            <p class="page__meta">
-              [ <a href="{{ enpost.url }}" class="{{ enpost.lang }}">{{ site.data.ui-text[enpost.lang].version }}</a> || <a href="{{ rupost.url }}" class="{{ rupost.lang }}">{{ site.data.ui-text[rupost.lang].version }}</a> ]
-            </p>
-          {% endif %} -->
         </header>
       {% endunless %}
 
