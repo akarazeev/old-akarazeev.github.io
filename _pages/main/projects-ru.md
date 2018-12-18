@@ -23,7 +23,7 @@ demoqst:
 - image_path: assets/images/projects/demo_qst.jpg
   title: "Демонстрация томографии квантового состояния"
   excerpt: "Использовал светодиоды, шаговый двигатель, Raspberry Pi и фигурку \"нолик/единичка\", которую мне подарили из IBM"
-  url: "/demo-qst-en/"
+  url: "/demo-qst-ru/"
   btn_label: "Читать Далее"
   btn_class: btn--primary
 
