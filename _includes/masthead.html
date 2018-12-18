@@ -2,7 +2,9 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.data.ui-text[page.lang].websitetitle }}</a>
+        <!-- <a class="site-title" href="{{ '/' | relative_url }}">{{ site.data.ui-text[page.lang].websitetitle }}</a> -->
+        {%- assign hreftitle = "/" | append: page.lang -%}
+        <a class="site-title" href="{{ hreftitle | relative_url }}">{{ site.data.ui-text[page.lang].websitetitle }}</a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main[page.lang] -%}
             {%- if link.url contains '://' -%}
