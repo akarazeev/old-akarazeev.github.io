@@ -3,7 +3,7 @@ title: MIPT DL Club \#9
 redirect_from: "/9-dl"
 lang: en
 ref: 9dl
-date: 2017-09-15 03:00:01 +03:00
+date: 2017-11-21 03:00:01 +03:00
 ---
 
 _Emil Zakirov_ about ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)

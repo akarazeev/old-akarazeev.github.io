@@ -3,7 +3,7 @@ title: MIPT Q Club \#2
 redirect_from: "/2-q"
 lang: en
 ref: 2q
-date: 2017-09-15 03:00:01 +03:00
+date: 2018-04-7 03:00:01 +03:00
 ---
 
 _Anton Karazeev_ about optical setups that can mimic the functionality of artificial neural networks (Optical Neural Networks) - paper [1], Nature, 2017.

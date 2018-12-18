@@ -2,11 +2,12 @@
 title: MIPT DL Club \#12
 lang: ru
 ref: 12dl
+date: 2018-03-16 03:00:01 +03:00
 ---
 
 _Anton Karazeev_ про методы для извлечения ключевых фраз из (биомедицинских) текстов -- **классические**: статистические (TF-IDF) и графовые (TextRank), а также про **новые предложенные методы**: с использованием word2gauss и построенные на теории информации (дивергенции Кульбака-Лейблера)
 
-- [word2gauss] (https://github.com/seomoz/word2gauss)
+- [word2gauss](https://github.com/seomoz/word2gauss)
 - [2015, ICLR] [Word Representations via Gaussian Embedding](https://arxiv.org/abs/1412.6623)
 - [2017] [Multimodal Word Distributions](https://arxiv.org/abs/1704.08424)
 - [2018] [EmbedRank: Unsupervised Keyphrase Extraction using Sentence Embeddings](https://arxiv.org/abs/1801.04470)

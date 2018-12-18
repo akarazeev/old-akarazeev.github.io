@@ -3,7 +3,7 @@ title: MIPT DL Club \#8
 redirect_from: "/8-dl"
 lang: en
 ref: 8dl
-date: 2017-09-15 03:00:01 +03:00
+date: 2017-11-03 03:00:01 +03:00
 ---
 
 ["Improving the Realism of Synthetic Images"](https://arxiv.org/pdf/1612.07828.pdf) - _Anton Karazeev_ about paper by Apple ([Machine Learning Journal](https://machinelearning.apple.com/2017/07/07/GAN.html))

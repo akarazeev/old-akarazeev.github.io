@@ -2,7 +2,7 @@
 title: MIPT DL Club \#8
 lang: ru
 ref: 8dl
-date: 2017-09-15 03:00:01 +03:00
+date: 2017-11-03 03:00:01 +03:00
 ---
 
 Повышение реалистичности синтезированных изображений (конкретно в этом случае - изображений глаз) - _Anton Karazeev_ про статью от Apple: ["Improving the Realism of Synthetic Images"](https://arxiv.org/pdf/1612.07828.pdf) (в блоге [Machine Learning Journal](https://machinelearning.apple.com/2017/07/07/GAN.html))

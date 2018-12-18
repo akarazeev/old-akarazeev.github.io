@@ -3,6 +3,7 @@ title: MIPT Quantum Club \#1
 redirect_from: "/1-q"
 lang: en
 ref: 1q
+date: 2018-03-03 03:00:01 +03:00
 ---
 
 _Anton Karazeev_ on application of neural networks (Restricted Boltzmann Machines, #RBM) for quantum state tomography #qst

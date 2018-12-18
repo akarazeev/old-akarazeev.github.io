@@ -3,7 +3,7 @@ title: Science Application Informed Machine Learning
 redirect_from: "/michael-chertkov"
 lang: en
 ref: michaelchertkov
-date: 2017-09-15 03:00:01 +03:00
+date: 2018-04-13 03:00:01 +03:00
 ---
 
 _Michael Chertkov_ about "Science Application Informed Machine Learning" [ML in Physics, application of GANs to the problem of turbulence, controlling of energy networks in USA, etc.]

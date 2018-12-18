@@ -3,7 +3,7 @@ title: MIPT Deep Learning Club \#6
 redirect_from: "/6-dl"
 lang: en
 ref: 6dl
-date: 2017-09-15 03:00:01 +03:00
+date: 2017-10-20 03:00:01 +03:00
 ---
 
 Synthesis of human speech from text - _Emil Zakirov_ about generative model “WaveNet” by google

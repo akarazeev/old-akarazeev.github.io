@@ -2,7 +2,7 @@
 title: Eric Gaussier
 lang: ru
 ref: ericgaussier
-date: 2017-09-15 03:00:01 +03:00
+date: 2018-06-08 03:00:01 +03:00
 ---
 
 Эрик Госье (Université Grenoble Alpes) про "Семантическое аннотирование и вопросно-ответные системы BioASQ"

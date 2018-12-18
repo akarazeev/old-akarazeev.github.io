@@ -2,7 +2,7 @@
 title: Science Application Informed Machine Learning
 lang: ru
 ref: michaelchertkov
-date: 2017-09-15 03:00:01 +03:00
+date: 2018-04-13 03:00:01 +03:00
 ---
 
 Михаил Чертков (Los Alamos National Laboratory, USA) про "Science Application Informed Machine Learning" [ML в физике, использование GAN'ов в задачах турбулентности, управление энергосетями в США, etc.]

@@ -2,7 +2,7 @@
 title: MIPT DL Club \#11
 lang: ru
 ref: 11dl
-date: 2017-09-15 03:00:01 +03:00
+date: 2018-02-16 03:00:01 +03:00
 ---
 
 _Danil Lykov_ про применения attention-механизмов.
