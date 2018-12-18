@@ -60,8 +60,8 @@ en-AU:
 ru: &DEFAULT_RU
   version                    : "Русская версия"
   page                       : "Страница"
-  pagination_previous        : "Предыдущая"
-  pagination_next            : "Следующая"
+  pagination_previous        : "Назад"
+  pagination_next            : "Далее"
   breadcrumb_home_label      : "Главная"
   breadcrumb_separator       : "/"
   menu_label                 : "Выпадающее меню"
