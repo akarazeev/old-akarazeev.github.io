@@ -21,6 +21,6 @@ Approaches for classification in large-scale taxonomies:
 
 Абстракт: Семантическая аннотация в биомедицине исследует проблему классификации текстов с крупномасштабными таксономиями. Эту проблему также называют проблемой экстремальной классификации. В лекции будет дан обзор подходов к исследованию этой проблемы и основные предлагаемые решения. Особое внимание будет уделено текстовым коллекциям и задачам BioASQ. Сообщество BioASQ ставит и решает задачи биомедицинской семантической индексации и автоматизации ответов на вопросы. К ним относятся задачи, связанные с иерархической классификацией текста, машинным обучением, поиском информации, созданием вопросно-ответных систем на основе текстов и структурированных данных, обобщением нескольких документов и со многими другими областями.
 
-Source: https://mipt.ru/education/departments/fpmi/events/erik_gose_semanticheskoe_annotirovanie_i_voprosno_otvetnye_sistemy_bioasq
+[Source](https://mipt.ru/education/departments/fpmi/events/erik_gose_semanticheskoe_annotirovanie_i_voprosno_otvetnye_sistemy_bioasq)
 
 {% include video id="uHlYDJ8evfo" provider="youtube" %}
