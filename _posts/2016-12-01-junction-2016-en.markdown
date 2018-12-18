@@ -1,5 +1,5 @@
 ---
-title: Впечатления от поездки на Junction2016
+title: Trip to Junction2016
 redirect_from: "/junction-2016"
 lang: en
 ref: junction2016161201
@@ -14,7 +14,7 @@ layout: post
 
 Расскажу немного про свой опыт поездки на Junction2016 в Хельсинки.
 
-[Видео](https://www.youtube.com/watch?v=SlRr1c946SQ&t=6s)
+{% include video id="SlRr1c946SQ" provider="youtube" %}
 
 Принять участие в этом мероприятии мне предложил Дима (спасибо Диме).
 Началось всё с написания мотивационного письма и ожидания в течение трёх дней, после которых я получил подтверждение. Задача - выбрать челлендж и “make things happen”. [Здесь](https://hackjunction.com/challenges/) можно посмотреть все челленджи.

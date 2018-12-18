@@ -1,5 +1,5 @@
 ---
-title: ipy2pdf Bot
+title: Bot for ipy2pdf
 redirect_from: "/bot_ipy2pdf"
 lang: en
 ref: botipy2pdf160513

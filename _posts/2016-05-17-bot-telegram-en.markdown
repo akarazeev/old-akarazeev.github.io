@@ -16,4 +16,5 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-My first telegram Chatbot. [Project](https://github.com/akarazeevprojects/TelegramBot)
+My first telegram Chatbot. [Project on GitHub](https://github.com/akarazeevprojects/TelegramBot)
+

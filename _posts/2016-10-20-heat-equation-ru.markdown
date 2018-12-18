@@ -1,5 +1,5 @@
 ---
-title: Modeling of Heat equation
+title: Уравнение теплопроводности. Моделирование
 lang: ru
 ref: heatequation161020
 date: 2016-10-20 03:00:01 +03:00
@@ -16,4 +16,6 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/HeatEquation-5sem-MIPT-2016)
+Выполнил это в качестве одного из заданий, которые нам давали на третьем курсе в МФТИ (в рамках курса Параллельное программирование)
+
+[Проект на GitHub'e](https://github.com/akarazeev/HeatEquation-5sem-MIPT-2016)

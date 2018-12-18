@@ -1,5 +1,5 @@
 ---
-title: Telegram Chatbot
+title: Бот для платформы Телеграм
 lang: ru
 ref: bottelegram160517
 date: 2016-05-17 03:00:01 +03:00
@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-My first telegram Chatbot. [Project](https://github.com/akarazeevprojects/TelegramBot)
+Мой первый бот для Телегама. [Project](https://github.com/akarazeevprojects/TelegramBot)

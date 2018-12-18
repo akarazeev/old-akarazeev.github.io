@@ -17,4 +17,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/HeatEquation-5sem-MIPT-2016)
+[Project on GitHub](https://github.com/akarazeev/HeatEquation-5sem-MIPT-2016)

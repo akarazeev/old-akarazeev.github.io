@@ -1,5 +1,5 @@
 ---
-title: Gensim Sprint at HSE
+title: Gensim Sprint при ВШЭ
 lang: ru
 ref: gensimsprint161110
 date: 2016-11-10 03:00:01 +03:00
@@ -16,4 +16,6 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Fixed issue #671 at [Gensim](https://github.com/RaRe-Technologies/gensim)
+Пофиксил Issue #671 в репозитории [Gensim](https://github.com/RaRe-Technologies/gensim) (библиотека для обработки текста -- NLP)
+
+Заодно посетил ВШЭ
