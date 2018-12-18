@@ -70,6 +70,7 @@ ru: &DEFAULT_RU
   less_than                  : "менее"
   minute_read                : "мин на чтение"
   share_on_label             : "Поделиться"
+  related_label              : "Вам может также понравиться"
   meta_label                 :
   tags_label                 : "Тэги:"
   categories_label           : "Разделы:"

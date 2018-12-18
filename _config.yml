@@ -81,10 +81,22 @@ analytics:
 
 # Site Author
 author:
-  name             : *name # It is a YAML reference pointing to the &anchor earlier.
   avatar           : /assets/images/anton-karazeev.jpg
+  name             : *name # It is a YAML reference pointing to the &anchor earlier.
+  home             : "https://akarazeev.github.io/"
   bio              : research fellow, developer, photographer
   location         : Moscow, Russia
+
+  en:
+    name           : Anton Karazeev
+    home           : "https://akarazeev.github.io/en"
+    location       : Moscow, Russia
+    bio            : research fellow, developer, photographer
+  ru:
+    name           : Антон Каразеев
+    home           : "https://akarazeev.github.io/ru"
+    location       : Москва, Россия
+    bio            : исследователь, разработчик, любитель нажимать кнопки на камере
 
   email            : anton.karazeev@gmail.com
   twitter: *twitter
