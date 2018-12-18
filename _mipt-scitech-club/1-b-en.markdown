@@ -4,6 +4,12 @@ redirect_from: "/1-b"
 lang: en
 ref: 1b
 date: 2018-04-23 03:00:01 +03:00
+
+tags:
+- Bioinformatics
+- MIPT DL Club
+- CNN
+- Proteins
 ---
 
 _Daria Romanovskaia_ about Nature paper ["Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"](https://www.nature.com/articles/nbt.3300)

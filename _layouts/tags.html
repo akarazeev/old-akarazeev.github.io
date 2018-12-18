@@ -10,7 +10,7 @@ layout: archive
     {% for tag in sorted_tags %}
         <li>
             <a href="#{{ tag[0] | slugify }}">
-                <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ tag[1].size }}</span>
+                <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ tag[1].size | divided_by: 2 }}</span>
             </a>
         </li>
     {% endfor %}
