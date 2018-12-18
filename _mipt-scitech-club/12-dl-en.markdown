@@ -6,7 +6,7 @@ ref: 12dl
 date: 2018-03-16 03:00:01 +03:00
 ---
 
-_Anton Karazeev_ on classical methods of keyphrases extraction from [biomedical] texts: statistical (TF-IDF) and graphical (TextRank).
+_Anton Karazeev_ on classical methods of keyphrases extraction from (biomedical) texts: **statistical** (TF-IDF) and **graphical** (TextRank).
 
 Besides them, newly proposed methods were discussed: based on Information Theory (Kullback-Leibler divergence) using word2gauss algorithm.
 
