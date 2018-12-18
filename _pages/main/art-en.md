@@ -29,7 +29,7 @@ oshten:
 
 demoqst:
 - image_path: assets/images/art/demo_qst.jpg
-  title: "Deonstration of quantum state tomography"
+  title: "Demonstration of quantum state tomography"
   excerpt: "Used LEDs, stepper motor, Raspberry Pi and \"zero/one\" that was given to me by IBM"
   url: "/demo-qst-en/"
   btn_label: Read More
