@@ -4,7 +4,7 @@ lang: ru
 ref: 13dl
 ---
 
-_Taras Khakhulin_ about "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model" (https://arxiv.org/abs/1711.03953)
+_Taras Khakhulin_ about ["Breaking the Softmax Bottleneck: A High-Rank RNN Language Model"](https://arxiv.org/abs/1711.03953)
 
 "В статье рассмотрена задача построения языковой модели с точки зрения факторизации матриц. Авторы показывают о существовании у Softmax "bottleneck", который влияет на выразительность модели.
 Также предлагают решать сию беду с помощью смеси софтмаксов.

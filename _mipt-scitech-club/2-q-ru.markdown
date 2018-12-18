@@ -13,9 +13,9 @@ _Anton Karazeev_ про оптические установки, которые 
 
 Авторы [1] сделали нанофотонный чип, с помощью которого классифицировали произнесённые буквы ("обучали" интерферометры Маха-Цендера, меняя параметры сдвига фаз пучков лазера). Согласно их статье - нелинейность оптически не была реализована, а считалась на классическом компьютере. Возможно, в следующих версиях чипа само обучение и нелинейность будут реализованы на самом чипе.
 
-- [1] Deep learning with coherent nanophotonic circuits (https://www.nature.com/articles/nphoton.2017.93)
-- [2] Mach–Zehnder interferometer (https://en.wikipedia.org/wiki/Mach–Zehnder_interferometer)
-- [3] Computing by Means of Physics-Based Optical Neural Networks (https://arxiv.org/abs/1006.1434)
+- [1] [Deep learning with coherent nanophotonic circuits](https://www.nature.com/articles/nphoton.2017.93)
+- [2] [Mach–Zehnder interferometer](https://en.wikipedia.org/wiki/Mach–Zehnder_interferometer)
+- [3] [Computing by Means of Physics-Based Optical Neural Networks](https://arxiv.org/abs/1006.1434)
 - \*OIU - Optical Interference Unit
 
 {% include video id="bpkuyGXvbEU" provider="youtube" %}

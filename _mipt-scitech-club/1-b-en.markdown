@@ -6,7 +6,7 @@ ref: 1b
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Daria Romanovskaia_ about Nature paper "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning" (https://www.nature.com/articles/nbt.3300)
+_Daria Romanovskaia_ about Nature paper ["Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"](https://www.nature.com/articles/nbt.3300)
 
 Authors of this paper proposed new method based on Deep Learning (DL) to predict binding sites of RNA- and DNA-binding proteins that are regulators of gene expression.
 

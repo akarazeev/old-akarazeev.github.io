@@ -7,13 +7,13 @@ ref: 1q
 _Anton Karazeev_ про применение нейронных сетей (Ограниченных машин Больцмана, RBM) для томографии квантовых состояний
 
 Томография квантовых состояний - дело трудоёмкое, требует большого числа измерений для достижения хорошей точности.
-В Nature Physics была недавно опубликована статья (https://www.nature.com/articles/s41567-018-0048-5), в которой предлагается метод, использующий нейронные сети (RBM) и позволяющий за меньшее [на порядки] число измерений достигать хороших результатов в томографии квантовых состояний.
+В Nature Physics была недавно [опубликована статья](https://www.nature.com/articles/s41567-018-0048-5), в которой предлагается метод, использующий нейронные сети (RBM) и позволяющий за меньшее [на порядки] число измерений достигать хороших результатов в томографии квантовых состояний.
 
 Был рассмотрен механизм обучения Restricted Boltzmann Machines (RBM) - на основе Contrastive Divergence, а также сэмплирования из обученной RBM - на основе метода Gibbs Sampling.
 
 Дополнительные ссылки:
-- Подробнее про томографию квантовых состояний - http://research.physics.illinois.edu/QI/Photonics/Tomography/
-- Tutorial for RBM - http://deeplearning.net/tutorial/rbm.html
-- A Practical Guide to Training RBM by Hinton - https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf
+- [Подробнее про томографию квантовых состояний](http://research.physics.illinois.edu/QI/Photonics/Tomography/)
+- [Tutorial for RBM](http://deeplearning.net/tutorial/rbm.html)
+- [A Practical Guide to Training RBM by Hinton](https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf)
 
 {% include video id="bCD3rRgc5Oc" provider="youtube" %}

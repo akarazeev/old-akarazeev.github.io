@@ -5,7 +5,7 @@ ref: 1b
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Dasha Romanovskaya_ about Nature paper "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning" (https://www.nature.com/articles/nbt.3300)
+_Dasha Romanovskaya_ about Nature paper ["Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"](https://www.nature.com/articles/nbt.3300)
 
 "В статье предложен новый метод на основе глубокого обучения для поиска сайтов связывания РНК- и ДНК - связывающихся белков, которые являются регуляторами экспрессии генов.
 

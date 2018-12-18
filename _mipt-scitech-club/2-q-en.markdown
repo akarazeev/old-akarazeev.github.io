@@ -14,9 +14,9 @@ These advantages in speed and energy consumption make optical neural networks (O
 
 Authors [1] implemented nanophotonic circuit and classified spoken vowels with it (they "trained" Mach-Zender interferometer by changing the phase shifts of laser beam). According to the paper, the nonlinearity wasn't implemented optically but was calculated on classical computer. Perhaps the training phase and nonlinearity will be implemented inside the optical circuit in next versions.
 
-- [1] Deep learning with coherent nanophotonic circuits (https://www.nature.com/articles/nphoton.2017.93)
-- [2] Mach–Zehnder interferometer (https://en.wikipedia.org/wiki/Mach–Zehnder_interferometer)
-- [3] Computing by Means of Physics-Based Optical Neural Networks (https://arxiv.org/abs/1006.1434)
+- [1] [Deep learning with coherent nanophotonic circuits](https://www.nature.com/articles/nphoton.2017.93)
+- [2] [Mach–Zehnder interferometer](https://en.wikipedia.org/wiki/Mach–Zehnder_interferometer)
+- [3] [Computing by Means of Physics-Based Optical Neural Networks](https://arxiv.org/abs/1006.1434)
 - \*OIU - Optical Interference Unit
 
 {% include video id="bpkuyGXvbEU" provider="youtube" %}

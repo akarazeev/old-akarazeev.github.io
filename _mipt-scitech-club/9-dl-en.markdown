@@ -6,7 +6,7 @@ ref: 9dl
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Emil Zakirov_ about “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer” (https://arxiv.org/abs/1701.06538)
+_Emil Zakirov_ about ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)
 
 Authors studied conditional computation layer called Mixture of Experts (MoE) with different parts activated for different samples. Due to this fact the number of parameters can be increased by 1000 while preserving amount of time per one sample.
 

@@ -5,7 +5,7 @@ lang: en
 ref: 13dl
 ---
 
-_Taras Khakhulin_ about "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model" (https://arxiv.org/abs/1711.03953)
+_Taras Khakhulin_ about ["Breaking the Softmax Bottleneck: A High-Rank RNN Language Model"](https://arxiv.org/abs/1711.03953)
 
 The problem of constructing the Language model was considered as a factorization of matrix. Authors showed that Softmax has a bottleneck which affects the expressive power of the model. Also they proposed to solve such a problem using the Mixture of Softmax.
 

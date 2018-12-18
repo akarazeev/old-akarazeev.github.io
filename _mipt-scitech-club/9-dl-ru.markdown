@@ -5,7 +5,7 @@ ref: 9dl
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-Очень большие нейронные сети, состоящие из слоев экспертов - _Emil Zakirov_ про “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer” (https://arxiv.org/abs/1701.06538)
+Очень большие нейронные сети, состоящие из слоев экспертов - _Emil Zakirov_ про ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)
 
 "Авторы статьи исследовали conditional computation слой под названием Mixture of Experts (MoE), разные части которого активируюся на разные примеры. За счет этого можно увеличить количество параметров в 1000 раз, сохраняя постоянным время предсказания на одном примере.
 

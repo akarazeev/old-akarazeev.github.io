@@ -8,7 +8,7 @@ date: 2017-09-15 03:00:01 +03:00
 
 Synthesis of human speech from text - _Emil Zakirov_ about generative model “WaveNet” by google
 
-- [September, 2016] WaveNet: https://deepmind.com/blog/wavenet-generative-model-raw-audio/
-- [April, 2017] Tacotron: https://arxiv.org/pdf/1703.10135.pdf
+- [September, 2016] [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
+- [April, 2017] [Tacotron](https://arxiv.org/pdf/1703.10135.pdf)
 
 {% include video id="gUdyQ5Ocr0g" provider="youtube" %}

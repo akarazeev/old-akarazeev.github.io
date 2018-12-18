@@ -11,9 +11,9 @@ Abstract: Thanks to IT industry push, Machine Learning (ML) capabilities are in 
 
 The emerging methodology is illustrated on the following four enabling examples:
 
-1. Topology and Parameter Estimation in Power Grids [IEEE CONES 2018/ https://arxiv.org/abs/1710.10727]
+1. [Topology and Parameter Estimation in Power Grids](https://arxiv.org/abs/1710.10727) [IEEE CONES 2018]
 2. Acceleration of Computational Fluid Dynamics with Deep Learning [APS/DFD2017 abstract + work in progress]
-3. Learning Graphical Models [Science 2018/ https://arxiv.org/abs/1612.05024] and NIPS2016/ https://arxiv.org/abs/1605.07252]
-4. Renormalization of Tensor Networks (Graphical Models) [AISTATS 2018/ https://arxiv.org/abs/1801.01649 and ICML 2018/ https://arxiv.org/abs/1803.05104]
+3. Learning Graphical Models [[Science 2018](https://arxiv.org/abs/1612.05024)] and [[NIPS2016](https://arxiv.org/abs/1605.07252)]
+4. Renormalization of Tensor Networks (Graphical Models) [[AISTATS 2018](https://arxiv.org/abs/1801.01649)] and [[ICML 2018](https://arxiv.org/abs/1803.05104)]
 
 {% include video id="r1EImGv0NxE" provider="youtube" %}
