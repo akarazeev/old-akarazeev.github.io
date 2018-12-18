@@ -21,7 +21,7 @@ excerpt: My projects in which I usually use Raspberry Pi and Arduino
 
 demoqst:
 - image_path: assets/images/projects/demo_qst.jpg
-  title: "Deonstration of Quantum State Tomography"
+  title: "Demonstration of Quantum State Tomography"
   excerpt: "Used LEDs, stepper motor, Raspberry Pi and \"zero/one\" that was given to me by IBM"
   url: "/demo-qst-en/"
   btn_label: Read More

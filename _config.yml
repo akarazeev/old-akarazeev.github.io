@@ -313,6 +313,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  en: /tags-en/
+  ru: /tags-ru/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

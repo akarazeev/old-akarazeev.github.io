@@ -71,7 +71,7 @@ ru: &DEFAULT_RU
   minute_read                : "мин на чтение"
   share_on_label             : "Поделиться"
   meta_label                 :
-  tags_label                 : "Метки:"
+  tags_label                 : "Тэги:"
   categories_label           : "Разделы:"
   date_label                 : "Дата изменения:"
   comments_label             : "Оставить комментарий"
