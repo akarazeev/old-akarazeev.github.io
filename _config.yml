@@ -13,7 +13,7 @@ url                      : https://akarazeev.github.io # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false
-words_per_minute         : 200
+words_per_minute         : 100
 
 comments:
   provider               : "disqus" # "facebook", "staticman_v2", false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
