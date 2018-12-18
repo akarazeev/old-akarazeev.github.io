@@ -10,19 +10,12 @@ author_profile: true
 
 {% capture written_label %}'None'{% endcapture %}
 
-{% for collection in site.collections %}
-  <!-- {% unless collection.output == false or collection.label == "posts" %}
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %} -->
-  {% if collection.label == "mipt-scitech-club" %}
-    {% for post in collection.docs %}
-      {% unless collection.output == false %}
-        {% include archive-single.html %}
-      {% endunless %}
-    {% endfor %}
-  {% endif %}
+{% assign collection = site.collections | where: "label", "mipt-scitech-club" %}
+{% assign collection = collection.first %}
+{% assign posts = collection.docs | where: "lang", page.lang %}
+
+{% for post in posts %}
+  {% unless collection.output == false %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
