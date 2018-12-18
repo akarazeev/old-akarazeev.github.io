@@ -5,12 +5,12 @@ ref: 1b
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Daria Romanovskaia_ about Nature paper "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning" (https://www.nature.com/articles/nbt.3300)
+_Dasha Romanovskaya_ about Nature paper "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning" (https://www.nature.com/articles/nbt.3300)
 
-Authors of this paper proposed new method based on Deep Learning (DL) to predict binding sites of RNA- and DNA-binding proteins that are regulators of gene expression.
+"В статье предложен новый метод на основе глубокого обучения для поиска сайтов связывания РНК- и ДНК - связывающихся белков, которые являются регуляторами экспрессии генов.
 
-Method is based on Convolutional Neural Networks (CNN) that help to assign affinity score to every sequence.
+Метод основан на сверточных нейронных сетях, с помощью которых каждой последовательности присваивается какой-то скор по афинности.
 
-As a result - proposed method is very accurate and it works much better than already existent programs for searching of biological motifs in DNA and RNA. A useful add-on is the visualization of maps of potentially pathogenic mutations.
+Как результат - это крайне точный метод, работающий лучше, чем существующие программы для поиска биологических мотивов в ДНК или РНК. Полезной надстройкой является визуализация карты потенциально патогенных мутаций."
 
 {% include video id="_NagRpo_Eww" provider="youtube" %}

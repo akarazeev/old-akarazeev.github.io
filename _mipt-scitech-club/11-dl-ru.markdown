@@ -5,8 +5,8 @@ ref: 11dl
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Danil Lykov_ on applications of attention-mechanisms
+_Danil Lykov_ про применения attention-механизмов.
 
-Besides well-known paper "Show, Attend and Tell" by Bengio et al. (https://arxiv.org/abs/1502.03044), a new paper about "AttnGAN" (https://arxiv.org/abs/1711.10485) by Microsoft was mentioned - it’s a generative network which allows to generate image given text description (caption -> image)
+Помимо известной статьи "Show, Attend and Tell" by Bengio et al. (https://arxiv.org/abs/1502.03044) была упомянута свежая статья от Майкрософта "AttnGAN" - генеративная сеть, которая позволяет строить изображения по данному текстовому описанию (https://arxiv.org/abs/1711.10485)
 
 {% include video id="ZH77RI5ERLw" provider="youtube" %}

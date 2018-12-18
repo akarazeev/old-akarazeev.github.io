@@ -5,13 +5,13 @@ ref: 2q
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Anton Karazeev_ about optical setups that can mimic the functionality of artificial neural networks (Optical Neural Networks) - paper [1], Nature, 2017.
+_Anton Karazeev_ про оптические установки, которые могут повторять функционал нейронный сетей (Optical Neural Networks) - статья [1] в Nature, 2017 год.
 
-The linear (and some nonlinear) transformations can be applied at the speed of light in optical setups. It's well known from physics that a lens performs Fourier transform without any energy consumption and consequently some matrix operations can be performed optically without consumption of energy.
+В оптических установках линейные преобразования (и некоторые нелинейные) могут применяться со скоростью света. Ведь из физики известно, что обычная линза делает преобразование Фурье без затрат энергии и соответственно некоторые матричные операции тоже могут быть произведены оптически без затрат энергии.
 
-These advantages in speed and energy consumption make optical neural networks (ONNs) fairly prospective field of research.
+Эти преимущества в скорости и энергозатратах делают оптические нейронные сети довольно перспективным направлением исследований.
 
-Authors [1] implemented nanophotonic circuit and classified spoken vowels with it (they "trained" Mach-Zender interferometer by changing the phase shifts of laser beam). According to the paper, the nonlinearity wasn't implemented optically but was calculated on classical computer. Perhaps the training phase and nonlinearity will be implemented inside the optical circuit in next versions.
+Авторы [1] сделали нанофотонный чип, с помощью которого классифицировали произнесённые буквы ("обучали" интерферометры Маха-Цендера, меняя параметры сдвига фаз пучков лазера). Согласно их статье - нелинейность оптически не была реализована, а считалась на классическом компьютере. Возможно, в следующих версиях чипа само обучение и нелинейность будут реализованы на самом чипе.
 
 - [1] Deep learning with coherent nanophotonic circuits (https://www.nature.com/articles/nphoton.2017.93)
 - [2] Mach–Zehnder interferometer (https://en.wikipedia.org/wiki/Mach–Zehnder_interferometer)

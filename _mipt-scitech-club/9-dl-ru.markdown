@@ -5,10 +5,10 @@ ref: 9dl
 date: 2017-09-15 03:00:01 +03:00
 ---
 
-_Emil Zakirov_ about “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer” (https://arxiv.org/abs/1701.06538)
+Очень большие нейронные сети, состоящие из слоев экспертов - _Emil Zakirov_ про “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer” (https://arxiv.org/abs/1701.06538)
 
-Authors studied conditional computation layer called Mixture of Experts (MoE) with different parts activated for different samples. Due to this fact the number of parameters can be increased by 1000 while preserving amount of time per one sample.
+"Авторы статьи исследовали conditional computation слой под названием Mixture of Experts (MoE), разные части которого активируюся на разные примеры. За счет этого можно увеличить количество параметров в 1000 раз, сохраняя постоянным время предсказания на одном примере.
 
-One of the reason for such a good paper's result is the huge size of dataset with about 1 billion of different languages sentences. Authors beat SOTA methods in tasks of language modelling and multilingual translation - that's not very surprising because of researchers from Google Translators who are mentioned as the authors.
+Одна из причин хороших результатов в этой статье - достаточный для такого количества параметров датасет, состоящий из 1 миллиарда предложений на разных языках. Результаты побили state of the art в задачах моделирования языков и многоязычных переводах, что не удивительно, ведь в авторах ученые из Google Translator."
 
 {% include video id="nNZceFX2tQU" provider="youtube" %}

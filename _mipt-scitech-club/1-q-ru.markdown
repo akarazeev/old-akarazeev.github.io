@@ -4,14 +4,15 @@ lang: ru
 ref: 1q
 ---
 
-_Anton Karazeev_ on application of neural networks (Restricted Boltzmann Machines, #RBM) for quantum state tomography #qst
+_Anton Karazeev_ про применение нейронных сетей (Ограниченных машин Больцмана, RBM) для томографии квантовых состояний
 
-Tomography of quantum states is labour-intensive process which demands a huge number of measurements to achieve good precision. The paper https://www.nature.com/articles/s41567-018-0048-5 was published recently in Nature Physics - authors propose a method which uses neural networks (RBM) and allows to achieve good results of quantum state tomography using much smaller number of measurements.
+Томография квантовых состояний - дело трудоёмкое, требует большого числа измерений для достижения хорошей точности.
+В Nature Physics была недавно опубликована статья (https://www.nature.com/articles/s41567-018-0048-5), в которой предлагается метод, использующий нейронные сети (RBM) и позволяющий за меньшее [на порядки] число измерений достигать хороших результатов в томографии квантовых состояний.
 
-Training process of Restricted Boltzmann Machines (based on Contrastive Divergence) and sampling from already trained RBM based on Gibbs Sampling were considered (it’s also called “daydreaming” phase of an RBM).
+Был рассмотрен механизм обучения Restricted Boltzmann Machines (RBM) - на основе Contrastive Divergence, а также сэмплирования из обученной RBM - на основе метода Gibbs Sampling.
 
-Additional links:
-- More on quantum state tomography - http://research.physics.illinois.edu/…/Photonics/Tomography/
+Дополнительные ссылки:
+- Подробнее про томографию квантовых состояний - http://research.physics.illinois.edu/QI/Photonics/Tomography/
 - Tutorial for RBM - http://deeplearning.net/tutorial/rbm.html
 - A Practical Guide to Training RBM by Hinton - https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf
 

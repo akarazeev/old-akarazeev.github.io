@@ -4,16 +4,13 @@ lang: ru
 ref: 10dl
 ---
 
-_Danil Lykov_ about Hinton's paper on "Dynamic Routing Between Capsules" (https://arxiv.org/abs/1710.09829)
+Капсулы - _Danil Lykov_ про статью Хинтона "Dynamic Routing Between Capsules" (https://arxiv.org/abs/1710.09829)
 
-New method of information transmitting from different areas of image is proposed (in convolutional networks the Pooling-layer is responsible for that).
+"В статье рассмотрен подход передачи информации с разных участков изображения (в сверточных сетях эта задача лежит на Pooling-слое).
+Предложенный подход позволяет эффективно распознавать перекрывающиеся объекты и в целом хорошо обрабатывать неоднозначные изображения. Кроме того, в статье используется интересный метод регуляризации - отклонение восстановленного из малоразмерного вектора изображения от истинного.
 
-Proposed method allows to recognise overlapped objects more effectively and better process ambiguous images.
+Полезное видео: https://www.youtube.com/watch?v=pPN8d0E3900
 
-Moreover the authors of this paper use interesting method of regularisation - divergence of recovered vector from low dimensional space between the original one.
-
-Useful video: https://www.youtube.com/watch?v=pPN8d0E3900
-
-Hinton's comment on Reddit: https://www.reddit.com/r/MachineLearning/comments/7ew7ba/d_capsule_networks_capsnets_tutorial/dq8yc9p/
+Коммент Хинтона на Reddit’e: https://www.reddit.com/r/MachineLearning/comments/7ew7ba/d_capsule_networks_capsnets_tutorial/dq8yc9p/"
 
 {% include video id="8R3gXmh1F0c" provider="youtube" %}

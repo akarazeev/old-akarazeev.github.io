@@ -12,7 +12,7 @@ Tomography of quantum states is labour-intensive process which demands a huge nu
 Training process of Restricted Boltzmann Machines (based on Contrastive Divergence) and sampling from already trained RBM based on Gibbs Sampling were considered (it’s also called “daydreaming” phase of an RBM).
 
 Additional links:
-- More on quantum state tomography - http://research.physics.illinois.edu/…/Photonics/Tomography/
+- More on quantum state tomography - http://research.physics.illinois.edu/QI/Photonics/Tomography/
 - Tutorial for RBM - http://deeplearning.net/tutorial/rbm.html
 - A Practical Guide to Training RBM by Hinton - https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf
 

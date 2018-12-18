@@ -9,9 +9,9 @@ _Danil Lykov_ about Hinton's paper on "Dynamic Routing Between Capsules" (https:
 
 New method of information transmitting from different areas of image is proposed (in convolutional networks the Pooling-layer is responsible for that).
 
-Proposed method allows to recognise overlapped objects more effectively and better process ambiguous images.
+Proposed method allows to recognize overlapped objects more effectively and better process ambiguous images.
 
-Moreover the authors of this paper use interesting method of regularisation - divergence of recovered vector from low dimensional space between the original one.
+Moreover the authors of this paper use interesting method of regularization - divergence of recovered vector from low dimensional space between the original one.
 
 Useful video: https://www.youtube.com/watch?v=pPN8d0E3900
 
