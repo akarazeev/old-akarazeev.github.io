@@ -9,6 +9,8 @@ tags:
 - Bioinformatics
 - MIPT DL Club
 - CNN
+- DNA
+- RNA
 - Proteins
 ---
 

@@ -3,6 +3,12 @@ title: MIPT DL Club \#10
 lang: ru
 ref: 10dl
 date: 2017-11-28 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- Neural Network
+- Capsule Network
+- Regularization
 ---
 
 Капсулы - _Danil Lykov_ про статью Хинтона ["Dynamic Routing Between Capsules"](https://arxiv.org/abs/1710.09829)

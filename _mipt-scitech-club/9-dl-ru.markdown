@@ -3,6 +3,12 @@ title: MIPT DL Club \#9
 lang: ru
 ref: 9dl
 date: 2017-11-21 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- Neural Network
+- Language Modeling
+- Image Synthesis
 ---
 
 Очень большие нейронные сети, состоящие из слоев экспертов - _Emil Zakirov_ про ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)

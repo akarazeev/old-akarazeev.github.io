@@ -3,6 +3,13 @@ title: Science Application Informed Machine Learning
 lang: ru
 ref: michaelchertkov
 date: 2018-04-13 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- Machine Learning
+- Physics
+- Tensor Networks
+- Graphical Models
 ---
 
 Михаил Чертков (Los Alamos National Laboratory, USA) про "Science Application Informed Machine Learning" [ML в физике, использование GAN'ов в задачах турбулентности, управление энергосетями в США, etc.]

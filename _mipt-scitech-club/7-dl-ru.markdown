@@ -3,6 +3,11 @@ title: MIPT DL Club \#7
 lang: ru
 ref: 7dl
 date: 2017-10-27 03:00:01 +03:00
+tags:
+- MIPT DL Club
+- Face Recognition
+- DeepFace
+- Facebook
 ---
 
 Система распознавания лиц - _Danil Lykov_ про ["DeepFace"](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/) от Фейсбука

@@ -4,6 +4,11 @@ redirect_from: "/2-q"
 lang: en
 ref: 2q
 date: 2018-04-7 03:00:01 +03:00
+tags:
+- Neural Network
+- MIPT DL Club
+- Optical Neural Network
+- Quantum State Tomography
 ---
 
 _Anton Karazeev_ about optical setups that can mimic the functionality of artificial neural networks (Optical Neural Networks) - paper [1], Nature, 2017.

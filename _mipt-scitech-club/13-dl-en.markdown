@@ -4,6 +4,13 @@ redirect_from: "/13-dl"
 lang: en
 ref: 13dl
 date: 2018-03-30 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- NLP
+- Softmax
+- RNN
+- Language Modeling
 ---
 
 _Taras Khakhulin_ about ["Breaking the Softmax Bottleneck: A High-Rank RNN Language Model"](https://arxiv.org/abs/1711.03953)

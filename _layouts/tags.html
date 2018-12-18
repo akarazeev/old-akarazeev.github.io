@@ -4,29 +4,47 @@ layout: archive
 
 {{ content }}
 
-{% assign sorted_tags = site.tags | sort %}
+{% assign rawtags = "" %}
+{% for tag in site.tags %}
+  {% assign ttags = tag[0] | join: '|' | append: '|' %}
+  {% assign rawtags = rawtags | append: ttags %}
+{% endfor %}
+
+{% assign msctags = site.mipt-scitech-club | map: 'tags' | uniq %}
+{% for tag in msctags %}
+  {% assign ttags = tag | join: '|' | append: '|' %}
+  {% assign rawtags = rawtags | append: ttags %}
+{% endfor %}
+{% assign sorted_tags = rawtags | split: '|' | uniq | sort %}
 
 <ul class="taxonomy__index">
-    {% for tag in sorted_tags %}
-        <li>
-            <a href="#{{ tag[0] | slugify }}">
-                <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ tag[1].size | divided_by: 2 }}</span>
-            </a>
-        </li>
-    {% endfor %}
+  {% for tag in sorted_tags %}
+    <li>
+      <a href="#{{ tag | slugify }}">
+        <strong>{{ tag }}</strong>
+      </a>
+    </li>
+  {% endfor %}
 </ul>
 
 {% for tag in sorted_tags %}
-    <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <!-- <h2 class="archive__subtitle">{{ tag[0] }}</h2> -->
-        <h2>{{ tag[0] }}</h2>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-            {% for post in tag.last %}
-              {% if post.lang == page.lang%}
-                {% include archive-single.html type=page.entries_layout %}
-              {% endif %}
-            {% endfor %}
-        </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[page.lang].back_to_top | default: 'Back to Top' }} &uarr;</a>
-    </section>
+  <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
+    <h2>{{ tag }}</h2>
+
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in site.mipt-scitech-club %}
+        {% if post.lang == page.lang and post.tags contains tag %}
+          {% include archive-single.html type=page.entries_layout %}
+        {% endif %}
+      {% endfor %}
+
+      {% for post in site.tags[tag] %}
+        {% if post.lang == page.lang %}
+          {% include archive-single.html type=page.entries_layout %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[page.lang].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
 {% endfor %}

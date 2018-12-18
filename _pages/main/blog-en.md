@@ -1,5 +1,5 @@
 ---
-title: Posts by Year
+title: Blog Posts by Year
 permalink: "/blog-en/"
 lang: en
 ref: blog

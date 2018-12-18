@@ -4,6 +4,12 @@ redirect_from: "/11-dl"
 lang: en
 ref: 11dl
 date: 2018-02-16 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- Neural Network
+- Attention
+- GANs
 ---
 
 _Danil Lykov_ on applications of attention-mechanisms

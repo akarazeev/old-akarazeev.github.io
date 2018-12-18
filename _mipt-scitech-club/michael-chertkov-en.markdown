@@ -4,6 +4,13 @@ redirect_from: "/michael-chertkov"
 lang: en
 ref: michaelchertkov
 date: 2018-04-13 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- Machine Learning
+- Physics
+- Tensor Networks
+- Graphical Models
 ---
 
 _Michael Chertkov_ about "Science Application Informed Machine Learning" [ML in Physics, application of GANs to the problem of turbulence, controlling of energy networks in USA, etc.]

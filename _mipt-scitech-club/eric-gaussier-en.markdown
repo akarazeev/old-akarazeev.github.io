@@ -4,6 +4,13 @@ redirect_from: "/eric-gaussier"
 lang: en
 ref: ericgaussier
 date: 2018-06-08 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- NLP
+- Semantics
+- Taxonomies
+- Embeddings
 ---
 
 Eric Gaussier (CUEF de Grenoble - Université Grenoble Alpes) about "Semantic annotation in the biomedical domain: large scale classification and BioASQ"

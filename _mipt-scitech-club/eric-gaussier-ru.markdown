@@ -3,6 +3,13 @@ title: Eric Gaussier
 lang: ru
 ref: ericgaussier
 date: 2018-06-08 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- NLP
+- Semantics
+- Taxonomies
+- Embeddings
 ---
 
 Эрик Госье (Université Grenoble Alpes) про "Семантическое аннотирование и вопросно-ответные системы BioASQ"

@@ -1,5 +1,5 @@
 ---
-title: Посты по Годам
+title: Посты в Блоге по Годам
 permalink: "/blog-ru/"
 lang: ru
 ref: blog

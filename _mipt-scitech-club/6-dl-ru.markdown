@@ -3,6 +3,11 @@ title: MIPT Deep Learning Club \#6
 lang: ru
 ref: 6dl
 date: 2017-10-20 03:00:01 +03:00
+tags:
+- WaveNet
+- MIPT DL Club
+- Tacotron
+- Speech Synthesis
 ---
 
 Генерация человеческой речи по тексту - _Emil Zakirov_ про гугловую генеративную модель "WaveNet"

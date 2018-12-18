@@ -4,6 +4,12 @@ redirect_from: "/12-dl"
 lang: en
 ref: 12dl
 date: 2018-03-16 03:00:01 +03:00
+
+tags:
+- MIPT DL Club
+- NLP
+- Keyphrases
+- Embeddings
 ---
 
 _Anton Karazeev_ on classical methods of keyphrases extraction from (biomedical) texts: **statistical** (TF-IDF) and **graphical** (TextRank).
