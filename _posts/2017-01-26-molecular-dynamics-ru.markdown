@@ -15,4 +15,6 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/molecular_dynamics.pdf)
+Молекулярная динамика, моделирование Леннард-Джонсовской жидкости
+
+[Проект](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/molecular_dynamics.pdf)

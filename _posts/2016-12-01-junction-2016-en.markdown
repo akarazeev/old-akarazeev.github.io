@@ -12,6 +12,8 @@ tags:
 layout: post
 ---
 
+Currently this story is available only in russian (will translate it soon...)
+
 Расскажу немного про свой опыт поездки на Junction2016 в Хельсинки.
 
 {% include video id="SlRr1c946SQ" provider="youtube" %}

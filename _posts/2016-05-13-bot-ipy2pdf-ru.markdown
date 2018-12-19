@@ -25,7 +25,7 @@ header:
 | :-------------: | :-------------: | :-------------: |
 | `python install.py` | `ipy2pdf notebook.ipynb` | `notebook.pdf` |
 
-Это довольно просто,
+Это довольно просто
 
 ## Telegram-бот доступен по следующему адресу: [@ipynbot](https://t.me/ipynbot)
 
