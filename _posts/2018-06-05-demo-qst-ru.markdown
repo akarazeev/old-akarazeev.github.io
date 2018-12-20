@@ -1,5 +1,5 @@
 ---
-title: Demonstration of Quantum State Tomography
+title: Демонстрация томографии квантового состояния
 lang: ru
 ref: demoqst180605
 date: 2018-06-05 15:00:01 +03:00
@@ -20,7 +20,7 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeevprojects/StepperProjects), Post on [Facebook](https://www.facebook.com/anton.karazeev/posts/1709867399134721)
+[Проект](https://github.com/akarazeevprojects/StepperProjects), [Пост](https://www.facebook.com/anton.karazeev/posts/1709867399134721) на Facebook'e
 
 {% include video id="uJqOmeSxVj4" provider="youtube" %}
 

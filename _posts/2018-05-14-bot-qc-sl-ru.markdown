@@ -1,5 +1,5 @@
 ---
-title: Quantum Computing Bot for Slack
+title: Бот по Квантовым Вычислениям для платформы Slack
 lang: ru
 ref: botqcsl180514
 date: 2018-05-14 03:00:01 +03:00
@@ -20,6 +20,8 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/RQC-QApp/QuantumComputingBot), Post on [Facebook](https://www.facebook.com/anton.karazeev/posts/1686285154826279)
+[Проект](https://github.com/RQC-QApp/QuantumComputingBot), [Пост](https://www.facebook.com/anton.karazeev/posts/1686285154826279) на Facebook'e
+
+Сделал я его по запросу от [Jay Gambetta](https://www.ibm.com/ibm/ideasfromibm/us/ibm_fellows/2018/ibm-fellow-jay-gambetta.html). В настоящий момент проект был добавлен в репозиторий [QISKit](https://github.com/Qiskit/qiskit-slack-bot) 🎉
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Together with my colleagues <a href="https://twitter.com/RuQuantumCenter?ref_src=twsrc%5Etfw">@RuQuantumCenter</a> we integrated QuantumComputingBot to <a href="https://twitter.com/qiskit?ref_src=twsrc%5Etfw">@qiskit</a> workspace <a href="https://twitter.com/SlackHQ?ref_src=twsrc%5Etfw">@SlackHQ</a> 🎉 It helps to monitor load of <a href="https://twitter.com/hashtag/IBM?src=hash&amp;ref_src=twsrc%5Etfw">#IBM</a> Q processors. Project on <a href="https://twitter.com/hashtag/GitHub?src=hash&amp;ref_src=twsrc%5Etfw">#GitHub</a>: <a href="https://t.co/nzw5XrzSxy">https://t.co/nzw5XrzSxy</a> (for more info) <a href="https://twitter.com/hashtag/slack?src=hash&amp;ref_src=twsrc%5Etfw">#slack</a> <a href="https://twitter.com/hashtag/telegram?src=hash&amp;ref_src=twsrc%5Etfw">#telegram</a> <a href="https://twitter.com/hashtag/bot?src=hash&amp;ref_src=twsrc%5Etfw">#bot</a> <a href="https://twitter.com/hashtag/QuantumComputing?src=hash&amp;ref_src=twsrc%5Etfw">#QuantumComputing</a> <a href="https://t.co/VvBjYHS1PX">pic.twitter.com/VvBjYHS1PX</a></p>&mdash; Anton Karazeev (@antonkarazeev) <a href="https://twitter.com/antonkarazeev/status/996001126964252672?ref_src=twsrc%5Etfw">May 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

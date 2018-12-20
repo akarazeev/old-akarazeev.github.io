@@ -1,5 +1,5 @@
 ---
-title: Optical Neural Network
+title: Оптическая Нейронная Сеть
 lang: ru
 ref: presopticalnn180413
 date: 2018-04-13 03:00:01 +03:00
@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/optical_nn.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/optical_nn.pdf)

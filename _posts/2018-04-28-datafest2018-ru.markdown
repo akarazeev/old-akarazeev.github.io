@@ -19,4 +19,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Post](https://www.facebook.com/anton.karazeev/posts/1667493670038761) on Facebook
+[Пост](https://www.facebook.com/anton.karazeev/posts/1667493670038761) на Facebook'e

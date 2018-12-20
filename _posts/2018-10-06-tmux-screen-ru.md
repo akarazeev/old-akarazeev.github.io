@@ -1,5 +1,5 @@
 ---
-title: tmux vs screen
+title: Команды tmux и screen
 lang: ru
 ref: tmuxscreen181006
 date: 2018-10-06 06:00:00 +03:00

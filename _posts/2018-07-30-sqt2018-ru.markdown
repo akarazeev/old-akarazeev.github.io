@@ -1,5 +1,5 @@
 ---
-title: Superconducting Quantum Technologies Conference
+title: Конференция по Сверхпроводниковым Квантовым Технологиям
 lang: ru
 ref: sqt2018180730
 date: 2018-07-30 03:00:01 +03:00
@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[http://sqt-conference.ru](http://sqt-conference.ru)
+[Сайт конференции](http://sqt-conference.ru) и [новость на сайте МФТИ](https://mipt.ru/events/mezhdunarodnaya_konferentsiya_-sverkhprovodnikovye_kvantovye_tekhnologii)

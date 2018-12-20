@@ -1,5 +1,5 @@
 ---
-title: Programming Existing Quantum Computers
+title: Программирование Существующих Квантовых Компьютеров
 lang: ru
 ref: presqcatyamay180508
 date: 2018-05-08 03:00:01 +03:00
@@ -19,4 +19,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/qc_at_ya_may.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/qc_at_ya_may.pdf)

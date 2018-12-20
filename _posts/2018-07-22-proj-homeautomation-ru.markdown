@@ -1,5 +1,5 @@
 ---
-title: Home Automation
+title: Автоматизация Дома
 lang: ru
 ref: projhomeautomation180722
 date: 2018-07-22 15:00:00 +03:00
@@ -25,11 +25,11 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeevprojects/HomeAutomation)
+[Проект](https://github.com/akarazeevprojects/HomeAutomation) на GitHub'e
 
 {% include gallery caption="Gallery of relay with multiple controls." %}
 
-Used Raspberry Pi and HomeKit by Apple.
+Использовал Raspberry Pi, реле и HomeKit от Apple.
 
 {% include video id="CBYfVpwmrjc" provider="youtube" %}
 
