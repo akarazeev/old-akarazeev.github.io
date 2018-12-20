@@ -1,5 +1,5 @@
 ---
-title: Пишем простого Телеграм-бота
+title: Programming simple chatbot for Telegram
 redirect_from: "/tiny-telegram-bot"
 lang: en
 ref: tinytelegrambot180928
@@ -9,6 +9,8 @@ header:
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
+
+Currently this post is available only in russian (will translate it soon...)
 
 Примерный план:
 {: .text-center}

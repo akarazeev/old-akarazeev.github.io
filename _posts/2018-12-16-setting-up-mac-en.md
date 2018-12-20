@@ -1,5 +1,5 @@
 ---
-title: Программы для macOS
+title: Programs for macOS
 lang: en
 ref: settingupmac181216
 date: 2018-12-16 15:00:00 +03:00
@@ -15,42 +15,42 @@ tags:
 layout: post
 ---
 
-Mac OS пользуюсь я уже довольно давно. За это время много чего перепробовал и много с чем сталкивался. Сейчас же я хочу сделать что-то типа сводки "удобных" программ и расширений для работы.
+I've been using Mac OS for a pretty long time. During this period I tried a lot of things and met some problems. Now I want to make something like a list of useful programs and extensions that will make workflow more effective.
 
-## Разработка. Работа с текстом
+## Development. Work with Text
 
-Текстовый редактор: [Atom](https://atom.io)
+Text Editor: [Atom](https://atom.io)
 
-Разработка на Python'е: [PyCharm](https://www.jetbrains.com/pycharm/)
+Development with Python: [PyCharm](https://www.jetbrains.com/pycharm/)
 
-Командная строка: [iTerm2](https://www.iterm2.com)
+Command line: [iTerm2](https://www.iterm2.com)
 
-Запись образов на флешки: [balenaEtcher](https://www.balena.io/etcher/)
+Flashing/burning images: [balenaEtcher](https://www.balena.io/etcher/)
 
-Программа генерит превью для jupyter-notebook'ов: [Jupyter Notebook Viewer](https://github.com/tuxu/nbviewer-app)
+The program generates preview for jupyter-notebooks: [Jupyter Notebook Viewer](https://github.com/tuxu/nbviewer-app)
 
-QuickLook-плагин, который позволяет просматривать содержимое любого текстового файла: [QuicklookStephen](https://github.com/whomwah/qlstephen)
+QuickLook-plugin, which allows to see the content of any text file with a pressing of space-bar: [QuicklookStephen](https://github.com/whomwah/qlstephen)
 
-## Фото. Видео. Музыка
+## Photo. Video. Music
 
-Обработка фото и видео: [Photoshop](http://adobe.com/photoshop), [Lightroom](http://adobe.com/lightroom), [Final Cut Pro](https://www.apple.com/final-cut-pro/)
+Photo and Video editing: [Photoshop](http://adobe.com/photoshop), [Lightroom](http://adobe.com/lightroom), [Final Cut Pro](https://www.apple.com/final-cut-pro/)
 
-Сжатие фотографий: [JPEGmini](https://www.jpegmini.com)
+Compression of Photos: [JPEGmini](https://www.jpegmini.com)
 
-Запись дисков (в частности Blu-ray): [Toast Titanium](https://www.roxio.com/en/products/toast/titanium/)
+Disc burning (especially I'm interested in Blu-ray format): [Toast Titanium](https://www.roxio.com/en/products/toast/titanium/)
 
-Плеер для просмотра Blu-ray: [Blu-ray Player Pro](https://www.macblurayplayer.com/macgo-mac-bluray-menu-player-pro.htm)
+Player for watching Blu-ray format: [Blu-ray Player Pro](https://www.macblurayplayer.com/macgo-mac-bluray-menu-player-pro.htm)
 
-Аудиоплеер: [VOX](https://vox.rocks)
+Great audio player: [VOX](https://vox.rocks)
 
-Для перевода и записи нот: [Sibelius](https://www.avid.com/sibelius)
+The program for viewing, editing and writing music (notes): [Sibelius](https://www.avid.com/sibelius)
 
-## Другое
+## Other
 
-Хороший мини-календарь для menu bar'а: [Itsycal](https://www.mowglii.com/itsycal/)
+Great mini-calendar for menu bar: [Itsycal](https://www.mowglii.com/itsycal/)
 
-Регулировка яркости внешнего монитора: [MonitorControl](https://github.com/the0neyouseek/MonitorControl)
+The program allows to adjust brightness of external monitor: [MonitorControl](https://github.com/the0neyouseek/MonitorControl)
 
-Возможность быстро изменять положение и размер окон программ: [BetterSnapTool](https://folivora.ai/bettersnaptool/)
+Fast adjustment of position and size of any windowed program: [BetterSnapTool](https://folivora.ai/bettersnaptool/)
 
-Контроль скорости вращения вентиляторов: [smcFanControl](https://github.com/hholtmann/smcFanControl)
+Control of rotating speed of fans: [smcFanControl](https://github.com/hholtmann/smcFanControl)

@@ -1,5 +1,5 @@
 ---
-title: Автоматизация Дома с Помощью Raspberry Pi и HomeKit
+title: Home Automation using Raspberry Pi and HomeKit
 lang: en
 ref: homeautomationhomekit181011
 date: 2018-10-11 09:00:00 +03:00
@@ -59,6 +59,8 @@ gallery2:
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
+
+Currently this post is available only in russian (will translate it soon...)
 
 ## Зачем мы всё это делаем?
 
