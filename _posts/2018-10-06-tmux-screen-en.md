@@ -15,9 +15,9 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Due to I have many services and servers on **Raspberry Pi** I need to spend some time after turning on and realaunching the RPi to start every service and server.
+Due to I have many services and servers on **Raspberry Pi** I need to spend some time after turning on and relaunching the RPi to start every service and server.
 
-I emerged that **screen** is pretty good solution to my problem because it allows to run scripts and programs on boot of device[^1].
+It emerged that **screen** is pretty good solution to my problem because it allows to run scripts and programs on boot of device[^1].
 
 [^1]: Running the scripts and programs in background on boot at [`homebridge` repository](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi#running-homebridge-on-boot-etcrclocal-using-screen)
 

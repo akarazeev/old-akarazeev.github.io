@@ -37,6 +37,27 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a {
+    // color: #000000;
+    color: #a01818;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
   a + a {
     opacity: 0.5;
   }
