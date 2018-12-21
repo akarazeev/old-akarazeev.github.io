@@ -32,9 +32,9 @@ To explain GANs’ concept let us use an analogy.
 
 ![](/assets/images/gans/1.jpeg){: .align-center}
 
-[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg)
-
 {: .text-center}
+
+[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg)
 
 Imagine you want to buy good watches. If you never buy them it’s very likely that you can’t distinguish brand watches from fake ones. You have to be experienced to not let yourself be fooled by the seller.
 
@@ -44,9 +44,9 @@ These two networks, Discriminator and Generator, are contesting with each other.
 
 ![](/assets/images/gans/2.jpeg){: .align-center}
 
-[Illustration source](http://www.kdnuggets.com/2017/01/generative-adversarial-networks-hot-topic-machine-learning.html)
-
 {: .text-center}
+
+[Illustration source](http://www.kdnuggets.com/2017/01/generative-adversarial-networks-hot-topic-machine-learning.html)
 
 What’s the difference between discriminative and generative algorithms? In brief: discriminative algorithms learn the boundaries between classes (as the Discriminator does) while generative algorithms learn the distribution of classes (as the Generator does).
 
@@ -72,9 +72,9 @@ An interesting example of GANs applications is retrieving visually similar marks
 
 ![](/assets/images/gans/4.jpeg){: .align-center}
 
-[Adversarial Training For Sketch Retrieval](https://arxiv.org/pdf/1607.02748.pdf)
-
 {: .text-center}
+
+[Adversarial Training For Sketch Retrieval](https://arxiv.org/pdf/1607.02748.pdf)
 
 Each query contains examples of Merchant Marks — unique identification of property of a merchant, sketch-like symbols that are similar to hieroglyphs.
 
@@ -92,17 +92,17 @@ Other researchers showed that it’s possible to use descriptive properties of n
 
 ![](/assets/images/gans/5.jpeg){: .align-center}
 
-[Generative Adversarial Text to Image Synthesis](https://arxiv.org/pdf/1605.05396.pdf)
-
 {: .text-center}
+
+[Generative Adversarial Text to Image Synthesis](https://arxiv.org/pdf/1605.05396.pdf)
 
 The main problem of image generation is that image distribution is multimodal. For example, there are many correct samples that correctly illustrate the description. GANs help to solve this problem.
 
 ![](/assets/images/gans/6.jpeg){: .align-center}
 
-[Illustration source](https://youtu.be/RvgYvHyT15E)
-
 {: .text-center}
+
+[Illustration source](https://youtu.be/RvgYvHyT15E)
 
 Let’s consider the following task of mapping the blue input dot to the green output dot (green dots are possible outputs to blue dot). This red arrow indicates the error of prediction and means that after some time the blue dot will be mapped to the mean of the green dots — this exact thing causes the blurry images we are trying to predict.
 
@@ -114,9 +114,12 @@ Here are the examples of generated images from text descriptions:
 
 {: .text-center}
 
-## Datasets that were used to train GANs:
-- Caltech-UCSD-200–2011 is an image dataset with photos of 200 bird species. Total number of images is 11,788;
-- Oxford-102 Flowers dataset consists of 102 flower categories with numbers between 40 and 258 images per category.
+[Generative Adversarial Text to Image Synthesis](https://arxiv.org/pdf/1605.05396.pdf)
+
+Datasets that [were used to train GANs](https://arxiv.org/pdf/1605.05396.pdf):
+
+- *Caltech-UCSD-200–2011* is an image dataset with photos of **200** bird species. Total number of images is **11,788**;
+- *Oxford-102 Flowers* dataset consists of **102** flower categories with numbers **between 40 and 258** images per category.
 
 ## Drug Discovery
 While others apply generative adversarial networks to images and videos, researchers from Insilico Medicine proposed an approach of artificially intelligent drug discovery using GANs.
@@ -125,6 +128,8 @@ The goal is to train the Generator to sample drug candidates for a given disease
 ![](/assets/images/gans/8.jpeg){: .align-center}
 
 {: .text-center}
+
+[Illustration source](https://www.youtube.com/watch?v=xkcHP_OOjyM)
 
 After training, it’s possible to generate a drug for a previously incurable disease using the Generator, and using the Discriminator to determine whether the sampled drug actually cures the given disease.
 
