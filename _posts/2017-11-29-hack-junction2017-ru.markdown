@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-LegalEngine - "qqmbr" team. [Project](https://github.com/akarazeev/LegalTech), [Devpost](https://devpost.com/software/legalengine), [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/Junction17-Certificate_participation.IgjcQtem.pdf)
+LegalEngine - команда "qqmbr". [Проект](https://github.com/akarazeev/LegalTech) на GitHub'e, [Devpost](https://devpost.com/software/legalengine), [Диплом участника]({{ site.url }}{{ site.baseurl }}/assets/data/Junction17-Certificate_participation.IgjcQtem.pdf)

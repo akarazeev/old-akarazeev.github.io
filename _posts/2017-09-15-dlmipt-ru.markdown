@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-MIPT Deep Learning Club at [Facebook](https://www.facebook.com/dlmipt/) and [Vk](https://vk.com/dlmipt)
+MIPT Deep Learning Club на [Facebook'e](https://www.facebook.com/dlmipt/) и [ВКонтакте](https://vk.com/dlmipt)

@@ -1,5 +1,5 @@
 ---
-title: Deep\|Bayes Summer School
+title: Летняя школа Deep\|Bayes
 lang: ru
 ref: deepbayes170830
 date: 2017-08-30 03:00:01 +03:00
@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Summer school on Bayesian methods in Deep Learning. [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/deepbayes_school.pdf)
+Летняя школа по Байесовским методам в Глубоком обучении (Deep Learning'e). [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/deepbayes_school.pdf)

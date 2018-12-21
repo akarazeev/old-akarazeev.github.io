@@ -1,5 +1,5 @@
 ---
-title: Quantum Programs
+title: Программы для Квантовых Компьютеров
 lang: ru
 ref: presquantumprograms171208
 date: 2017-12-08 03:00:01 +03:00
@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/quantum_full.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/quantum_full.pdf)

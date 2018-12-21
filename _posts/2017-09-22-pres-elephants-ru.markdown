@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/elephants.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/elephants.pdf)

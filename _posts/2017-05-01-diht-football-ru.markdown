@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Football team "Spirit", 3rd place
+Команда "Spirit", 3ье место

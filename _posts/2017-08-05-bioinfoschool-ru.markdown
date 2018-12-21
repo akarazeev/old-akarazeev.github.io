@@ -1,5 +1,5 @@
 ---
-title: Bioinformatics Summer School
+title: Летняя школа по Биоинформатике
 lang: ru
 ref: bioinfoschool170805
 date: 2017-08-05 03:00:01 +03:00
@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Summer School on Bioinformatics 2017](http://bioinformaticsinstitute.ru/summer2017), [Diploma]({{ site.url }}{{ site.baseurl }}/assets/data/bioinfo_school.pdf)
+[Летняя школа по Биоинформатике 2017](http://bioinformaticsinstitute.ru/summer2017), [Диплом участника]({{ site.url }}{{ site.baseurl }}/assets/data/bioinfo_school.pdf)

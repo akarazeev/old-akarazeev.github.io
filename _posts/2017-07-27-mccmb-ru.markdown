@@ -1,5 +1,5 @@
 ---
-title: MCCMB'17 - Advanced Parser for Biomedical Texts
+title: MCCMB'17 - Продвинутый парсер для Биомедицинских текстов
 lang: ru
 ref: mccmb170727
 date: 2017-07-27 03:00:01 +03:00
@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Poster]({{ site.url }}{{ site.baseurl }}/assets/data/poster_mccmb2017.pdf), [Thesis]({{ site.url }}{{ site.baseurl }}/assets/data/thesis_mccmb2017.pdf)
+[Постер]({{ site.url }}{{ site.baseurl }}/assets/data/poster_mccmb2017.pdf), [Тезис]({{ site.url }}{{ site.baseurl }}/assets/data/thesis_mccmb2017.pdf)

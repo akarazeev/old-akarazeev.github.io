@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Make some notes about researches and other scientific stuff -> [https://t.me/sciblog](https://t.me/sciblog).
+Делаю различные заметки про исследования и что-то ещё -> [https://t.me/sciblog](https://t.me/sciblog)
