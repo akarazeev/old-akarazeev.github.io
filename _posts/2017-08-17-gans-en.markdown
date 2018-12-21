@@ -19,9 +19,11 @@ header:
 Generative adversarial networks (GANs) are a class of neural networks that are used in unsupervised machine learning. They help to solve such tasks as image generation from descriptions, getting high resolution images from low resolution ones, predicting which drug could treat a certain disease, retrieving images that contain a given pattern, etc.
 
 The Statsbot team asked a data scientist, Anton Karazeev, to make the introduction to GANs engine and their applications in everyday life.
+
 GANs were introduced by Ian Goodfellow in 2014. They aren’t the only approach of neural networks in unsupervised learning. There’s also the Boltzmann machine (Geoffrey Hinton and Terry Sejnowski, 1985) and Autoencoders (Dana H. Ballard, 1987). Both of them are dedicated to extract features from data by learning the identity function f(x) = x and both of them rely on Markov chains to train or to generate samples.
 
 Generative adversarial networks were designed to avoid using Markov chains because of the high computational cost of the latter. Another advantage relative to Boltzmann machines is that the Generator function has much fewer restrictions (there are only a few probability distributions that admit Markov chain sampling).
+
 In this article, we’ll tell you how generative adversarial nets work and what their most popular applications in real life are. We will also give you links to some helpful resources for getting deeper into these approaches.
 
 ## The engine of generative adversarial nets
@@ -29,6 +31,8 @@ In this article, we’ll tell you how generative adversarial nets work and what 
 To explain GANs’ concept let us use an analogy.
 
 ![](/assets/images/gans/1.jpeg){: .align-left}
+
+[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg){: .text-left}
 
 Imagine you want to buy good watches. If you never buy them it’s very likely that you can’t distinguish brand watches from fake ones. You have to be experienced to not let yourself be fooled by the seller.
 
@@ -143,7 +147,7 @@ Below, we give you a few helpful resources to learn more about adversarial nets.
 - GANs allow the model to learn that there are many correct answers (i.e. handling well on multimodal data);
 - semi-supervised learning: features from the Discriminator or inference net could improve performance of classifiers when limited labeled data is available;
 - one can use adversarial nets to implement a stochastic extension of the deterministic Multi-Prediction Deep Boltzmann Machines;
-- a conditional generative model p(x|c) can be obtained by adding c as the input to both the Generator and the Discriminator.
+- a conditional generative model p(x\|c) can be obtained by adding c as the input to both the Generator and the Discriminator.
 
 ## Further Reading
 - What is a Variational Autoencoder?
