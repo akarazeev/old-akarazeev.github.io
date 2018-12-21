@@ -13,7 +13,7 @@ tags:
 layout: post
 toc: true
 toc_sticky: true
-toc_label: "Содержание"
+toc_label: "Outline"
 toc_icon: "lightbulb"
 header:
   teaser: "/assets/images/rpi-homekit.png"

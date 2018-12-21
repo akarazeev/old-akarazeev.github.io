@@ -3,6 +3,10 @@ title: Generative Adversarial Networks (GANs) - Engine and Applications
 lang: ru
 ref: gans170817
 date: 2017-08-17 03:00:01 +03:00
+toc: true
+toc_sticky: true
+toc_label: "Содержание"
+toc_icon: "lightbulb"
 tags:
 - Medium
 - GANs
