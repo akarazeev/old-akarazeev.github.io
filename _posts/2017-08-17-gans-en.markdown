@@ -18,9 +18,9 @@ header:
 
 Generative adversarial networks (GANs) are a class of neural networks that are used in unsupervised machine learning. They help to solve such tasks as image generation from descriptions, getting high resolution images from low resolution ones, predicting which drug could treat a certain disease, retrieving images that contain a given pattern, etc.
 
-The Statsbot team asked a data scientist, Anton Karazeev, to make the introduction to GANs engine and their applications in everyday life.
+The [*Statsbot*](http://statsbot.co/?utm_source=blog&utm_medium=article&utm_campaign=gans) team asked a data scientist, [Anton Karazeev](https://akarazeev.github.io), to make the introduction to GANs engine and their applications in everyday life.
 
-GANs were introduced by Ian Goodfellow in 2014. They aren’t the only approach of neural networks in unsupervised learning. There’s also the Boltzmann machine (Geoffrey Hinton and Terry Sejnowski, 1985) and Autoencoders (Dana H. Ballard, 1987). Both of them are dedicated to extract features from data by learning the identity function f(x) = x and both of them rely on Markov chains to train or to generate samples.
+GANs were [introduced by Ian Goodfellow in 2014](https://arxiv.org/pdf/1406.2661.pdf). They aren’t the only approach of neural networks in unsupervised learning. There’s also the Boltzmann machine (Geoffrey Hinton and Terry Sejnowski, 1985) and Autoencoders (Dana H. Ballard, 1987). Both of them are dedicated to extract features from data by learning the identity function f(x) = x and both of them rely on Markov chains to train or to generate samples.
 
 Generative adversarial networks were designed to avoid using Markov chains because of the high computational cost of the latter. Another advantage relative to Boltzmann machines is that the Generator function has much fewer restrictions (there are only a few probability distributions that admit Markov chain sampling).
 
@@ -30,9 +30,9 @@ In this article, we’ll tell you how generative adversarial nets work and what 
 
 To explain GANs’ concept let us use an analogy.
 
-![](/assets/images/gans/1.jpeg){: .align-left}
+![](/assets/images/gans/1.jpeg){: .align-center}
 
-[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg){: .text-left}
+[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg){: .text-center}
 
 Imagine you want to buy good watches. If you never buy them it’s very likely that you can’t distinguish brand watches from fake ones. You have to be experienced to not let yourself be fooled by the seller.
 
@@ -42,29 +42,33 @@ These two networks, Discriminator and Generator, are contesting with each other.
 
 ![](/assets/images/gans/2.jpeg){: .align-center}
 
+[Illustration source](http://www.kdnuggets.com/2017/01/generative-adversarial-networks-hot-topic-machine-learning.html){: .text-center}
+
 What’s the difference between discriminative and generative algorithms? In brief: discriminative algorithms learn the boundaries between classes (as the Discriminator does) while generative algorithms learn the distribution of classes (as the Generator does).
 
 ## If you’re ready to go deeper
 
-To learn the Generator’s distribution, p_g over data x, the distribution on input noise variables p_z(z) should be defined. Then G(z, θ_g) maps z from latent space Z to data space and D(x, θ_d) outputs a single scalar — probability that x came from the real data rather than p_g.
+To learn the Generator’s distribution, p_g over data x, the distribution on input noise variables p_z(z) should be defined. Then G(z, θ\_g) maps z from latent space Z to data space and D(x, θ\_d) outputs a single scalar — probability that x came from the real data rather than p\_g.
+
 The Discriminator is trained to maximize the probability of assigning the correct label to both examples of real data and generated samples. While the Generator is trained to minimize log(1 — D(G(z))). In other words — to minimize the probability of the Discriminator’s correct answer.
+
 It is possible to consider such a training task as minimax game with value function V(G, D):
 
 ![](/assets/images/gans/3.jpeg){: .align-center}
 
 In other words — the Generator tries harder to fool the Discriminator and the Discriminator becomes more captious in order to not be fooled by the Generator.
 
-“```Adversarial training is the coolest thing since sliced bread.```” — Yann LeCun
+“```Adversarial training is the coolest thing since sliced bread.```” — [Yann LeCun](https://www.quora.com/session/Yann-LeCun/1)
 
 The process of training stops when the Discriminator is unable to distinguish p_g and p_data, i.e. D(x, θ_d) = 1/2. Equilibrium between errors of the Generator and the Discriminator is established.
 
 ## Image retrieval for historical archives
 
-An interesting example of GANs applications is retrieving visually similar marks in “Prize Papers,” one of the most valuable archives in the field of maritime history. Adversarial nets make it easier to work with documents of historical importance containing information about the legitimacy of ship captures at sea.
+An interesting example of GANs applications is retrieving visually similar marks in “[Prize Papers](http://www.brill.com/products/online-resources/prize-papers-online)”, one of the most valuable archives in the field of maritime history. Adversarial nets make it easier to work with documents of historical importance containing information about the legitimacy of ship captures at sea.
 
 ![](/assets/images/gans/4.jpeg){: .align-center}
 
-Adversarial Training For Sketch Retrieval
+[Adversarial Training For Sketch Retrieval](https://arxiv.org/pdf/1607.02748.pdf){: .text-center}
 
 Each query contains examples of Merchant Marks — unique identification of property of a merchant, sketch-like symbols that are similar to hieroglyphs.
 
@@ -84,7 +88,7 @@ Other researchers showed that it’s possible to use descriptive properties of n
 
 The main problem of image generation is that image distribution is multimodal. For example, there are many correct samples that correctly illustrate the description. GANs help to solve this problem.
 
-![](/assets/images/gans/6.jpeg){: .align-left}
+![](/assets/images/gans/6.jpeg){: .align-center}
 
 Let’s consider the following task of mapping the blue input dot to the green output dot (green dots are possible outputs to blue dot). This red arrow indicates the error of prediction and means that after some time the blue dot will be mapped to the mean of the green dots — this exact thing causes the blurry images we are trying to predict.
 
