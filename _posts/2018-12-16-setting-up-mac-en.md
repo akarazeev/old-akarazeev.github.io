@@ -13,14 +13,9 @@ tags:
 - Atom
 - Etcher
 layout: post
-mathjax: true
 ---
 
 I've been using Mac OS for a pretty long time. During this period I tried a lot of things and met some problems. Now I want to make something like a list of useful programs and extensions that will make workflow more effective.
-
-{% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
 
 ## Development. Work with Text
 
