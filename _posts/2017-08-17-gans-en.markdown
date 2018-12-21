@@ -32,7 +32,9 @@ To explain GANs’ concept let us use an analogy.
 
 ![](/assets/images/gans/1.jpeg){: .align-center}
 
-[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg){: .text-center}
+[Illustration source](http://19359-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2014/08/genuine-fake-turkey-8.jpg)
+
+{: .text-center}
 
 Imagine you want to buy good watches. If you never buy them it’s very likely that you can’t distinguish brand watches from fake ones. You have to be experienced to not let yourself be fooled by the seller.
 
@@ -42,7 +44,9 @@ These two networks, Discriminator and Generator, are contesting with each other.
 
 ![](/assets/images/gans/2.jpeg){: .align-center}
 
-[Illustration source](http://www.kdnuggets.com/2017/01/generative-adversarial-networks-hot-topic-machine-learning.html){: .text-center}
+[Illustration source](http://www.kdnuggets.com/2017/01/generative-adversarial-networks-hot-topic-machine-learning.html)
+
+{: .text-center}
 
 What’s the difference between discriminative and generative algorithms? In brief: discriminative algorithms learn the boundaries between classes (as the Discriminator does) while generative algorithms learn the distribution of classes (as the Generator does).
 
@@ -68,7 +72,9 @@ An interesting example of GANs applications is retrieving visually similar marks
 
 ![](/assets/images/gans/4.jpeg){: .align-center}
 
-[Adversarial Training For Sketch Retrieval](https://arxiv.org/pdf/1607.02748.pdf){: .text-center}
+[Adversarial Training For Sketch Retrieval](https://arxiv.org/pdf/1607.02748.pdf)
+
+{: .text-center}
 
 Each query contains examples of Merchant Marks — unique identification of property of a merchant, sketch-like symbols that are similar to hieroglyphs.
 
@@ -86,9 +92,17 @@ Other researchers showed that it’s possible to use descriptive properties of n
 
 ![](/assets/images/gans/5.jpeg){: .align-center}
 
+[Generative Adversarial Text to Image Synthesis](https://arxiv.org/pdf/1605.05396.pdf)
+
+{: .text-center}
+
 The main problem of image generation is that image distribution is multimodal. For example, there are many correct samples that correctly illustrate the description. GANs help to solve this problem.
 
 ![](/assets/images/gans/6.jpeg){: .align-center}
+
+[Illustration source](https://youtu.be/RvgYvHyT15E)
+
+{: .text-center}
 
 Let’s consider the following task of mapping the blue input dot to the green output dot (green dots are possible outputs to blue dot). This red arrow indicates the error of prediction and means that after some time the blue dot will be mapped to the mean of the green dots — this exact thing causes the blurry images we are trying to predict.
 
@@ -97,6 +111,8 @@ Generative adversarial nets don’t directly use pairs of inputs and outputs. In
 Here are the examples of generated images from text descriptions:
 
 ![](/assets/images/gans/7.jpeg){: .align-center}
+
+{: .text-center}
 
 ## Datasets that were used to train GANs:
 - Caltech-UCSD-200–2011 is an image dataset with photos of 200 bird species. Total number of images is 11,788;
@@ -108,6 +124,8 @@ The goal is to train the Generator to sample drug candidates for a given disease
 
 ![](/assets/images/gans/8.jpeg){: .align-center}
 
+{: .text-center}
+
 After training, it’s possible to generate a drug for a previously incurable disease using the Generator, and using the Discriminator to determine whether the sampled drug actually cures the given disease.
 
 ## Molecule development in oncology
@@ -117,7 +135,7 @@ Researchers proposed an Adversarial Autoencoder (AAE) model for identification a
 
 ![](/assets/images/gans/9.jpeg){: .align-center}
 
-Adversarial Autoencoders
+{: .text-center}
 
 “```To the best of our knowledge, this is the first application of GANs techniques within the field of cancer drug discovery.```” — say the researchers.
 
@@ -125,15 +143,21 @@ There are many available biochemical data in databases such as Cancer Cell Line 
 
 ![](/assets/images/gans/10.jpeg){: .align-center}
 
+{: .text-center}
+
 Adversarial Autoencoder was trained using Growth Inhibition percentage data (GI, which shows the reduction in the number of cancer cells after the treatment), drug concentrations, and fingerprints as inputs.
 
 The fingerprint of the molecule contains a fixed number of bits in which each bit represents the absence or presence of some feature.
 
 ![](/assets/images/gans/11.jpeg){: .align-center}
 
+{: .text-center}
+
 The latent layer consists of 5 neurons, one of which is responsible for GI (efficiency against cancer cells) and the four others are discriminated with normal distribution. So, a regression term was added to the Encoder cost function. Furthermore, the Encoder was restricted to map the same fingerprint to the same latent vector, independently from input concentration by additional manifold cost.
 
 ![](/assets/images/gans/12.jpeg){: .align-center}
+
+{: .text-center}
 
 After training, it is possible to generate molecules from a desired distribution and use a GI-neuron as a tuner of output compounds.
 
