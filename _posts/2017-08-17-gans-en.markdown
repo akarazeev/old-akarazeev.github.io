@@ -142,53 +142,59 @@ Researchers proposed an Adversarial Autoencoder (AAE) model for identification a
 
 {: .text-center}
 
-“```To the best of our knowledge, this is the first application of GANs techniques within the field of cancer drug discovery.```” — say the researchers.
+[Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf)
 
-There are many available biochemical data in databases such as Cancer Cell Line Encyclopedia (CCLE), Genomics of Drug Sensitivity in Cancer (GDSC), and NCI-60 cancer cell line collection. All of them contain screening data for different drug experiments against cancer.
+“```To the best of our knowledge, this is the first application of GANs techniques within the field of cancer drug discovery.```” — say the [researchers](http://www.impactjournals.com/oncotarget/index.php?journal=oncotarget&page=article&op=view&path%5B0%5D=14073&path%5B1%5D=44886).
+
+There are many available biochemical data in databases such as [Cancer Cell Line Encyclopedia](http://software.broadinstitute.org/software/cprg/?q=node/11) (CCLE), [Genomics of Drug Sensitivity in Cancer](http://www.cancerrxgene.org/) (GDSC), and [NCI-60 cancer cell line collection](https://dtp.cancer.gov/discovery_development/nci-60/). All of them contain screening data for different drug experiments against cancer.
 
 ![](/assets/images/gans/10.jpeg){: .align-center}
 
 {: .text-center}
 
-Adversarial Autoencoder was trained using Growth Inhibition percentage data (GI, which shows the reduction in the number of cancer cells after the treatment), drug concentrations, and fingerprints as inputs.
+[GDSC website](http://www.cancerrxgene.org/)
+
+Adversarial Autoencoder was trained using *Growth Inhibition percentage* data (GI, which shows the reduction in the number of cancer cells after the treatment), *drug concentrations*, and *fingerprints* as inputs.
 
 The fingerprint of the molecule contains a fixed number of bits in which each bit represents the absence or presence of some feature.
 
 ![](/assets/images/gans/11.jpeg){: .align-center}
 
-{: .text-center}
-
-The latent layer consists of 5 neurons, one of which is responsible for GI (efficiency against cancer cells) and the four others are discriminated with normal distribution. So, a regression term was added to the Encoder cost function. Furthermore, the Encoder was restricted to map the same fingerprint to the same latent vector, independently from input concentration by additional manifold cost.
+The latent layer consists of 5 neurons, one of which is responsible for GI (efficiency against cancer cells) and the four others are discriminated with normal distribution. So, a regression term was added to the Encoder cost function. Furthermore, the Encoder was restricted to map the *same fingerprint* to the *same latent vector*, independently from input concentration by additional manifold cost.
 
 ![](/assets/images/gans/12.jpeg){: .align-center}
 
 {: .text-center}
 
+[Illustration source](http://www.impactjournals.com/oncotarget/index.php?journal=oncotarget&page=article&op=view&path%5B0%5D=14073&path%5B1%5D=44886)
+
 After training, it is possible to generate molecules from a desired distribution and use a GI-neuron as a tuner of output compounds.
 
-Results of this work are the following: the trained AAE model predicted compounds that are already proven to be anticancer agents and new untested compounds that should be validated with experiments on anticancer activity.
+[Results of this work](http://www.impactjournals.com/oncotarget/index.php?journal=oncotarget&page=article&op=view&path%5B0%5D=14073&path%5B1%5D=44886) are the following: the trained AAE model predicted compounds that are *already proven* to be anticancer agents and *new untested* compounds that should be validated with experiments on anticancer activity.
 
 "```Our results suggest that the proposed AAE model significantly enhances the capacity and efficiency of development of the new molecules with specific anticancer properties using the deep generative models.```"
 
 ## Conclusion
 
-Unsupervised learning is a next frontier in artificial intelligence and we are moving towards it.
+Unsupervised learning is [a next frontier](https://www.cs.cornell.edu/content/unsupervised-learning-next-frontier-ai) in [artificial intelligence](https://blog.statsbot.co/3-types-of-artificial-intelligence-4fb7df20fdd8) and we are moving towards it.
 Generative adversarial nets can be applied in many fields from generating images to predicting drugs, so don’t be afraid of experimenting with them. We believe they help in building a better future for machine learning.
 Below, we give you a few helpful resources to learn more about adversarial nets.
 
-## Taken from “Generative Adversarial Nets”:
+Taken from “[Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)”:
+
 - GANs allow the model to learn that there are many correct answers (i.e. handling well on multimodal data);
 - semi-supervised learning: features from the Discriminator or inference net could improve performance of classifiers when limited labeled data is available;
 - one can use adversarial nets to implement a stochastic extension of the deterministic Multi-Prediction Deep Boltzmann Machines;
-- a conditional generative model p(x\|c) can be obtained by adding c as the input to both the Generator and the Discriminator.
+- a conditional generative model **p(x\|c)** can be obtained by adding c as the input to both the Generator and the Discriminator.
 
 ## Further Reading
-- What is a Variational Autoencoder?
-- Ian Goodfellow about GANs for Text on Reddit
-- “StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks” by Baidu Research [github]
-- “Generative Visual Manipulation on the Natural Image Manifold” by Adobe Research [github]
-- “Unsupervised Cross-Domain Image Generation” by Facebook AI Research [github]
-- “Image-to-Image Translation with Conditional Adversarial Networks” by Berkeley AI Research [github]
+
+- [What is a Variational Autoencoder?](https://jaan.io/what-is-variational-autoencoder-vae-tutorial/)
+- Ian Goodfellow about [GANs for Text](https://www.reddit.com/r/MachineLearning/comments/40ldq6/generative_adversarial_networks_for_text/) on Reddit
+- “[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242.pdf)” by Baidu Research [[github](https://github.com/hanzhanggit/StackGAN)]
+- “[Generative Visual Manipulation on the Natural Image Manifold](https://arxiv.org/pdf/1609.03552v2.pdf)” by Adobe Research [[github](https://github.com/junyanz/iGAN)]
+- “[Unsupervised Cross-Domain Image Generation](https://arxiv.org/pdf/1611.02200.pdf)” by Facebook AI Research [[github](https://github.com/yunjey/domain-transfer-network)]
+- “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf)” by Berkeley AI Research [[github](https://github.com/phillipi/pix2pix)]
 
 
 
