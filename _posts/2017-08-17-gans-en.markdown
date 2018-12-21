@@ -9,7 +9,7 @@ tags:
 - GANs
 layout: post
 header:
-  teaser: "/assets/images/gans.jpg"
+  teaser: "/assets/images/gans/header.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
@@ -18,7 +18,7 @@ header:
 
 Generative adversarial networks (GANs) are a class of neural networks that are used in unsupervised machine learning. They help to solve such tasks as image generation from descriptions, getting high resolution images from low resolution ones, predicting which drug could treat a certain disease, retrieving images that contain a given pattern, etc.
 
-The [*Statsbot*](http://statsbot.co/?utm_source=blog&utm_medium=article&utm_campaign=gans) team asked a data scientist, [Anton Karazeev](https://akarazeev.github.io), to make the introduction to GANs engine and their applications in everyday life.
+The [Statsbot](http://statsbot.co/?utm_source=blog&utm_medium=article&utm_campaign=gans) team asked a data scientist, [Anton Karazeev](https://akarazeev.github.io), to make the introduction to GANs engine and their applications in everyday life.
 
 GANs were [introduced by Ian Goodfellow in 2014](https://arxiv.org/pdf/1406.2661.pdf). They aren’t the only approach of neural networks in unsupervised learning. There’s also the Boltzmann machine (Geoffrey Hinton and Terry Sejnowski, 1985) and Autoencoders (Dana H. Ballard, 1987). Both of them are dedicated to extract features from data by learning the identity function f(x) = x and both of them rely on Markov chains to train or to generate samples.
 
@@ -52,9 +52,9 @@ What’s the difference between discriminative and generative algorithms? In bri
 
 ## If you’re ready to go deeper
 
-To learn the Generator’s distribution, p_g over data x, the distribution on input noise variables p_z(z) should be defined. Then G(z, θ\_g) maps z from latent space Z to data space and D(x, θ\_d) outputs a single scalar — probability that x came from the real data rather than p\_g.
+To learn the Generator’s distribution, **p\_g** over data **x**, the distribution on input noise variables **p_z**(**z**) should be defined. Then G(**z**, **θ\_g**) maps **z** from latent space **Z** to data space and D(**x**, **θ\_d**) outputs a single scalar — probability that **x** came from the real data rather than **p\_g**.
 
-The Discriminator is trained to maximize the probability of assigning the correct label to both examples of real data and generated samples. While the Generator is trained to minimize log(1 — D(G(z))). In other words — to minimize the probability of the Discriminator’s correct answer.
+The Discriminator is trained to maximize the probability of assigning the correct label to both examples of real data and generated samples. While the Generator is trained to minimize log(1 — D(G(**z**))). In other words — to minimize the probability of the Discriminator’s correct answer.
 
 It is possible to consider such a training task as minimax game with value function V(G, D):
 
@@ -64,7 +64,7 @@ In other words — the Generator tries harder to fool the Discriminator and 
 
 “```Adversarial training is the coolest thing since sliced bread.```” — [Yann LeCun](https://www.quora.com/session/Yann-LeCun/1)
 
-The process of training stops when the Discriminator is unable to distinguish p_g and p_data, i.e. D(x, θ_d) = 1/2. Equilibrium between errors of the Generator and the Discriminator is established.
+The process of training stops when the Discriminator is unable to distinguish **p\_g** and **p\_data**, i.e. D(**x**, **θ_d**) = 1/2. Equilibrium between errors of the Generator and the Discriminator is established.
 
 ## Image retrieval for historical archives
 
@@ -195,7 +195,5 @@ Taken from “[Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
 - “[Generative Visual Manipulation on the Natural Image Manifold](https://arxiv.org/pdf/1609.03552v2.pdf)” by Adobe Research [[github](https://github.com/junyanz/iGAN)]
 - “[Unsupervised Cross-Domain Image Generation](https://arxiv.org/pdf/1611.02200.pdf)” by Facebook AI Research [[github](https://github.com/yunjey/domain-transfer-network)]
 - “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004.pdf)” by Berkeley AI Research [[github](https://github.com/phillipi/pix2pix)]
-
-
 
 [Source](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47)
