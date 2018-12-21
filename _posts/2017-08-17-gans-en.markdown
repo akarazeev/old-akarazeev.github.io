@@ -14,9 +14,7 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-My [Post](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47) on Medium
-
-# [Generative Adversarial Networks (GANs): Engine and Applications](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47)
+# Generative Adversarial Networks (GANs): Engine and Applications
 
 ## How generative adversarial nets are used to make our life better
 
@@ -32,11 +30,15 @@ In this article, we’ll tell you how generative adversarial nets work and what 
 
 To explain GANs’ concept let us use an analogy.
 
+![]("/assets/images/gans/1.jpeg"){: .align-left}
+
 Imagine you want to buy good watches. If you never buy them it’s very likely that you can’t distinguish brand watches from fake ones. You have to be experienced to not let yourself be fooled by the seller.
 
 As you start to label most of the watches as fake (after a number of mistakes of course), the seller will start to “generate” more compelling copies of the watches. This example demonstrates the behavior of generative adversarial networks: Discriminator (watches buyer) and Generator (seller of fake watches).
 
 These two networks, Discriminator and Generator, are contesting with each other. This technique allows the generation of realistic objects (e.g. images). The Generator is forced to generate samples that look real and the Discriminator learns to distinguish generated samples and samples from real data.
+
+![]("/assets/images/gans/2.jpeg"){: .align-center}
 
 What’s the difference between discriminative and generative algorithms? In brief: discriminative algorithms learn the boundaries between classes (as the Discriminator does) while generative algorithms learn the distribution of classes (as the Generator does).
 
@@ -46,16 +48,22 @@ To learn the Generator’s distribution, p_g over data x, the distribution on in
 The Discriminator is trained to maximize the probability of assigning the correct label to both examples of real data and generated samples. While the Generator is trained to minimize log(1 — D(G(z))). In other words — to minimize the probability of the Discriminator’s correct answer.
 It is possible to consider such a training task as minimax game with value function V(G, D):
 
+![]("/assets/images/gans/3.jpeg"){: .align-center}
+
 In other words — the Generator tries harder to fool the Discriminator and the Discriminator becomes more captious in order to not be fooled by the Generator.
 
 “```Adversarial training is the coolest thing since sliced bread.```” — Yann LeCun
+
 The process of training stops when the Discriminator is unable to distinguish p_g and p_data, i.e. D(x, θ_d) = 1/2. Equilibrium between errors of the Generator and the Discriminator is established.
 
 ## Image retrieval for historical archives
 
 An interesting example of GANs applications is retrieving visually similar marks in “Prize Papers,” one of the most valuable archives in the field of maritime history. Adversarial nets make it easier to work with documents of historical importance containing information about the legitimacy of ship captures at sea.
 
+![]("/assets/images/gans/4.jpeg"){: .align-center}
+
 Adversarial Training For Sketch Retrieval
+
 Each query contains examples of Merchant Marks — unique identification of property of a merchant, sketch-like symbols that are similar to hieroglyphs.
 
 Feature representation of every mark should be obtained, but there are some problems of applying conventional machine and deep learning methods (including Convolutional neural networks):
@@ -70,11 +78,19 @@ This new approach shows how to extract and learn features from images of the Mer
 
 Other researchers showed that it’s possible to use descriptive properties of natural language to generate corresponding images. A method of text translation into images allows the illustration of the performance of generative models to mimic samples of real data.
 
+![]("/assets/images/gans/5.jpeg"){: .align-center}
+
 The main problem of image generation is that image distribution is multimodal. For example, there are many correct samples that correctly illustrate the description. GANs help to solve this problem.
 
+![]("/assets/images/gans/6.jpeg"){: .align-left}
+
 Let’s consider the following task of mapping the blue input dot to the green output dot (green dots are possible outputs to blue dot). This red arrow indicates the error of prediction and means that after some time the blue dot will be mapped to the mean of the green dots — this exact thing causes the blurry images we are trying to predict.
+
 Generative adversarial nets don’t directly use pairs of inputs and outputs. Instead, they learn how the inputs and outputs can be paired.
+
 Here are the examples of generated images from text descriptions:
+
+![]("/assets/images/gans/7.jpeg"){: .align-center}
 
 ## Datasets that were used to train GANs:
 - Caltech-UCSD-200–2011 is an image dataset with photos of 200 bird species. Total number of images is 11,788;
@@ -84,25 +100,40 @@ Here are the examples of generated images from text descriptions:
 While others apply generative adversarial networks to images and videos, researchers from Insilico Medicine proposed an approach of artificially intelligent drug discovery using GANs.
 The goal is to train the Generator to sample drug candidates for a given disease as precisely as possible to existing drugs from a Drug Database.
 
+![]("/assets/images/gans/8.jpeg"){: .align-center}
+
 After training, it’s possible to generate a drug for a previously incurable disease using the Generator, and using the Discriminator to determine whether the sampled drug actually cures the given disease.
 
 ## Molecule development in oncology
 Another research by Insilico Medicine showed the pipeline of generating new anticancer molecules with a defined set of parameters. The aim is to predict drug responses and compounds which are good at fighting against cancer cells.
+
 Researchers proposed an Adversarial Autoencoder (AAE) model for identification and generation of new compounds based on available biochemical data.
 
-## Adversarial Autoencoders
-“To the best of our knowledge, this is the first application of GANs techniques within the field of cancer drug discovery.” — say the researchers.
+![]("/assets/images/gans/9.jpeg"){: .align-center}
+
+Adversarial Autoencoders
+
+“```To the best of our knowledge, this is the first application of GANs techniques within the field of cancer drug discovery.```” — say the researchers.
+
 There are many available biochemical data in databases such as Cancer Cell Line Encyclopedia (CCLE), Genomics of Drug Sensitivity in Cancer (GDSC), and NCI-60 cancer cell line collection. All of them contain screening data for different drug experiments against cancer.
 
+![]("/assets/images/gans/10.jpeg"){: .align-center}
+
 Adversarial Autoencoder was trained using Growth Inhibition percentage data (GI, which shows the reduction in the number of cancer cells after the treatment), drug concentrations, and fingerprints as inputs.
+
 The fingerprint of the molecule contains a fixed number of bits in which each bit represents the absence or presence of some feature.
+
+![]("/assets/images/gans/11.jpeg"){: .align-center}
 
 The latent layer consists of 5 neurons, one of which is responsible for GI (efficiency against cancer cells) and the four others are discriminated with normal distribution. So, a regression term was added to the Encoder cost function. Furthermore, the Encoder was restricted to map the same fingerprint to the same latent vector, independently from input concentration by additional manifold cost.
 
+![]("/assets/images/gans/12.jpeg"){: .align-center}
+
 After training, it is possible to generate molecules from a desired distribution and use a GI-neuron as a tuner of output compounds.
+
 Results of this work are the following: the trained AAE model predicted compounds that are already proven to be anticancer agents and new untested compounds that should be validated with experiments on anticancer activity.
 
-```Our results suggest that the proposed AAE model significantly enhances the capacity and efficiency of development of the new molecules with specific anticancer properties using the deep generative models.```
+"```Our results suggest that the proposed AAE model significantly enhances the capacity and efficiency of development of the new molecules with specific anticancer properties using the deep generative models.```"
 
 ## Conclusion
 
@@ -123,3 +154,7 @@ Below, we give you a few helpful resources to learn more about adversarial nets.
 - “Generative Visual Manipulation on the Natural Image Manifold” by Adobe Research [github]
 - “Unsupervised Cross-Domain Image Generation” by Facebook AI Research [github]
 - “Image-to-Image Translation with Conditional Adversarial Networks” by Berkeley AI Research [github]
+
+
+
+[Source](https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47)
