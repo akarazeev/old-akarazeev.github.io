@@ -11,7 +11,11 @@ tags:
 - SimulaQron
 - Quantum
 layout: post
+header:
+  teaser: "/assets/images/quantum-internet-hackathon/header.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 [Объявление про хакатон](https://labs.ripe.net/Members/becha/join-the-quantum-internet-hackathon-2018)
 
@@ -27,3 +31,7 @@ layout: post
 С этим SimulaQron’ом ребята делали разные проекты — квантовый алгоритм для блокчейна/биткона, квантовые подписи, визуализация качества канала связи между участниками сети (например Алисой и Бобом), квантовый мессенджер, ...
 
 Очень много нетворкинга, почти с каждым удалось поговорить. Помимо физтехов участие приняли физики и разработчики со всего мира — из Канады, Японии, EU, ...
+
+![](/assets/images/quantum-internet-hackathon/image1.jpg)
+
+![](/assets/images/quantum-internet-hackathon/image2.jpg)
