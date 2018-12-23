@@ -13,7 +13,11 @@ tags:
 - Atom
 - Etcher
 layout: post
+header:
+  teaser: "/assets/images/macos.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 Mac OS пользуюсь я уже довольно давно. За это время много чего перепробовал и много с чем сталкивался. Сейчас же я хочу сделать что-то типа сводки "удобных" программ и расширений для работы.
 

@@ -13,7 +13,11 @@ tags:
 - Atom
 - Etcher
 layout: post
+header:
+  teaser: "/assets/images/macos.jpg"
 ---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
 
 I've been using Mac OS for a pretty long time. During this period I tried a lot of things and met some problems. Now I want to make something like a list of useful programs and extensions that will make workflow more effective.
 
