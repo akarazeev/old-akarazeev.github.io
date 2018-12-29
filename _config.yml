@@ -111,7 +111,7 @@ author:
   links:
     - label: "My Curriculum Vitae"
       icon: "fas fa-fw fa-link"
-      url: "https://akarazeev.github.io/data/cv.pdf"
+      url: "https://akarazeev.github.io/assets/data/cv.pdf"
   #   - label: "Email"
   #     icon: "fas fa-fw fa-envelope-square"
   #     url: mailto:anton.karazeev@gmail.com
