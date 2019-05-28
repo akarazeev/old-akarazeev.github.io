@@ -1,5 +1,5 @@
 ---
-title: Ender 3. My first 3D printer
+title: Ender 3 - My first 3D printer
 lang: ru
 ref: enderunboxing190107
 date: 2019-01-07 15:00:00 +03:00
