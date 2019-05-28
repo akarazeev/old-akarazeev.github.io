@@ -37,6 +37,16 @@
     <p class="page__meta"> {{ post.date | date: "%B %e, %Y" }} </p>
 
     {% if include.type != "grid" %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | relative_url }}"
+          {% endif %}
+          alt=""
+          width="40%">
+      </a>
       <p class="archive__item-excerpt" itemprop="description">{{ post.content | strip_html | markdownify | strip_html | truncate: 160 }}</p>
     {% endif %}
   </article>

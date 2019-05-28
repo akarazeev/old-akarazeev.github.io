@@ -36,7 +36,7 @@ search                   : false # true, false (default)
 #   powered_by             : true # true (default), false
 
 # SEO Related.
-google_site_verification : "yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8" # Replace this with your ID, or delete.
+google_site_verification : "yC27Uiv932X1t3mxBkUyluvBa9whNH-xs0iNiWTpmD8"
 
 # Social Sharing.
 twitter:
