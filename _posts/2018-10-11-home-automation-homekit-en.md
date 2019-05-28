@@ -18,43 +18,43 @@ toc_icon: "lightbulb"
 header:
   teaser: "/assets/images/rpi-homekit.png"
 gallery0:
-  - url: /assets/images/home-ios-center.jpg
-    image_path: /assets/images/home-ios-center.jpg
+  - url: /assets/images/homekit18/home-ios-center.jpg
+    image_path: /assets/images/homekit18/home-ios-center.jpg
     title: "Центр Управления"
-  - url: /assets/images/home-ios-centeracc.jpg
-    image_path: /assets/images/home-ios-centeracc.jpg
+  - url: /assets/images/homekit18/home-ios-centeracc.jpg
+    image_path: /assets/images/homekit18/home-ios-centeracc.jpg
     title: "Подключённые устройства"
-  - url: /assets/images/home-ios-add.jpg
-    image_path: /assets/images/home-ios-add.jpg
+  - url: /assets/images/homekit18/home-ios-add.jpg
+    image_path: /assets/images/homekit18/home-ios-add.jpg
     title: "Подключение нового устройства"
-  - url: /assets/images/home-ios-lamp.jpg
-    image_path: /assets/images/home-ios-lamp.jpg
+  - url: /assets/images/homekit18/home-ios-lamp.jpg
+    image_path: /assets/images/homekit18/home-ios-lamp.jpg
     title: "Настройка подключённой лампы"
 gallery1:
-  - url: /assets/images/home-ios-main.jpg
-    image_path: assets/images/home-ios-main.jpg
+  - url: /assets/images/homekit18/home-ios-main.jpg
+    image_path: /assets/images/homekit18/home-ios-main.jpg
     title: "Главный экран в программе Home"
-  - url: /assets/images/home-ios-office.jpg
-    image_path: /assets/images/home-ios-office.jpg
+  - url: /assets/images/homekit18/home-ios-office.jpg
+    image_path: /assets/images/homekit18/home-ios-office.jpg
     title: "Список устройств в комнате Office"
-  - url: /assets/images/home-ios-dining.jpg
+  - url: /assets/images/homekit18/home-ios-dining.jpg
     image_path: assets/images/home-ios-dining.jpg
     title: "Список устройств в комнате Dining Room"
-  - url: /assets/images/home-ios-automation.jpg
-    image_path: /assets/images/home-ios-automation.jpg
+  - url: /assets/images/homekit18/home-ios-automation.jpg
+    image_path: /assets/images/homekit18/home-ios-automation.jpg
     title: "Раздел автоматизации"
 gallery2:
-  - url: /assets/images/home-mac-main.jpg
-    image_path: assets/images/home-mac-main.jpg
+  - url: /assets/images/homekit18/home-mac-main.jpg
+    image_path: /assets/images/homekit18/home-mac-main.jpg
     title: "Главный экран в программе Home"
-  - url: /assets/images/home-mac-office.jpg
-    image_path: /assets/images/home-mac-office.jpg
+  - url: /assets/images/homekit18/home-mac-office.jpg
+    image_path: /assets/images/homekit18/home-mac-office.jpg
     title: "Список устройств в комнате Office"
-  - url: /assets/images/home-mac-dining.jpg
-    image_path: assets/images/home-mac-dining.jpg
+  - url: /assets/images/homekit18/home-mac-dining.jpg
+    image_path: /assets/images/homekit18/home-mac-dining.jpg
     title: "Список устройств в комнате Dining Room"
-  - url: /assets/images/home-mac-automation.jpg
-    image_path: /assets/images/home-mac-automation.jpg
+  - url: /assets/images/homekit18/home-mac-automation.jpg
+    image_path: /assets/images/homekit18/home-mac-automation.jpg
     title: "Раздел автоматизации"
 ---
 
@@ -150,7 +150,7 @@ sudo npm install -g --unsafe-perm homebridge
 ```
 
 Проверим, что всё установилось как надо. Для этого надо запустить команду `homebridge`:
-![alt](/assets/images/homebridge.jpg){: .align-center}
+![alt](/assets/images/homekit18/homebridge.jpg){: .align-center}
 
 **На всякий случай!** Если на каком-то этапе возникли трудности, то стоит поискать информацию в [репозитории `homebridge`](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi), [посмотреть хороший туториал](https://www.youtube.com/watch?v=g4Smfn1Q5Qc) по установке `homebridge`, либо же написать мне удобным для тебя способом.
 {: .notice--warning}

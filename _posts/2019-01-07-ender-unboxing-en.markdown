@@ -9,6 +9,8 @@ tags:
 - Ender
 - Printer
 layout: post
+header:
+  teaser: "/assets/images/ender-unboxing.jpg"
 ---
 
 {% include video id="5-3zIDLV_0o" provider="youtube" %}

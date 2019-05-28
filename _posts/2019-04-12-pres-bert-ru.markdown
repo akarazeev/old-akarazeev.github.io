@@ -1,6 +1,5 @@
 ---
-title: BERT: Pre-training of Deep Bidirectional
-Transformers for Language Understanding
+title: BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding
 lang: ru
 ref: presbert190412
 date: 2019-04-12 03:00:01 +03:00

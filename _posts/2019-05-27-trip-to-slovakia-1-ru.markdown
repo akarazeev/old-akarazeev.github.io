@@ -13,6 +13,8 @@ tags:
 - Zoom
 - GoPro
 layout: post
+header:
+  teaser: "/assets/images/slovakia1.jpg"
 ---
 
 Первая серия путешествий по Словакии

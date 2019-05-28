@@ -13,6 +13,12 @@ tags:
 - Zoom
 - GoPro
 layout: post
+header:
+  teaser: "/assets/images/slovakia1.jpg"
 ---
+
+Первая серия путешествий по Словакии
+
+Переночевали в Братиславе (Bratislava) и отправились на поезде в Попрад (Poprad), откуда на электричке поднялись в горы до станции Pod Lesom. Затем отправились пешком покорять Высокие Татры (Vysoké Tatry)
 
 {% include video id="ul7EjIZEJLE" provider="youtube" %}
