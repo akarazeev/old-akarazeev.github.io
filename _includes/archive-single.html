@@ -51,6 +51,7 @@
           </a>
         </div>
       {% endif %}
+
       <p class="archive__item-excerpt" itemprop="description">{{ post.content | strip_html | markdownify | strip_html | truncate: 160 }}</p>
     {% endif %}
   </article>
