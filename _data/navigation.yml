@@ -1,28 +1,28 @@
 # main links.
 main:
   en:
+    - title: "Blog"
+      url: /blog-en/
+    - title: "MIPT SciTech Club"
+      url: /mipt-scitech-club-en/
     - title: "About"
       url: /en
     - title: "Projects"
       url: /projects-en/
     - title: "Art"
       url: /art-en/
-    - title: "Blog"
-      url: /blog-en/
     - title: "Tags"
       url: /tags-en/
-    - title: "MIPT SciTech Club"
-      url: /mipt-scitech-club-en/
   ru:
+    - title: "Блог"
+      url: /blog-ru/
+    - title: "MIPT SciTech Club"
+      url: /mipt-scitech-club-ru/
     - title: "Про меня"
       url: /ru
     - title: "Проекты"
       url: /projects-ru/
     - title: "Арт"
       url: /art-ru/
-    - title: "Блог"
-      url: /blog-ru/
     - title: "Тэги"
       url: /tags-ru/
-    - title: "MIPT SciTech Club"
-      url: /mipt-scitech-club-ru/
