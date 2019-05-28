@@ -10,6 +10,8 @@ tags:
 - Neural Network
 - Capsule Network
 - Regularization
+header:
+  teaser: "/assets/images/mipt-club/dl10.jpg"
 ---
 
 _Danil Lykov_ about Hinton's paper on ["Dynamic Routing Between Capsules"](https://arxiv.org/abs/1710.09829)

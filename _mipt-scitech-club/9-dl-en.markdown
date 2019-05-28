@@ -10,6 +10,8 @@ tags:
 - Neural Network
 - Language Modeling
 - Image Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl9.jpg"
 ---
 
 _Emil Zakirov_ about ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)

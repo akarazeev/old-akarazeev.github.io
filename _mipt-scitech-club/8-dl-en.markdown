@@ -9,6 +9,8 @@ tags:
 - Apple
 - GANs
 - Image Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl8.jpg"
 ---
 
 ["Improving the Realism of Synthetic Images"](https://arxiv.org/pdf/1612.07828.pdf) - _Anton Karazeev_ about paper by Apple ([Machine Learning Journal](https://machinelearning.apple.com/2017/07/07/GAN.html))

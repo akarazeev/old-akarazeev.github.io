@@ -9,6 +9,8 @@ tags:
 - Apple
 - GANs
 - Image Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl8.jpg"
 ---
 
 Повышение реалистичности синтезированных изображений (конкретно в этом случае - изображений глаз) - _Anton Karazeev_ про статью от Apple: ["Improving the Realism of Synthetic Images"](https://arxiv.org/pdf/1612.07828.pdf) (в блоге [Machine Learning Journal](https://machinelearning.apple.com/2017/07/07/GAN.html))

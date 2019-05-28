@@ -9,6 +9,8 @@ tags:
 - Neural Network
 - Language Modeling
 - Image Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl9.jpg"
 ---
 
 Очень большие нейронные сети, состоящие из слоев экспертов - _Emil Zakirov_ про ["Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"](https://arxiv.org/abs/1701.06538)

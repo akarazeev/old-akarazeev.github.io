@@ -9,6 +9,8 @@ tags:
 - Face Recognition
 - DeepFace
 - Facebook
+header:
+  teaser: "/assets/images/mipt-club/dl7.jpg"
 ---
 
 System for face recognition - _Danil Lykov_ about ["DeepFace"](https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/) by Facebook
