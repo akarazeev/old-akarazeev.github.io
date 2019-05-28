@@ -38,7 +38,7 @@ gallery1:
     image_path: /assets/images/homekit18/home-ios-office.jpg
     title: "Список устройств в комнате Office"
   - url: /assets/images/homekit18/home-ios-dining.jpg
-    image_path: assets/images/home-ios-dining.jpg
+    image_path: /assets/images/homekit18/home-ios-dining.jpg
     title: "Список устройств в комнате Dining Room"
   - url: /assets/images/homekit18/home-ios-automation.jpg
     image_path: /assets/images/homekit18/home-ios-automation.jpg
@@ -150,7 +150,7 @@ sudo npm install -g --unsafe-perm homebridge
 ```
 
 Проверим, что всё установилось как надо. Для этого надо запустить команду `homebridge`:
-![alt](/assets/images/homekit18/homebridge.jpg){: .align-center}
+![alt](/assets/images/homebridge.jpg){: .align-center}
 
 **На всякий случай!** Если на каком-то этапе возникли трудности, то стоит поискать информацию в [репозитории `homebridge`](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi), [посмотреть хороший туториал](https://www.youtube.com/watch?v=g4Smfn1Q5Qc) по установке `homebridge`, либо же написать мне удобным для тебя способом.
 {: .notice--warning}
