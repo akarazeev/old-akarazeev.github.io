@@ -5,8 +5,8 @@ lang: en
 ref: botc180401
 date: 2018-04-01 03:00:01 +03:00
 tags:
-- Telegram
-- Chatbot
+- Telegram💬
+- Chatbot🤖
 - Python
 - Instagram
 layout: post

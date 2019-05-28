@@ -5,7 +5,7 @@ ref: projcameraslider160803
 date: 2016-08-03 03:00:01 +03:00
 tags:
 - Slider
-- DIY
+- DIY🛠
 - Python
 - Raspberry Pi
 layout: post

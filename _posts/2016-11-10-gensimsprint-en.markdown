@@ -7,7 +7,7 @@ date: 2016-11-10 03:00:01 +03:00
 tags:
 - Gensim
 - Sprint
-- Russia
+- Russia🇷🇺
 - Moscow
 - HSE
 layout: post

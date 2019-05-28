@@ -4,9 +4,9 @@ lang: ru
 ref: hackjunction2017171129
 date: 2017-11-29 03:00:01 +03:00
 tags:
-- Hackathon
+- Hackathon👨‍💻
 - Junction
-- Finland
+- Finland🇫🇮
 - Helsinki
 layout: post
 header:

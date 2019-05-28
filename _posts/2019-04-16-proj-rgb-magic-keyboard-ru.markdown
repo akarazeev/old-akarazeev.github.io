@@ -5,12 +5,12 @@ ref: projrgbmagickeyboard190416
 date: 2019-04-16 03:00:01 +03:00
 tags:
 - Keyboard
-- DIY
-- Apple
+- DIY🛠
+- Apple🍎
 - Wemos
 - Arduino
 - LED
-- RGB
+- RGB🌈
 - WS2811
 - 3D Printing
 - Creozone

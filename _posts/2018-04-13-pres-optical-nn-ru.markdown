@@ -7,7 +7,7 @@ tags:
 - Optical
 - Neural Network
 - Quantum
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/optical_nn.jpg"

@@ -7,7 +7,7 @@ date: 2017-08-05 03:00:01 +03:00
 tags:
 - School
 - Bioinformatics
-- Russia
+- Russia🇷🇺
 - Moscow
 - MIPT
 layout: post

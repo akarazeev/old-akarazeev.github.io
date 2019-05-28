@@ -6,7 +6,7 @@ ref: projjoystick160606
 date: 2016-06-06 03:00:01 +03:00
 tags:
 - Joystick
-- DIY
+- DIY🛠
 - Python
 - Raspberry Pi
 layout: post

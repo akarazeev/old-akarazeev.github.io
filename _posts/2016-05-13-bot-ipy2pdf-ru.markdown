@@ -5,7 +5,7 @@ ref: botipy2pdf160513
 date: 2016-05-13 03:00:01 +03:00
 tags:
 - MIPT
-- Telegram
+- Telegram💬
 - Bot
 - Jupyter
 layout: post

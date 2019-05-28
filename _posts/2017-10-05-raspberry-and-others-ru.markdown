@@ -8,8 +8,8 @@ tags:
 - AirPlay
 - AirPrint
 - HomeKit
-- Telegram
-- Chatbot
+- Telegram💬
+- Chatbot🤖
 - Git
 - Python
 layout: post

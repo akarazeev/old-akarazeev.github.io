@@ -8,7 +8,7 @@ tags:
 - BERT
 - Text Mining
 - Extraction
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/bert.jpg"

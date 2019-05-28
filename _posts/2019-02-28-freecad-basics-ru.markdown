@@ -6,8 +6,8 @@ date: 2019-02-28 03:00:01 +03:00
 tags:
 - FreeCAD
 - CAD
-- Tutorial
-- 3d Printing
+- Tutorial👨‍🏫
+- 3D Printing
 - STL
 layout: post
 header:

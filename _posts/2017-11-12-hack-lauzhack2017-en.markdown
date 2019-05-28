@@ -5,8 +5,8 @@ lang: en
 ref: hacklauzhack2017171112
 date: 2017-11-12 03:00:01 +03:00
 tags:
-- Hackathon
-- Switzerland
+- Hackathon👨‍💻
+- Switzerland🇨🇭
 - EPFL
 - Lausanne
 layout: post

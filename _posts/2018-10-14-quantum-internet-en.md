@@ -4,9 +4,9 @@ lang: en
 ref: quantumhackathon
 date: 2018-10-14 15:00:00 +03:00
 tags:
-- Hackathon
+- Hackathon👨‍💻
 - Amsterdam
-- Netherlands
+- Netherlands🇳🇱
 - TU Delft
 - SimulaQron
 - Quantum

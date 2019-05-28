@@ -8,7 +8,7 @@ tags:
 - Python
 - TensorFlow
 - NLP
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/context_prediction.jpg"

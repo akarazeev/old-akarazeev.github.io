@@ -5,9 +5,9 @@ ref: botqctg180510
 date: 2018-05-10 03:00:01 +03:00
 tags:
 - IBM Q
-- Telegram
-- QISKit
-- Chatbot
+- Telegram💬
+- QISKit💫
+- Chatbot🤖
 - Quantum
 - Quantum Computing
 - Python

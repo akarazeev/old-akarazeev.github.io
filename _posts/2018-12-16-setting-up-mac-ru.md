@@ -4,8 +4,8 @@ lang: ru
 ref: settingupmac181216
 date: 2018-12-16 15:00:00 +03:00
 tags:
-- Mac
-- macOS
+- Mac🍎
+- Mac🍎OS
 - Jupyter
 - Blu-ray
 - Python

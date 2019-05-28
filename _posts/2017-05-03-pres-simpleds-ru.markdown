@@ -6,7 +6,7 @@ date: 2017-05-03 03:00:01 +03:00
 tags:
 - Dialogue Systems
 - Reinforcement Learning
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/simpleds.jpg"

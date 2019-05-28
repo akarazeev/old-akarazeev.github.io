@@ -7,7 +7,7 @@ tags:
 - Quantum
 - Quantum Computing
 - IBM
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/quantum_programs.jpg"

@@ -7,7 +7,7 @@ tags:
 - Raspberry Pi
 - Home Automation
 - HomeKit
-- Apple
+- Apple🍎
 - Plugins
 - homebridge
 layout: post

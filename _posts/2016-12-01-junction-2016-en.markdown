@@ -5,9 +5,9 @@ lang: en
 ref: junction2016161201
 date: 2016-12-1 03:13:00 +03:00
 tags:
-- Hackathon
+- Hackathon👨‍💻
 - Junction
-- Finland
+- Finland🇫🇮
 - Helsinki
 layout: post
 ---

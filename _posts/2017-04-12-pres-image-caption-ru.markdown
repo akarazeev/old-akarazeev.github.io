@@ -8,7 +8,7 @@ tags:
 - Image Captioning
 - Computer Vision
 - Attention
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/image_caption.jpg"

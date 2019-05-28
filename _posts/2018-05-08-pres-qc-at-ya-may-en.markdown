@@ -12,7 +12,7 @@ tags:
 - Rigetti
 - Xanadu
 - Russian Quantum Center
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/qc_at_ya_may.jpg"

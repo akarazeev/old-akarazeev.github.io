@@ -5,7 +5,7 @@ ref: deepbayes170830
 date: 2017-08-30 03:00:01 +03:00
 tags:
 - School
-- Russia
+- Russia🇷🇺
 - HSE
 - Moscow
 layout: post

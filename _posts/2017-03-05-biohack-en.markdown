@@ -5,9 +5,9 @@ lang: en
 ref: biohack170305
 date: 2017-03-05 03:00:01 +03:00
 tags:
-- Hackathon
+- Hackathon👨‍💻
 - Bioinformatics
-- Russia
+- Russia🇷🇺
 - Saint-Petersburg
 - ITMO
 layout: post

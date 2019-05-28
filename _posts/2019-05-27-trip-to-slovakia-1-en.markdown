@@ -4,10 +4,10 @@ lang: en
 ref: triptoslovakia190527
 date: 2019-05-27 03:00:01 +03:00
 tags:
-- Slovakia
+- Slovakia🇸🇰
 - Trip
 - Poprad
-- High Tatras
+- High Tatras🏔
 - Bratislava
 - DJI
 - Zoom

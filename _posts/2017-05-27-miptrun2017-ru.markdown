@@ -5,8 +5,8 @@ ref: miptrun2017170527
 date: 2017-05-27 03:00:01 +03:00
 tags:
 - MIPT
-- MIPT Run
-- Running
+- MIPT Run🏃‍
+- Running👟
 layout: post
 header:
   teaser: "/assets/images/miptrun2017.jpg"

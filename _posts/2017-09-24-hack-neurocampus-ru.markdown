@@ -4,8 +4,8 @@ lang: ru
 ref: hackneurocampus170924
 date: 2017-09-24 03:00:01 +03:00
 tags:
-- Hackathon
-- Russia
+- Hackathon👨‍💻
+- Russia🇷🇺
 - Moscow
 - Skolkovo
 layout: post

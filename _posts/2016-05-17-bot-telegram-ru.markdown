@@ -4,8 +4,8 @@ lang: ru
 ref: bottelegram160517
 date: 2016-05-17 03:00:01 +03:00
 tags:
-- Telegram
-- Chatbot
+- Telegram💬
+- Chatbot🤖
 - Python
 - Raspberry Pi
 layout: post

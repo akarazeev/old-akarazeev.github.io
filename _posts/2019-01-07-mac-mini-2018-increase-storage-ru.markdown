@@ -4,10 +4,10 @@ lang: ru
 ref: macmini2018increasestorage190103
 date: 2019-01-03 15:00:00 +03:00
 tags:
-- Mac mini
-- Apple
+- Mac🍎 mini
+- Apple🍎
 - Storage
-- Mac
+- Mac🍎
 layout: post
 header:
   teaser: "/assets/images/mac-mini-storage-ru.jpg"

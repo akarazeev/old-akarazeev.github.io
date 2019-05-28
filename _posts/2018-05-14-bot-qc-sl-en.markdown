@@ -7,8 +7,8 @@ date: 2018-05-14 03:00:01 +03:00
 tags:
 - IBM Q
 - Slack
-- QISKit
-- Chatbot
+- QISKit💫
+- Chatbot🤖
 - Quantum
 - Quantum Computing
 - Python

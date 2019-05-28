@@ -6,9 +6,9 @@ ref: hackqch180518
 date: 2018-05-18 03:00:01 +03:00
 tags:
 - Quantum
-- Hackathon
+- Hackathon👨‍💻
 - Skoltech
-- Russia
+- Russia🇷🇺
 - Moscow
 layout: post
 header:

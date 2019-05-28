@@ -6,7 +6,7 @@ ref: botparser180607
 date: 2018-06-07 03:00:01 +03:00
 tags:
 - MIPT
-- Telegram
+- Telegram💬
 - Bot
 layout: post
 header:

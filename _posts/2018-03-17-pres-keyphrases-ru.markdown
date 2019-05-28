@@ -8,7 +8,7 @@ tags:
 - Keyphrases
 - Text Mining
 - Extraction
-- Presentation
+- Presentation🎯
 layout: post
 header:
   teaser: "/assets/images/keyphrases.jpg"

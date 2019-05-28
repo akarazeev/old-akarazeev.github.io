@@ -7,10 +7,10 @@ date: 2018-04-03 03:00:01 +03:00
 tags:
 - Quantum
 - Keypad
-- DIY
+- DIY🛠
 - Raspberry Pi
 - Quantum Computing
-- QISKit
+- QISKit💫
 - RQC
 - Russian Quantum Center
 layout: post

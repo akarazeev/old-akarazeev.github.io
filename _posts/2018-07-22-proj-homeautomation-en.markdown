@@ -5,7 +5,7 @@ lang: en
 ref: projhomeautomation180722
 date: 2018-07-22 15:00:00 +03:00
 tags:
-- DIY
+- DIY🛠
 - Raspberry Pi
 - Python
 - Home Automation
