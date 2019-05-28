@@ -10,6 +10,8 @@ tags:
 - NLP
 - Keyphrases
 - Embeddings
+header:
+  teaser: "/assets/images/mipt-club/dl12.jpg"
 ---
 
 _Anton Karazeev_ on classical methods of keyphrases extraction from (biomedical) texts: **statistical** (TF-IDF) and **graphical** (TextRank).

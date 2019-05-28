@@ -9,6 +9,8 @@ tags:
 - MIPT DL Club
 - Optical Neural Network
 - Quantum State Tomography
+header:
+  teaser: "/assets/images/mipt-club/q2.jpg"
 ---
 
 _Anton Karazeev_ about optical setups that can mimic the functionality of artificial neural networks (Optical Neural Networks) - paper [1], Nature, 2017.

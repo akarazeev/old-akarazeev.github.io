@@ -11,6 +11,8 @@ tags:
 - Physics
 - Tensor Networks
 - Graphical Models
+header:
+  teaser: "/assets/images/mipt-club/chertkov.jpg"
 ---
 
 _Michael Chertkov_ about "Science Application Informed Machine Learning" [ML in Physics, application of GANs to the problem of turbulence, controlling of energy networks in USA, etc.]

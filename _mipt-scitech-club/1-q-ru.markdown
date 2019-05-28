@@ -8,6 +8,8 @@ tags:
 - MIPT DL Club
 - RBM
 - Quantum State Tomography
+header:
+  teaser: "/assets/images/mipt-club/q1.jpg"
 ---
 
 _Anton Karazeev_ про применение нейронных сетей (Ограниченных машин Больцмана, RBM) для томографии квантовых состояний

@@ -11,6 +11,8 @@ tags:
 - Semantics
 - Taxonomies
 - Embeddings
+header:
+  teaser: "/assets/images/mipt-club/gaussier.jpg"
 ---
 
 Eric Gaussier (CUEF de Grenoble - Université Grenoble Alpes) about "Semantic annotation in the biomedical domain: large scale classification and BioASQ"

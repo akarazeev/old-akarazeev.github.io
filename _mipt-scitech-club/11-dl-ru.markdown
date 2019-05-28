@@ -9,6 +9,8 @@ tags:
 - Neural Network
 - Attention
 - GANs
+header:
+  teaser: "/assets/images/mipt-club/dl11.jpg"
 ---
 
 _Danil Lykov_ про применения attention-механизмов.

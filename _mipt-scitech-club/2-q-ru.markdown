@@ -8,6 +8,8 @@ tags:
 - MIPT DL Club
 - Optical Neural Network
 - Quantum State Tomography
+header:
+  teaser: "/assets/images/mipt-club/q2.jpg"
 ---
 
 _Anton Karazeev_ про оптические установки, которые могут повторять функционал нейронный сетей (Optical Neural Networks) - статья [1] в Nature, 2017 год.

@@ -10,6 +10,8 @@ tags:
 - Physics
 - Tensor Networks
 - Graphical Models
+header:
+  teaser: "/assets/images/mipt-club/chertkov.jpg"
 ---
 
 Михаил Чертков (Los Alamos National Laboratory, USA) про "Science Application Informed Machine Learning" [ML в физике, использование GAN'ов в задачах турбулентности, управление энергосетями в США, etc.]

@@ -9,6 +9,8 @@ tags:
 - MIPT DL Club
 - RBM
 - Quantum State Tomography
+header:
+  teaser: "/assets/images/mipt-club/q1.jpg"
 ---
 
 _Anton Karazeev_ on application of neural networks (Restricted Boltzmann Machines, RBM) for quantum state tomography qst

@@ -12,6 +12,8 @@ tags:
 - DNA
 - RNA
 - Proteins
+header:
+  teaser: "/assets/images/mipt-club/b1.jpg"
 ---
 
 _Daria Romanovskaia_ about Nature paper ["Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning"](https://www.nature.com/articles/nbt.3300)

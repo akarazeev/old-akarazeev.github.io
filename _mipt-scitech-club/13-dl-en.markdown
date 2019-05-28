@@ -11,6 +11,8 @@ tags:
 - Softmax
 - RNN
 - Language Modeling
+header:
+  teaser: "/assets/images/mipt-club/dl13.jpg"
 ---
 
 _Taras Khakhulin_ about ["Breaking the Softmax Bottleneck: A High-Rank RNN Language Model"](https://arxiv.org/abs/1711.03953)

@@ -10,6 +10,8 @@ tags:
 - Semantics
 - Taxonomies
 - Embeddings
+header:
+  teaser: "/assets/images/mipt-club/gaussier.jpg"
 ---
 
 Эрик Госье (Université Grenoble Alpes) про "Семантическое аннотирование и вопросно-ответные системы BioASQ"
