@@ -6,7 +6,7 @@ ref: 2q
 date: 2018-04-7 03:00:01 +03:00
 tags:
 - Neural Network
-- MIPT DL Club
+- MIPT Q Club
 - Optical Neural Network
 - Quantum State Tomography
 header:

@@ -5,7 +5,7 @@ ref: 1q
 date: 2018-03-03 03:00:01 +03:00
 tags:
 - Neural Network
-- MIPT DL Club
+- MIPT Q Club
 - RBM
 - Quantum State Tomography
 header:
