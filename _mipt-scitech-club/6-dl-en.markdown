@@ -9,6 +9,8 @@ tags:
 - MIPT DL Club
 - Tacotron
 - Speech Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl6.jpg"
 ---
 
 Synthesis of human speech from text - _Emil Zakirov_ about generative model “WaveNet” by google

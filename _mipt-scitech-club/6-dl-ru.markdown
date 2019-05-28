@@ -8,6 +8,8 @@ tags:
 - MIPT DL Club
 - Tacotron
 - Speech Synthesis
+header:
+  teaser: "/assets/images/mipt-club/dl6.jpg"
 ---
 
 Генерация человеческой речи по тексту - _Emil Zakirov_ про гугловую генеративную модель "WaveNet"
