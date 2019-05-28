@@ -1,5 +1,5 @@
 ---
-title: Science Application Informed Machine Learning
+title: Michael Chertkov - Science Application Informed Machine Learning
 lang: ru
 ref: michaelchertkov
 date: 2018-04-13 03:00:01 +03:00

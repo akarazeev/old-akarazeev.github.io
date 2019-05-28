@@ -1,5 +1,5 @@
 ---
-title: Eric Gaussier
+title: Eric Gaussier - Семантическое аннотирование и вопросно-ответные системы BioASQ
 lang: ru
 ref: ericgaussier
 date: 2018-06-08 03:00:01 +03:00

@@ -1,5 +1,5 @@
 ---
-title: MIPT Q Club \#2
+title: MIPT Quantum Club \#2
 redirect_from: "/2-q"
 lang: en
 ref: 2q

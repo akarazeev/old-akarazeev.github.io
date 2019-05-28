@@ -1,5 +1,5 @@
 ---
-title: MIPT Q Club \#2
+title: MIPT Quantum Club \#2
 lang: ru
 ref: 2q
 date: 2018-04-7 03:00:01 +03:00

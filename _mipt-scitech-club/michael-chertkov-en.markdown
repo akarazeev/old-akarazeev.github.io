@@ -1,5 +1,5 @@
 ---
-title: Science Application Informed Machine Learning
+title: Michael Chertkov - Science Application Informed Machine Learning
 redirect_from: "/michael-chertkov"
 lang: en
 ref: michaelchertkov

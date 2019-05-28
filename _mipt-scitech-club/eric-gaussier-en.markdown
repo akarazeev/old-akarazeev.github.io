@@ -1,5 +1,5 @@
 ---
-title: Eric Gaussier
+title: Eric Gaussier - Semantic annotation in the biomedical domain - large scale classification and BioASQ
 redirect_from: "/eric-gaussier"
 lang: en
 ref: ericgaussier

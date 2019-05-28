@@ -1,5 +1,5 @@
 ---
-title: MIPT DL Club \#13
+title: MIPT Deep Learning Club \#13
 lang: ru
 ref: 13dl
 date: 2018-03-30 03:00:01 +03:00

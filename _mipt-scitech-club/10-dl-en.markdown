@@ -1,5 +1,5 @@
 ---
-title: MIPT DL Club \#10
+title: MIPT Deep Learning Club \#10
 redirect_from: "/10-dl"
 lang: en
 ref: 10dl
