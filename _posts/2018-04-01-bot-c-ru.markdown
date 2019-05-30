@@ -1,5 +1,5 @@
 ---
-title: CropperBot
+title: CropperBot помогает делать посты для Инстаграм в виде Карусели (БЕСПЛАТНО)
 lang: ru
 ref: botc180401
 date: 2018-04-01 03:00:01 +03:00
@@ -14,5 +14,9 @@ header:
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
+
+Бот помогает делать креативные посты в Инстаграме, разбивая картинку на несколько -- чтобы потом их объединить в "Карусельный" пост. Для использования у вас должен быть установлен Телеграм - (@CropperBot)[https://t.me/CropperBot]
+
+Хороших постов :)
 
 [Project](https://github.com/akarazeevprojects/CropperBot)

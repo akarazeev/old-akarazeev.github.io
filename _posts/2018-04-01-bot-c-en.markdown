@@ -1,5 +1,5 @@
 ---
-title: CropperBot
+title: CropperBot helps to create Instagram Carousel Posts (for FREE)
 redirect_from: "/bot_c"
 lang: en
 ref: botc180401
@@ -15,5 +15,9 @@ header:
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
+
+The bot helps to make creative posts in Instagram using Carousel method. You have Telegram app installed to use this bot - (@CropperBot)[https://t.me/CropperBot]
+
+Happy posting :)
 
 [Project](https://github.com/akarazeevprojects/CropperBot)
