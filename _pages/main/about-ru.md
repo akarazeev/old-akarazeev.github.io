@@ -17,7 +17,7 @@ header:
   - label: GitHub
     url: https://github.com/akarazeev
   caption: 'Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)'
-excerpt: "Привет! Раз ты здесь, то наверное тебя заинтересовало какое-то из моих видео на youtube, какой-то из моих проектов на гитхабе... а может и нет"
+excerpt: "Привет! Раз ты здесь, то наверное тебя заинтересовало какое-то из моих видео на youtube, какой-то из моих проектов на гитхабе... а может и нет. Здесь можно проверить мой [Google Scholar](https://scholar.google.ru/citations?user=RkHuEJAAAAAJ&hl=en)"
 
 intro:
 - excerpt:  "На этом сайте я попытаюсь навести порядок и как-то структурировать свои идеи/проекты/etc. Возможно, тебе будет интереснее просто посетить мои профили -- [YouTube](http://youtube.com/c/AntonKarazeev), [Instagram](https://instagram.com/akarazeev), [GitHub](https://github.com/akarazeev)"

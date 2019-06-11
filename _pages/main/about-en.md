@@ -18,7 +18,7 @@ header:
   - label: GitHub
     url: https://github.com/akarazeev
   caption: 'Photo credit: [**Anton Karazeev**](https://instagram.com/akarazeev)'
-excerpt: "Hi! I'm glad to see you here. Suppose that you were interested with one of my videos on youtube, one of my projects on github... or probably not"
+excerpt: "Hi! I'm glad to see you here. Suppose that you were interested with one of my videos on youtube, one of my projects on github... or probably not. Here you can check out my [Google Scholar](https://scholar.google.ru/citations?user=RkHuEJAAAAAJ&hl=en)"
 
 intro:
 - excerpt:  "Here I'm trying to sort all the things that I've done (projects/ideas/etc.). Probably it's more interesting for you to visit my profiles -- [YouTube](http://youtube.com/c/AntonKarazeev), [Instagram](https://instagram.com/akarazeev), [GitHub](https://github.com/akarazeev)"
