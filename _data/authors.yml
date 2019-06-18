@@ -1,12 +1,18 @@
-# Authors.
+# Authors
 
-# Anton Karazeev:
-#   name        : "Anton Karazeev"
-#   # uri         : "https://akarazeev.github.io/"
-#   home        : "https://akarazeev.github.io/"
-#   email       : "anton.karazeev@gmail.com"
-#   bio         : "Hmmm, I'm Anton :)"
-#   avatar      : "/assets/images/anton-karazeev.jpg"
-#   twitter     : "antonkarazeev"
-#   facebook    : "anton.karazeev"
-#   instagram   : "akarazeev"
+Name Name:
+  name        : "Name Name"
+  uri         : "http://name.com"
+  email       : "name@name.com"
+  bio         : "This is the first name."
+  avatar      : "bio-photo-2.jpg"
+  twitter     : "name"
+  google_plus : "Name"
+
+Name2 Name2:
+  name        : "Name2 Name2"
+  email       : "name2@name2.com"
+  bio         : "I ordered what?"
+  avatar      : "bio-photo.jpg"
+  twitter     : "name2"
+  google_plus : "Name"
