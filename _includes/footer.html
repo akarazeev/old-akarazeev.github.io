@@ -1,5 +1,5 @@
 {% include base_path %}
-<div align="center" class="page__footer-follow">
+<div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -27,10 +27,11 @@
     {% endif %}
   </ul>
 </div>
-<div style="width: 100%; align: center;">
+<!-- <div style="width: 100%; align: center;" class="page__footer-copyright"> -->
+<div class="page__footer-map">
   <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=uExopPGR_UvWBy2ooILbk8Zx51b-TlMItGXyikhm4kg&cl=ffffff&w=a"></script>
 </div>
-<div align="center" class="page__footer-copyright">
+<div class="page__footer-copyright">
   <div style="padding-top: 5px;">
     &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   </div>

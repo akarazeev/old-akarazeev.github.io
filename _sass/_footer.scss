@@ -12,8 +12,7 @@
   /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
-  // height: auto;
-  height: 10%;
+  height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
   // color: mix(#fff, $gray, 25%);
@@ -22,8 +21,9 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  // background-color: $lighter-gray;
+  background-color: $lighter-gray;
   border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
 
   footer {
     @include clearfix;
@@ -58,6 +58,10 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+}
+
+.page__footer-map {
+
 }
 
 .page__footer-follow {
