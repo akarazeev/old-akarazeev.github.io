@@ -22,7 +22,7 @@ Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en)
 - <a style="text-decoration: none;" href="https://github.com/akarazeev/LegalTech"><img height="16" src="https://img.shields.io/github/stars/akarazeev/LegalTech.svg?color=gree&logo=github&logoColor=white"> <img height="16" src="https://img.shields.io/github/forks/akarazeev/LegalTech.svg?color=orange"></a> Legal Engine service (created during Junction2017)
 - <a style="text-decoration: none;" href="https://github.com/akarazeevprojects/StepperProjects"><img height="16" src="https://img.shields.io/github/stars/akarazeevprojects/StepperProjects.svg?color=gree&logo=github&logoColor=white"> <img height="16" src="https://img.shields.io/github/forks/akarazeevprojects/StepperProjects.svg?color=orange"></a> Set of projects with stepper motor (including demonstration of Quantum State Tomography)
 
-<!-- <embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%" /> -->
+<embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%" />
 
 <!-- <div style="margin-left: 30%; width: 300px; margin-top: 10px;">
   <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=uExopPGR_UvWBy2ooILbk8Zx51b-TlMItGXyikhm4kg&cl=ffffff&w=a"></script>
