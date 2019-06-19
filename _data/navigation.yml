@@ -2,12 +2,15 @@
 main:
   # - title: "Publications"
   #   url: /publications/
-  #
+
   # - title: "Talks"
   #   url: /talks/
-  #
+
   # - title: "Teaching"
   #   url: /teaching/
+
+  - title: "MIPT SciTech Club"
+    url: /mipt-scitech-club/
 
   # - title: "Portfolio"
   #   url: /portfolio/
