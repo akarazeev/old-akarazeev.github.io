@@ -1,0 +1,17 @@
+---
+title: MIPT Run 2017
+lang: ru
+ref: miptrun2017170527
+date: 2017-05-27 03:00:01 +03:00
+tags:
+- MIPT
+- MIPT Run🏃‍
+- Running👟
+layout: post
+header:
+  teaser: "/assets/images/miptrun2017.jpg"
+---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
+
+Забег

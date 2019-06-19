@@ -1,0 +1,18 @@
+---
+title: MIPT Quantum Club
+lang: ru
+ref: qmipt180101
+date: 2018-01-01 03:00:01 +03:00
+tags:
+- MIPT
+- Quantum
+- Club
+- Papers
+layout: post
+header:
+  teaser: "/assets/images/qmipt.jpg"
+---
+
+![image-center]({{ page.header.teaser }}){: .align-center}
+
+[MIPT Quantum Club](https://vk.com/qmipt)

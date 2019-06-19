@@ -1,5 +1,11 @@
 # main links links
 main:
+  - title: "MIPT SciTech Club"
+    url: /mipt-scitech-club/
+
+  - title: "Tags"
+    url: /tags/
+
   # - title: "Publications"
   #   url: /publications/
 
@@ -8,9 +14,6 @@ main:
 
   # - title: "Teaching"
   #   url: /teaching/
-
-  - title: "MIPT SciTech Club"
-    url: /mipt-scitech-club/
 
   # - title: "Portfolio"
   #   url: /portfolio/

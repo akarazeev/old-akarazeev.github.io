@@ -1,6 +1,6 @@
 ---
 title: Posts by Tag
-permalink: "/tags-en/"
+permalink: "/tags/"
 lang: en
 ref: tags
 
