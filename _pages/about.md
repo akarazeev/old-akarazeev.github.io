@@ -12,9 +12,9 @@ Hi!
 
 I'll add more information here soon.
 
-But for now you can check out [my projects](https://akarazeevprojects.github.io/en) and my CV (added below).
+But for now you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (listed below).
 
-<iframe src="assets/data/karazeev_cv.pdf" width="100%" height="500"></iframe>
+<iframe style="max-width: 100%; max-height: 300%;" src="assets/data/karazeev_cv.pdf"></iframe>
 
 My GitHub Projects:
 
