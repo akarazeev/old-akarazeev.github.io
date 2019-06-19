@@ -14,7 +14,7 @@ header:
   teaser: "/assets/images/mipt-club/gaussier.jpg"
 ---
 
-Эрик Госье (Université Grenoble Alpes) про "Семантическое аннотирование и вопросно-ответные системы BioASQ"
+_Эрик Госье_ (Université Grenoble Alpes) про "Семантическое аннотирование и вопросно-ответные системы BioASQ"
 
 - [BioASQ Challenge](http://bioasq.org/participate/challenges) (A challenge on large-scale
 biomedical semantic indexing and question answering)

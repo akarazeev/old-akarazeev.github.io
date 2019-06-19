@@ -15,7 +15,7 @@ header:
   teaser: "/assets/images/mipt-club/gaussier.jpg"
 ---
 
-Eric Gaussier (CUEF de Grenoble - Université Grenoble Alpes) about "Semantic annotation in the biomedical domain: large scale classification and BioASQ"
+_Eric Gaussier_ (CUEF de Grenoble - Université Grenoble Alpes) about "Semantic annotation in the biomedical domain: large scale classification and BioASQ"
 
 - [Eric Gaussier](http://ama.liglab.fr/~gaussier/)
 - [Presentation file with similar content](http://statlearn.sfds.asso.fr/wp-content/uploads/2015/04/3-Gaussier.pdf)
