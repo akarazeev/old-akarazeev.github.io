@@ -14,11 +14,6 @@ I'll add more information here soon.
 
 But for now you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (listed below).
 
-<!-- <iframe style="max-width: 100%; max-height: 300%;" width="200" src="assets/data/karazeev_cv.pdf"></iframe> -->
-<!-- <div width="10px">
-  <iframe width="100" src="assets/data/karazeev_cv.pdf"></iframe>
-</div> -->
-
 <embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="100%" />
 
 My GitHub Projects:
