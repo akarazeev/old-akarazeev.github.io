@@ -19,6 +19,8 @@ But for now you can check out my [projects](https://akarazeevprojects.github.io/
   <iframe width="100" src="assets/data/karazeev_cv.pdf"></iframe>
 </div>
 
+<embed src="assets/data/karazeev_cv.pdf" type="application/pdf" width="100%" height="600px" />
+
 My GitHub Projects:
 
 <a href="https://github.com/akarazeevprojects/joystick"><img height="16" src="https://img.shields.io/github/stars/akarazeevprojects/joystick.svg?color=gree&logo=github&logoColor=white"></a>
