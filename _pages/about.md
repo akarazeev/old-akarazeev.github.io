@@ -19,7 +19,7 @@ But for now you can check out my [projects](https://akarazeevprojects.github.io/
   <iframe width="100" src="assets/data/karazeev_cv.pdf"></iframe>
 </div> -->
 
-<embed src="assets/data/karazeev_cv.pdf" type="application/pdf" width="100%" height="100%" />
+<embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="100%" />
 
 My GitHub Projects:
 
