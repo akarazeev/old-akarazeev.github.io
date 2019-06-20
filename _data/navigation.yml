@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Blog Posts"
+    url: /blog-posts/
+
   - title: "MIPT SciTech Club"
     url: /mipt-scitech-club/
 
