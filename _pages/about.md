@@ -39,8 +39,6 @@ github_projects:
 
 Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (added below).
 
-<a href="assets/data/karazeev_cv.pdf"><embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%"/></a>
-
 <h3>Highlighted projects</h3>
 
 <ul>
@@ -52,3 +50,5 @@ Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en)
     </li>
   {% endfor %}
 </ul>
+
+<a href="assets/data/karazeev_cv.pdf"><embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%"/></a>
