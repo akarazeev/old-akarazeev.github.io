@@ -11,9 +11,11 @@ github_projects:
   - title: Quantum Keypad and Classical Joytick
     github_user: akarazeevprojects
     github_repo: joystick
+    post_url: /proj-quantum-keypad-en/
   - title: QISKit bot for Slack
     github_user: akarazeev
     github_repo: qiskit-slack-bot
+    post_url: /bot-qc-sl-en/
   - title: A series of jupyter notebooks dedicated to introduction to Quantum Computing
     github_user: RQC-QApp
     github_repo: Seminars
@@ -23,18 +25,23 @@ github_projects:
   - title: Analysis of methods and drugs discussed in papers submitted to PubMed (created during a hackathon on bioinformatics Biohack2017)
     github_user: akarazeev
     github_repo: BioHack2017
+    post_url: /biohack-en/
   - title: Reverse Engineering in Dispersion Engineering
     github_user: akarazeev
     github_repo: REDE
+    post_url: /proj-rede-en/
   - title: Automation for macOS that allows to launch Jupyter notebooks directly from Finder with double click
     github_user: akarazeev
     github_repo: click_click_ipynb
+    post_url: /proj-click-click-ipynb-en/
   - title: Legal Engine service (created during Junction2017)
     github_user: akarazeev
     github_repo: LegalTech
+    post_url: /hack-junction2017-en/
   - title: Set of projects with stepper motor (including demonstration of Quantum State Tomography)
     github_user: akarazeevprojects
     github_repo: StepperProjects
+    post_url: /demo-qst-en/
 ---
 
 Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (added below).
@@ -46,7 +53,12 @@ Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en)
     <li>
       {{ proj.title }}
       <br>
-      {% include github user=proj.github_user repo=proj.github_repo %}
+      <!-- {% if proj.post_url %}
+        {% include github user=proj.github_user repo=proj.github_repo %}
+      {% else %}
+        {% include github user=proj.github_user repo=proj.github_repo %} [<a href="{{ site.url }}{{ site.baseurl }}{{ proj.post_url }}">post</a>]
+      {% endif %} -->
+      {% include github user=proj.github_user repo=proj.github_repo %} {% if proj.post_url %} [<a href="{{ site.url }}{{ site.baseurl }}{{ proj.post_url }}">post</a>] {% endif %}
     </li>
   {% endfor %}
 </ul>
