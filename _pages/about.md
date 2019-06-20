@@ -44,7 +44,7 @@ github_projects:
     post_url: /demo-qst-en/
 ---
 
-Hi! Here you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (added below).
+Here you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (added below).
 
 <h3>Highlighted projects</h3>
 
