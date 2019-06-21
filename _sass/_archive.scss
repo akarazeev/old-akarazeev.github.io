@@ -45,7 +45,11 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  width: 70%;
+  margin: auto;
+
+  // margin-bottom: 0.25em;
+  margin-bottom: 0.1em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -87,6 +91,9 @@
 }
 
 .archive__item-excerpt {
+  width: 70%;
+  margin: auto;
+
   margin-top: 0;
   font-size: $type-size-6;
   text-align: center;
@@ -107,16 +114,17 @@
 }
 
 .archive__item-preview {
+  width: 70%;
+  height: 250px;
+  margin: auto;
   overflow: hidden;
   border: 5;
-
-  width: 40%;
-  margin: auto;
-
   img {
-    border-radius: 50px 20px 50px 20px;
-    border: 2px solid gray;
-    filter: grayscale(90%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid gray;
+    filter: grayscale(95%);
   }
 }
 
@@ -136,6 +144,8 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 50px;
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
