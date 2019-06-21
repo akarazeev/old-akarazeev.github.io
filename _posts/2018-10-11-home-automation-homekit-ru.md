@@ -16,7 +16,7 @@ toc_sticky: true
 toc_label: "Содержание"
 toc_icon: "lightbulb"
 header:
-  teaser: "/assets/images/rpi-homekit.png"
+  teaser: "/assets/images/rpi-homekit.jpg"
 gallery0:
   - url: /assets/images/homekit18/home-ios-center.jpg
     image_path: /assets/images/homekit18/home-ios-center.jpg
