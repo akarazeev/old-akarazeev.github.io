@@ -55,11 +55,6 @@ Here you can check out my [projects](https://akarazeevprojects.github.io/project
     <li>
       {{ proj.title }}
       <br>
-      <!-- {% if proj.post_url %}
-        {% include github user=proj.github_user repo=proj.github_repo %}
-      {% else %}
-        {% include github user=proj.github_user repo=proj.github_repo %} [<a href="{{ site.url }}{{ site.baseurl }}{{ proj.post_url }}">post</a>]
-      {% endif %} -->
       {% include github user=proj.github_user repo=proj.github_repo %} {% if proj.post_url %} [<a href="{{ site.url }}{{ site.baseurl }}{{ proj.post_url }}">post</a>] {% endif %}
     </li>
   {% endfor %}
