@@ -42,6 +42,29 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a {
+    color: #a01818;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
 
   a + a {
     opacity: 0.5;
@@ -67,10 +90,26 @@
 }
 
 .archive__item-teaser {
+  position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
+  }
+}
+
+.archive__item-preview {
+  position: relative;
+
+  overflow: hidden;
+  border: 5;
+
+  img {
+    border-radius: 50px 20px 50px 20px;
+    // border-bottom: 1px solid black;
+    border: 2px solid gray;
+    width: 40%;
   }
 }
 
