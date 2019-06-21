@@ -114,9 +114,11 @@
 }
 
 .archive__item-preview {
-  width: 70%;
+  width: 100%;
+  max-width: 500px;
   height: 250px;
   margin: auto;
+
   overflow: hidden;
   border: 5;
   img {
