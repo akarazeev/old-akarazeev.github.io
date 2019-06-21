@@ -65,4 +65,6 @@ Here you can check out my [projects](https://akarazeevprojects.github.io/en) and
   {% endfor %}
 </ul>
 
+<a href="/proj-quantum-keypad-en/"><img src="images/quantum_keypad.jpg" style="max-height: 150px; height: auto; width: auto;" class="align-center"></a>
+
 <a href="assets/data/karazeev_cv.pdf"><embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%"/></a>
