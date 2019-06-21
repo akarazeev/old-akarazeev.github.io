@@ -22,6 +22,7 @@
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
+        filter: grayscale(0%);
       }
     }
   }
@@ -108,13 +109,14 @@
 .archive__item-preview {
   overflow: hidden;
   border: 5;
-  
+
   width: 40%;
   margin: auto;
 
   img {
     border-radius: 50px 20px 50px 20px;
     border: 2px solid gray;
+    filter: grayscale(90%);
   }
 }
 

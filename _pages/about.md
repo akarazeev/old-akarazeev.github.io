@@ -43,6 +43,8 @@ github_projects:
     github_repo: StepperProjects
     post_url: /demo-qst-en/
 ---
+<!-- <img src="images/me_hand.png" style="max-height: 500px; height: auto; width: auto;" class="align-center"> -->
+<img src="images/me_hand.png" style="max-height: 500px; height: auto; width: auto;">
 
 Here you can check out my [projects](https://akarazeevprojects.github.io/en) and [CV](assets/data/karazeev_cv.pdf) (added below).
 
