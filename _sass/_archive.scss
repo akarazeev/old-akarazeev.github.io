@@ -27,6 +27,10 @@
   }
 }
 
+// .archive__item {
+//   border:1px solid black;
+// }
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -45,6 +49,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
 
   a {
     color: #a01818;
@@ -83,6 +88,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  text-align: center;
 
   & + p {
     text-indent: 0;
@@ -100,16 +106,15 @@
 }
 
 .archive__item-preview {
-  position: relative;
-
   overflow: hidden;
   border: 5;
+  
+  width: 40%;
+  margin: auto;
 
   img {
     border-radius: 50px 20px 50px 20px;
-    // border-bottom: 1px solid black;
     border: 2px solid gray;
-    width: 40%;
   }
 }
 
@@ -143,6 +148,7 @@
 
   .page__meta {
     margin: 0 0 4px;
+    text-align: center;
   }
 }
 
@@ -156,6 +162,7 @@
 
   .page__meta {
     margin: 0 0 4px;
+    text-align: center;
   }
 
   .archive__item-title {
