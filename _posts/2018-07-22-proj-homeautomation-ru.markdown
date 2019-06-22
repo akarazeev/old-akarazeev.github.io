@@ -10,17 +10,17 @@ tags:
 - Home Automation
 layout: post
 gallery:
-  - url: /assets/images/multi-relay-1.jpg
-    image_path: /assets/images/multi-relay-1.jpg
+  - url: /images/multi-relay-1.jpg
+    image_path: /images/multi-relay-1.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/multi-relay-2.jpg
-    image_path: /assets/images/multi-relay-2.jpg
+  - url: /images/multi-relay-2.jpg
+    image_path: /images/multi-relay-2.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/multi-relay-3.jpg
-    image_path: /assets/images/multi-relay-3.jpg
+  - url: /images/multi-relay-3.jpg
+    image_path: /images/multi-relay-3.jpg
     alt: "placeholder image 3"
 header:
-  teaser: "/assets/images/homeautomation.jpg"
+  teaser: "/images/homeautomation.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

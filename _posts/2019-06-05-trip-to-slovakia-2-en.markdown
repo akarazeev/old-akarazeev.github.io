@@ -15,7 +15,7 @@ tags:
 - GoPro
 layout: post
 header:
-  teaser: "/assets/images/slovakia2.jpg"
+  teaser: "/images/slovakia2.jpg"
 ---
 
 Вторая серия путешествий по Словакии

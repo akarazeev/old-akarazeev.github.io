@@ -9,9 +9,9 @@ tags:
 - Variational
 layout: post
 header:
-  teaser: "/assets/images/quantum_walks.jpg"
+  teaser: "/images/quantum_walks.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Final Project]({{ site.url }}{{ site.baseurl }}/assets/data/quantum_walks.pdf) at Quantum Computing course
+[Final Project]({{ site.url }}{{ site.baseurl }}/files/quantum_walks.pdf) at Quantum Computing course

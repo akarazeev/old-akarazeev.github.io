@@ -11,7 +11,7 @@ tags:
 - STL
 layout: post
 header:
-  teaser: "/assets/images/freecad-basics.jpg"
+  teaser: "/images/freecad-basics.jpg"
 ---
 
 {% include video id="dPOp5JF-vr0" provider="youtube" %}

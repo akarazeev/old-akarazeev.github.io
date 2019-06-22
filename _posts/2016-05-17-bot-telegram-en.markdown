@@ -11,7 +11,7 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  teaser: "/assets/images/telegram_bot.jpg"
+  teaser: "/images/telegram_bot.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -12,9 +12,9 @@ tags:
 - ITMO
 layout: post
 header:
-  teaser: "/assets/images/biohack2017.jpg"
+  teaser: "/images/biohack2017.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/BioHack2017), [Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/biohack_alzheimers.pdf), [Post](http://news.ifmo.ru/ru/science/life_science/news/6500/) on ITMO.NEWS
+[Project](https://github.com/akarazeev/BioHack2017), [Presentation]({{ site.url }}{{ site.baseurl }}/files/biohack_alzheimers.pdf), [Post](http://news.ifmo.ru/ru/science/life_science/news/6500/) on ITMO.NEWS

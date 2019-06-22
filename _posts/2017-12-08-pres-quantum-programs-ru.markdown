@@ -10,9 +10,9 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/quantum_programs.jpg"
+  teaser: "/images/quantum_programs.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/quantum_full.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/quantum_full.pdf)

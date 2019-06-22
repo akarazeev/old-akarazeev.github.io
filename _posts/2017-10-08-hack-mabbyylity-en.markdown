@@ -12,11 +12,11 @@ tags:
 - ABBYY
 layout: post
 header:
-  teaser: "/assets/images/mabbyylity.jpg"
+  teaser: "/images/mabbyylity.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/app_in_the_restaurant.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/app_in_the_restaurant.pdf)
 
 {% include video id="YNgUMhhqIrs" provider="youtube" %}

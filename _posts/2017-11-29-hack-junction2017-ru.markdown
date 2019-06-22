@@ -10,9 +10,9 @@ tags:
 - Helsinki
 layout: post
 header:
-  teaser: "/assets/images/junction2017.jpg"
+  teaser: "/images/junction2017.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-LegalEngine - команда "qqmbr". [Проект](https://github.com/akarazeev/LegalTech) на GitHub'e, [Devpost](https://devpost.com/software/legalengine), [Диплом участника]({{ site.url }}{{ site.baseurl }}/assets/data/Junction17-Certificate_participation.IgjcQtem.pdf)
+LegalEngine - команда "qqmbr". [Проект](https://github.com/akarazeev/LegalTech) на GitHub'e, [Devpost](https://devpost.com/software/legalengine), [Диплом участника]({{ site.url }}{{ site.baseurl }}/files/Junction17-Certificate_participation.IgjcQtem.pdf)

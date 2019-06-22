@@ -15,7 +15,7 @@ tags:
 - Russian Quantum Center
 layout: post
 header:
-  teaser: "/assets/images/demo_qst.jpg"
+  teaser: "/images/demo_qst.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

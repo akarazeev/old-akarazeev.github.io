@@ -9,7 +9,7 @@ tags:
 - Jupyter
 layout: post
 header:
-  teaser: "/assets/images/click_click_ipynb.jpg"
+  teaser: "/images/click_click_ipynb.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -12,7 +12,7 @@ tags:
 - Quantum
 layout: post
 header:
-  teaser: "/assets/images/quantum-internet-hackathon/header.jpg"
+  teaser: "/images/quantum-internet-hackathon/header.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
@@ -32,6 +32,6 @@ header:
 
 Очень много нетворкинга, почти с каждым удалось поговорить. Помимо физтехов участие приняли физики и разработчики со всего мира — из Канады, Японии, EU, ...
 
-![](/assets/images/quantum-internet-hackathon/image1.jpg)
+![](/images/quantum-internet-hackathon/image1.jpg)
 
-![](/assets/images/quantum-internet-hackathon/image2.jpg)
+![](/images/quantum-internet-hackathon/image2.jpg)

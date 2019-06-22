@@ -11,7 +11,7 @@ tags:
 - C
 layout: post
 header:
-  teaser: "/assets/images/heat_equation.jpg"
+  teaser: "/images/heat_equation.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

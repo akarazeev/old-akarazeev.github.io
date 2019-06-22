@@ -20,7 +20,7 @@ tags:
 - Magic Keyboard
 layout: post
 header:
-  teaser: "/assets/images/rgb-magic-keyboard.jpg"
+  teaser: "/images/rgb-magic-keyboard.jpg"
 ---
 
 {% include video id="k43wleeByI8" provider="youtube" %}

@@ -10,7 +10,7 @@ tags:
 - Football
 layout: post
 header:
-  teaser: "/assets/images/diht_football.jpg"
+  teaser: "/images/diht_football.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

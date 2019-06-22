@@ -9,7 +9,7 @@ tags:
 - Running👟
 layout: post
 header:
-  teaser: "/assets/images/miptrun2017.jpg"
+  teaser: "/images/miptrun2017.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

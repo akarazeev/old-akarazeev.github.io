@@ -10,7 +10,7 @@ tags:
 - Channel
 layout: post
 header:
-  teaser: "/assets/images/sciblog.jpg"
+  teaser: "/images/sciblog.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

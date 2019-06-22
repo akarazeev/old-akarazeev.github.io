@@ -10,7 +10,7 @@ tags:
 - Papers
 layout: post
 header:
-  teaser: "/assets/images/dlmipt.jpg"
+  teaser: "/images/dlmipt.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

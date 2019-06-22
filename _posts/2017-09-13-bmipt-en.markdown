@@ -11,7 +11,7 @@ tags:
 - Papers
 layout: post
 header:
-  teaser: "/assets/images/bmipt.jpg"
+  teaser: "/images/bmipt.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -11,7 +11,7 @@ tags:
 - HSE
 layout: post
 header:
-  teaser: "/assets/images/gensimsprint.jpg"
+  teaser: "/images/gensimsprint.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

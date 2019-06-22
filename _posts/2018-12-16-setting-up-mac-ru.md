@@ -14,7 +14,7 @@ tags:
 - Etcher
 layout: post
 header:
-  teaser: "/assets/images/macos.jpg"
+  teaser: "/images/macos.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -10,11 +10,11 @@ tags:
 - C
 layout: post
 header:
-  teaser: "/assets/images/molecular_dynamics.jpg"
+  teaser: "/images/molecular_dynamics.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
 Молекулярная динамика, моделирование Леннард-Джонсовской жидкости
 
-[Проект](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/molecular_dynamics.pdf)
+[Проект](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Презентация]({{ site.url }}{{ site.baseurl }}/files/molecular_dynamics.pdf)

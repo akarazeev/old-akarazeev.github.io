@@ -10,9 +10,9 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/optical_nn.jpg"
+  teaser: "/images/optical_nn.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/optical_nn.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/optical_nn.pdf)

@@ -15,7 +15,7 @@ tags:
 - Yandex
 layout: post
 header:
-  teaser: "/assets/images/datafest2018.jpg"
+  teaser: "/images/datafest2018.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

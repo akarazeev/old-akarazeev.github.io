@@ -3,8 +3,8 @@ main:
   - title: "Blog Posts"
     url: /blog-posts/
 
-  - title: "MIPT SciTech Club"
-    url: /mipt-scitech-club/
+  - title: "MIPT Club"
+    url: /mipt-club/
 
   - title: "Tags"
     url: /tags/

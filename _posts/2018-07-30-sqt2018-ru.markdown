@@ -9,7 +9,7 @@ tags:
 - Conference
 layout: post
 header:
-  teaser: "/assets/images/sqt2018.jpg"
+  teaser: "/images/sqt2018.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

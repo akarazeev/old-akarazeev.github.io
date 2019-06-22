@@ -9,7 +9,7 @@ tags:
 - Python
 layout: post
 header:
-  teaser: "/assets/images/timedeltabot.jpg"
+  teaser: "/images/timedeltabot.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

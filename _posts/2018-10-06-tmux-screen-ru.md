@@ -10,7 +10,7 @@ tags:
 - Commands
 layout: post
 header:
-  teaser: "/assets/images/tmux.jpg"
+  teaser: "/images/tmux.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

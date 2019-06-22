@@ -10,7 +10,7 @@ layout: archive
   {% assign rawtags = rawtags | append: ttags %}
 {% endfor %}
 
-{% assign msctags = site.mipt-scitech-club | map: 'tags' | uniq %}
+{% assign msctags = site.mipt-club | map: 'tags' | uniq %}
 {% for tag in msctags %}
   {% assign ttags = tag | join: '|' | append: '|' %}
   {% assign rawtags = rawtags | append: ttags %}
@@ -32,7 +32,7 @@ layout: archive
     <h2 align="center">{{ tag }}</h2>
 
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for post in site.mipt-scitech-club %}
+      {% for post in site.mipt-club %}
         {% if post.lang == page.lang and post.tags contains tag %}
           {% include archive-single.html type=page.entries_layout %}
         {% endif %}

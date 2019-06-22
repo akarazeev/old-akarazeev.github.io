@@ -10,7 +10,7 @@ tags:
 - EPFL
 layout: post
 header:
-  teaser: "/assets/images/rede.jpg"
+  teaser: "/images/rede.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -9,7 +9,7 @@ tags:
 - Electrical Equipment
 layout: post
 header:
-  teaser: "/assets/images/uaz-equpment-ru.jpg"
+  teaser: "/images/uaz-equpment-ru.jpg"
 ---
 
 {% include video id="md3DI8OYERE" provider="youtube" %}

@@ -178,7 +178,7 @@ kramdown:
 
 # Collections
 collections:
-  mipt-scitech-club:
+  mipt-club:
     output: true
     permalink: /:collection/:path/
   teaching:
@@ -208,10 +208,10 @@ defaults:
       comments: true
       share: true
       related: true
-  #_mipt-scitech-club
+  #_mipt-club
   - scope:
       path: ""
-      type: mipt-scitech-club
+      type: mipt-club
     values:
       layout: single
       author_profile: true

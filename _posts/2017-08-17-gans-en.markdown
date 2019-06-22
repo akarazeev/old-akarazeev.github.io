@@ -13,7 +13,7 @@ tags:
 - GANs
 layout: post
 header:
-  teaser: "/assets/images/gans/header.jpg"
+  teaser: "/images/gans/header.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
@@ -34,7 +34,7 @@ In this article, we’ll tell you how generative adversarial nets work and what 
 
 To explain GANs’ concept let us use an analogy.
 
-![](/assets/images/gans/1.jpeg){: .align-center}
+![](/images/gans/1.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -46,7 +46,7 @@ As you start to label most of the watches as fake (after a number of mistakes of
 
 These two networks, Discriminator and Generator, are contesting with each other. This technique allows the generation of realistic objects (e.g. images). The Generator is forced to generate samples that look real and the Discriminator learns to distinguish generated samples and samples from real data.
 
-![](/assets/images/gans/2.jpeg){: .align-center}
+![](/images/gans/2.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -62,7 +62,7 @@ The Discriminator is trained to maximize the probability of assigning the correc
 
 It is possible to consider such a training task as minimax game with value function V(G, D):
 
-![](/assets/images/gans/3.jpeg){: .align-center}
+![](/images/gans/3.jpeg){: .align-center}
 
 In other words — the Generator tries harder to fool the Discriminator and the Discriminator becomes more captious in order to not be fooled by the Generator.
 
@@ -74,7 +74,7 @@ The process of training stops when the Discriminator is unable to distinguish **
 
 An interesting example of GANs applications is retrieving visually similar marks in “[Prize Papers](http://www.brill.com/products/online-resources/prize-papers-online)”, one of the most valuable archives in the field of maritime history. Adversarial nets make it easier to work with documents of historical importance containing information about the legitimacy of ship captures at sea.
 
-![](/assets/images/gans/4.jpeg){: .align-center}
+![](/images/gans/4.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -94,7 +94,7 @@ This new approach shows how to extract and learn features from images of the Mer
 
 Other researchers showed that it’s possible to use descriptive properties of natural language to generate corresponding images. A method of text translation into images allows the illustration of the performance of generative models to mimic samples of real data.
 
-![](/assets/images/gans/5.jpeg){: .align-center}
+![](/images/gans/5.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -102,7 +102,7 @@ Other researchers showed that it’s possible to use descriptive properties of n
 
 The main problem of image generation is that image distribution is multimodal. For example, there are many correct samples that correctly illustrate the description. GANs help to solve this problem.
 
-![](/assets/images/gans/6.jpeg){: .align-center}
+![](/images/gans/6.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -114,7 +114,7 @@ Generative adversarial nets don’t directly use pairs of inputs and outputs. In
 
 Here are the examples of generated images from text descriptions:
 
-![](/assets/images/gans/7.jpeg){: .align-center}
+![](/images/gans/7.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -129,7 +129,7 @@ Datasets that [were used to train GANs](https://arxiv.org/pdf/1605.05396.pdf):
 While others apply generative adversarial networks to images and videos, researchers from Insilico Medicine proposed an approach of artificially intelligent drug discovery using GANs.
 The goal is to train the Generator to sample drug candidates for a given disease as precisely as possible to existing drugs from a Drug Database.
 
-![](/assets/images/gans/8.jpeg){: .align-center}
+![](/images/gans/8.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -142,7 +142,7 @@ Another research by Insilico Medicine showed the pipeline of generating new anti
 
 Researchers proposed an Adversarial Autoencoder (AAE) model for identification and generation of new compounds based on available biochemical data.
 
-![](/assets/images/gans/9.jpeg){: .align-center}
+![](/images/gans/9.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -152,7 +152,7 @@ Researchers proposed an Adversarial Autoencoder (AAE) model for identification a
 
 There are many available biochemical data in databases such as [Cancer Cell Line Encyclopedia](http://software.broadinstitute.org/software/cprg/?q=node/11) (CCLE), [Genomics of Drug Sensitivity in Cancer](http://www.cancerrxgene.org/) (GDSC), and [NCI-60 cancer cell line collection](https://dtp.cancer.gov/discovery_development/nci-60/). All of them contain screening data for different drug experiments against cancer.
 
-![](/assets/images/gans/10.jpeg){: .align-center}
+![](/images/gans/10.jpeg){: .align-center}
 
 {: .text-center}
 
@@ -162,11 +162,11 @@ Adversarial Autoencoder was trained using *Growth Inhibition percentage* data (G
 
 The fingerprint of the molecule contains a fixed number of bits in which each bit represents the absence or presence of some feature.
 
-![](/assets/images/gans/11.jpeg){: .align-center}
+![](/images/gans/11.jpeg){: .align-center}
 
 The latent layer consists of 5 neurons, one of which is responsible for GI (efficiency against cancer cells) and the four others are discriminated with normal distribution. So, a regression term was added to the Encoder cost function. Furthermore, the Encoder was restricted to map the *same fingerprint* to the *same latent vector*, independently from input concentration by additional manifold cost.
 
-![](/assets/images/gans/12.jpeg){: .align-center}
+![](/images/gans/12.jpeg){: .align-center}
 
 {: .text-center}
 

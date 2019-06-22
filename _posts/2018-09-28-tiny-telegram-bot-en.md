@@ -5,7 +5,7 @@ lang: en
 ref: tinytelegrambot180928
 date: 2018-09-28 18:00:00 +03:00
 header:
-  teaser: "/assets/images/telegrambot.jpg"
+  teaser: "/images/telegrambot.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

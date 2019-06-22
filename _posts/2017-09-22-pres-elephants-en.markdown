@@ -12,9 +12,9 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/elephants.jpg"
+  teaser: "/images/elephants.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/elephants.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/elephants.pdf)

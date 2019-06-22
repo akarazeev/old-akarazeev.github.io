@@ -10,7 +10,7 @@ tags:
 - Packages
 layout: post
 header:
-  teaser: "/assets/images/atom.jpeg"
+  teaser: "/images/atom.jpeg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

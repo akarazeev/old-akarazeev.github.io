@@ -11,9 +11,9 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/keyphrases.jpg"
+  teaser: "/images/keyphrases.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/keyphrases.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/keyphrases.pdf)

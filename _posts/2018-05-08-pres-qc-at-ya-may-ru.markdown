@@ -14,9 +14,9 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/qc_at_ya_may.jpg"
+  teaser: "/images/qc_at_ya_may.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/assets/data/qc_at_ya_may.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/qc_at_ya_may.pdf)

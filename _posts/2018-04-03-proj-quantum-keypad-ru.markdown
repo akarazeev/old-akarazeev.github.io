@@ -14,7 +14,7 @@ tags:
 - Russian Quantum Center
 layout: post
 header:
-  teaser: "/assets/images/quantum_keypad.jpg"
+  teaser: "/images/quantum_keypad.jpg"
 ---
 
 Quantum Keypad for real quantum programmers

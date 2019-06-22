@@ -14,7 +14,7 @@ tags:
 - Python
 layout: post
 header:
-  teaser: "/assets/images/raspberry_and_others.jpg"
+  teaser: "/images/raspberry_and_others.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
@@ -31,7 +31,7 @@ header:
 3. Качаем Raspbian [отсюда](https://www.raspberrypi.org/downloads/raspbian/) и [делаем](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) загрузочную флешку
 4. Вставляем загрузочную флешку в Raspberry, подключаем мышку/клавиатуру/монитор и погнали
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/cobbler_view.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/cobbler_view.jpg)
 
 Добавлю, что с “Т-образной штукой” намного удобнее подключать радиодетали к Raspberry - мелким шрифтом нанесена нумерация и названия пинов.
 
@@ -39,7 +39,7 @@ header:
 
 ## AirPrint
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/airprint.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/airprint.jpg)
 
 1. Точно потребуется установить `git`:
     * `sudo apt-get install git`
@@ -55,20 +55,20 @@ header:
 
 ## AirPlay
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/airplay.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/airplay.jpg)
 
 Вот [здесь](https://pimylifeup.com/raspberry-pi-airplay-receiver/) отличный гайд, выполняешь все 8 пунктов и всё работает.
 
 ## HomeKit
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/homekit.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/homekit.jpg)
 
 Делал по [этому](http://home-smart-home.ru/homebridge-raspberry-pi-kak-nauchit-siri-matu/) гайду.
 Если что-то не оч понятно - пиши мне -> [сюда_1](http://t.me/akarazeev), [сюда_2](http://vk.com/akarazeev), [сюда_3](mailto:anton.karazeev@gmail.com)
 
 ## Telegram Bot
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/telegrambot.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/telegrambot.jpg)
 
 1. Качаем репозиторий:
     * `git clone https://github.com/akarazeevprojects/TelegramBot`
@@ -85,14 +85,14 @@ header:
     * теперь `Shift+ж` и затем `wq` - должно получиться `:wq`
     * затем `Enter`
     * примерно так выглядит содержимое `token.json`:
-    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token_json.jpg)
+    ![alt]({{ site.url }}{{ site.baseurl }}/images/token_json.jpg)
 7. Фух, теперь можно запускать бота. На самом деле еще надо поставить недостающие модули - например, `pip install python-telegram-bot` и тому подобное, но это уже мелочи :)
     * `python bot.py`
-    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/run_botpy.jpg)
+    ![alt]({{ site.url }}{{ site.baseurl }}/images/run_botpy.jpg)
 8. Командой `/switch` в самом боте можно включить/выключить реле, а командой `/temp` узнать температуру процессора Raspberry
 9. Про подключение реле - в коде управление идёт пином под номером 26
     * соответственно проводами соединить надо “IN” <-> GPIO26, “VCC” <-> “3V3”, “GND” <-> “GND”
-    ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/cobbler_view_top.jpg)
+    ![alt]({{ site.url }}{{ site.baseurl }}/images/cobbler_view_top.jpg)
 
 ====================================================================
 
@@ -135,7 +135,7 @@ parse_git_branch() {
 export PS1="\[\033[1;93m\]\u@\h:\w -\[\033[00;32m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/branch_name.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/branch_name.jpg)
 
 Переменная `PS1` отвечает за `prompt`, а функция `parse_git_branch()` добавляет к `prompt`’у название бранча (ветки), если текущая директория - репозиторий.
 

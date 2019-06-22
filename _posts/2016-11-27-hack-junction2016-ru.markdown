@@ -10,11 +10,11 @@ tags:
 - Helsinki
 layout: post
 header:
-  teaser: "/assets/images/junction2016.jpg"
+  teaser: "/images/junction2016.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Мой первый хакатон. Использовали Gensim и Twitter API. [Диплом участника]({{ site.url }}{{ site.baseurl }}/assets/data/XAJMULJH.pdf)
+Мой первый хакатон. Использовали Gensim и Twitter API. [Диплом участника]({{ site.url }}{{ site.baseurl }}/files/XAJMULJH.pdf)
 
 Ещё есть [отдельный пост]({{ site.url }}{{ site.baseurl }}/junction-2016-ru), в котором я делюсь впечатлениями о поездке

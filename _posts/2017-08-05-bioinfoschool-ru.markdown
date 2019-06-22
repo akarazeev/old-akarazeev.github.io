@@ -11,9 +11,9 @@ tags:
 - MIPT
 layout: post
 header:
-  teaser: "/assets/images/bioinfoschool.jpg"
+  teaser: "/images/bioinfoschool.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Летняя школа по Биоинформатике 2017](http://bioinformaticsinstitute.ru/summer2017), [Диплом участника]({{ site.url }}{{ site.baseurl }}/assets/data/bioinfo_school.pdf)
+[Летняя школа по Биоинформатике 2017](http://bioinformaticsinstitute.ru/summer2017), [Диплом участника]({{ site.url }}{{ site.baseurl }}/files/bioinfo_school.pdf)

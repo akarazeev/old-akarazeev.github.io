@@ -10,7 +10,7 @@ tags:
 - Presentation🎯
 layout: post
 header:
-  teaser: "/assets/images/context_prediction.jpg"
+  teaser: "/images/context_prediction.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -16,45 +16,45 @@ toc_sticky: true
 toc_label: "Содержание"
 toc_icon: "lightbulb"
 header:
-  teaser: "/assets/images/rpi-homekit.jpg"
+  teaser: "/images/rpi-homekit.jpg"
 gallery0:
-  - url: /assets/images/homekit18/home-ios-center.jpg
-    image_path: /assets/images/homekit18/home-ios-center.jpg
+  - url: /images/homekit18/home-ios-center.jpg
+    image_path: /images/homekit18/home-ios-center.jpg
     title: "Центр Управления"
-  - url: /assets/images/homekit18/home-ios-centeracc.jpg
-    image_path: /assets/images/homekit18/home-ios-centeracc.jpg
+  - url: /images/homekit18/home-ios-centeracc.jpg
+    image_path: /images/homekit18/home-ios-centeracc.jpg
     title: "Подключённые устройства"
-  - url: /assets/images/homekit18/home-ios-add.jpg
-    image_path: /assets/images/homekit18/home-ios-add.jpg
+  - url: /images/homekit18/home-ios-add.jpg
+    image_path: /images/homekit18/home-ios-add.jpg
     title: "Подключение нового устройства"
-  - url: /assets/images/homekit18/home-ios-lamp.jpg
-    image_path: /assets/images/homekit18/home-ios-lamp.jpg
+  - url: /images/homekit18/home-ios-lamp.jpg
+    image_path: /images/homekit18/home-ios-lamp.jpg
     title: "Настройка подключённой лампы"
 gallery1:
-  - url: /assets/images/homekit18/home-ios-main.jpg
-    image_path: /assets/images/homekit18/home-ios-main.jpg
+  - url: /images/homekit18/home-ios-main.jpg
+    image_path: /images/homekit18/home-ios-main.jpg
     title: "Главный экран в программе Home"
-  - url: /assets/images/homekit18/home-ios-office.jpg
-    image_path: /assets/images/homekit18/home-ios-office.jpg
+  - url: /images/homekit18/home-ios-office.jpg
+    image_path: /images/homekit18/home-ios-office.jpg
     title: "Список устройств в комнате Office"
-  - url: /assets/images/homekit18/home-ios-dining.jpg
-    image_path: /assets/images/homekit18/home-ios-dining.jpg
+  - url: /images/homekit18/home-ios-dining.jpg
+    image_path: /images/homekit18/home-ios-dining.jpg
     title: "Список устройств в комнате Dining Room"
-  - url: /assets/images/homekit18/home-ios-automation.jpg
-    image_path: /assets/images/homekit18/home-ios-automation.jpg
+  - url: /images/homekit18/home-ios-automation.jpg
+    image_path: /images/homekit18/home-ios-automation.jpg
     title: "Раздел автоматизации"
 gallery2:
-  - url: /assets/images/homekit18/home-mac-main.jpg
-    image_path: /assets/images/homekit18/home-mac-main.jpg
+  - url: /images/homekit18/home-mac-main.jpg
+    image_path: /images/homekit18/home-mac-main.jpg
     title: "Главный экран в программе Home"
-  - url: /assets/images/homekit18/home-mac-office.jpg
-    image_path: /assets/images/homekit18/home-mac-office.jpg
+  - url: /images/homekit18/home-mac-office.jpg
+    image_path: /images/homekit18/home-mac-office.jpg
     title: "Список устройств в комнате Office"
-  - url: /assets/images/homekit18/home-mac-dining.jpg
-    image_path: /assets/images/homekit18/home-mac-dining.jpg
+  - url: /images/homekit18/home-mac-dining.jpg
+    image_path: /images/homekit18/home-mac-dining.jpg
     title: "Список устройств в комнате Dining Room"
-  - url: /assets/images/homekit18/home-mac-automation.jpg
-    image_path: /assets/images/homekit18/home-mac-automation.jpg
+  - url: /images/homekit18/home-mac-automation.jpg
+    image_path: /images/homekit18/home-mac-automation.jpg
     title: "Раздел автоматизации"
 ---
 
@@ -76,16 +76,16 @@ gallery2:
 
 Прежде всего нам потребуется установить ОС на **RPi**. Ставить будем Raspbian. Скачиваем торрент-файл с [официального сайта](https://www.raspberrypi.org/downloads/raspbian/) с помощью торрент-менеджера (я использовал [Transmission](https://transmissionbt.com)):
 
-![alt](/assets/images/torrent.jpg)
+![alt](/images/torrent.jpg)
 
 **На всякий случай!** Для своего **RPi** я использую "lite" версию, потому что она занимает меньше места (в ней отсутствует визуальный интерфейс, который мне не нужен).
 {: .notice--warning}
 
 Затем разархивируем скачанный файл, чтобы получить сам образ -- файл `.img`. Для создания загрузочной microSD флешки я использовал приложение [Etcher](https://etcher.io):
 
-![alt](/assets/images/etcher.jpg){: .align-center}
+![alt](/images/etcher.jpg){: .align-center}
 
-![alt](/assets/images/sdcard.jpg){: .align-right} После завершения процесса записи вынимаем карточку и вставляем в **RPi**. Нам потребуется клавиатура и монитор, чтобы провести первую настройку. Затем можно будет подключаться с помощью `ssh` к **RPi**.
+![alt](/images/sdcard.jpg){: .align-right} После завершения процесса записи вынимаем карточку и вставляем в **RPi**. Нам потребуется клавиатура и монитор, чтобы провести первую настройку. Затем можно будет подключаться с помощью `ssh` к **RPi**.
 
 **На всякий случай!** Мне удалось уместить всё необходимое на microSD с объёмом памяти в 2GB.
 {: .notice--warning}
@@ -148,7 +148,7 @@ sudo npm install -g --unsafe-perm homebridge
 ```
 
 Проверим, что всё установилось как надо. Для этого надо запустить команду `homebridge`:
-![alt](/assets/images/homebridge.jpg){: .align-center}
+![alt](/images/homebridge.jpg){: .align-center}
 
 **На всякий случай!** Если на каком-то этапе возникли трудности, то стоит поискать информацию в [репозитории `homebridge`](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi), [посмотреть хороший туториал](https://www.youtube.com/watch?v=g4Smfn1Q5Qc) по установке `homebridge`, либо же написать мне удобным для тебя способом.
 {: .notice--warning}
@@ -183,7 +183,7 @@ sudo npm install -g homebridge-cmdswitch2
     `-- IdentifierCache.CC223DE3CE30.json
 ```
 
-При первом знакомстве с `homebridge` я не понимал как должен быть устроен файл `config.json`. Поэтому я [прикладываю копию своего]({{ site.url }}{{ site.baseurl }}/assets/data/homebridge-config.json), чтобы тебе было с чем сверяться.
+При первом знакомстве с `homebridge` я не понимал как должен быть устроен файл `config.json`. Поэтому я [прикладываю копию своего]({{ site.url }}{{ site.baseurl }}/files/homebridge-config.json), чтобы тебе было с чем сверяться.
 
 TODO_BEGIN
 

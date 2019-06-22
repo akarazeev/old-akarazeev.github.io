@@ -9,7 +9,7 @@ tags:
 - Bot
 layout: post
 header:
-  teaser: "/assets/images/parserbot.jpg"
+  teaser: "/images/parserbot.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

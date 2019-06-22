@@ -10,7 +10,7 @@ tags:
 - Instagram
 layout: post
 header:
-  teaser: "/assets/images/cb.jpg"
+  teaser: "/images/cb.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

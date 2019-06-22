@@ -11,7 +11,7 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  teaser: "/assets/images/camera_slider.jpg"
+  teaser: "/images/camera_slider.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

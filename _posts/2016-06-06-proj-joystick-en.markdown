@@ -11,7 +11,7 @@ tags:
 - Raspberry Pi
 layout: post
 header:
-  teaser: "/assets/images/joystick.jpg"
+  teaser: "/images/joystick.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

@@ -11,9 +11,9 @@ tags:
 - Lausanne
 layout: post
 header:
-  teaser: "/assets/images/lauzhack2017.jpg"
+  teaser: "/images/lauzhack2017.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-1st place, LauzHack2017 at EPFL, Switzerland. [Project](https://github.com/akarazeev/SGS), [Devpost](https://devpost.com/software/nn-nerds), [Presentation]({{ site.url }}{{ site.baseurl }}/assets/data/Presentation_NNNerds.pdf), [Post](http://miptstream.ru/2017/11/18/lauzhack-2017/) on MIPT Stream
+1st place, LauzHack2017 at EPFL, Switzerland. [Project](https://github.com/akarazeev/SGS), [Devpost](https://devpost.com/software/nn-nerds), [Presentation]({{ site.url }}{{ site.baseurl }}/files/Presentation_NNNerds.pdf), [Post](http://miptstream.ru/2017/11/18/lauzhack-2017/) on MIPT Stream

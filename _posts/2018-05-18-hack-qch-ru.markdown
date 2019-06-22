@@ -11,7 +11,7 @@ tags:
 - Moscow
 layout: post
 header:
-  teaser: "/assets/images/qch.jpg"
+  teaser: "/images/qch.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

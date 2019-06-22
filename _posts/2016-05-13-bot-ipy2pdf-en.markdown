@@ -11,7 +11,7 @@ tags:
 - Jupyter
 layout: post
 header:
-  teaser: "/assets/images/ipy2pdf.jpg"
+  teaser: "/images/ipy2pdf.jpg"
 ---
 
 ![image-center]({{ page.header.teaser }}){: .align-center}

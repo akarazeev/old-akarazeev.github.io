@@ -45,7 +45,7 @@ github_projects:
 ---
 <img src="images/me_hand.jpg" style="max-height: 700px; height: auto; width: auto;">
 
-Here you can check out my [projects](https://akarazeevprojects.github.io/projects-en/) and [CV](assets/data/karazeev_cv.pdf) (added below).
+Here you can check out my [projects](https://akarazeevprojects.github.io/projects-en/) and [CV](files/karazeev_cv.pdf) (added below).
 
 <h3>Highlighted projects</h3>
 
@@ -59,6 +59,6 @@ Here you can check out my [projects](https://akarazeevprojects.github.io/project
   {% endfor %}
 </ul>
 
-<a href="/proj-quantum-keypad-en/"><img src="images/quantum_keypad.jpg" style="max-height: 150px; height: auto; width: auto;" class="align-center"></a>
+<a href="/proj-quantum-keypad-en/"><img src="images/quantum_keypad_small.jpg" style="max-height: 150px; height: auto; width: auto;" class="align-center"></a>
 
-<a href="assets/data/karazeev_cv.pdf"><embed src="assets/data/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%"/></a>
+<a href="files/karazeev_cv.pdf"><embed src="files/karazeev_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="80%"/></a>

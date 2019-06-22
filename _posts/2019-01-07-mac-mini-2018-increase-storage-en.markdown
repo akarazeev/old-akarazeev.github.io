@@ -10,7 +10,7 @@ tags:
 - Mac🍎
 layout: post
 header:
-  teaser: "/assets/images/mac-mini-storage-en.jpg"
+  teaser: "/images/mac-mini-storage-en.jpg"
 ---
 
 {% include video id="4uGa3t-e3pQ" provider="youtube" %}
