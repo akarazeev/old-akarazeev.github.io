@@ -45,7 +45,7 @@ github_projects:
 ---
 <img src="images/me_hand.jpg" style="max-height: 700px; height: auto; width: auto;">
 
-Here you can check out my [projects](https://akarazeevprojects.github.io/projects-en/) and [CV](files/karazeev_cv.pdf) (added below)
+Here you can find my [projects](https://akarazeevprojects.github.io/projects-en/) and [CV](files/karazeev_cv.pdf) (added below)
 
 <h3>Highlighted projects</h3>
 
