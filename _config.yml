@@ -7,7 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "Anton Karazeev"
+title_button             : "About me"
 title_separator          : "-"
 name                     : &name "Anton Karazeev"
 description              : "Anton's Website"
