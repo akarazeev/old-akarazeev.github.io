@@ -35,6 +35,7 @@ github_projects:
     github_user: akarazeev
     github_repo: BioHack2017
     post_url: /biohack-en/
+    extra: 🗞 <a href="http://news.ifmo.ru/ru/science/life_science/news/6500/">ITMO.NEWS</a>
   - title: Reverse Engineering in Dispersion Engineering
     github_user: akarazeev
     github_repo: REDE
