@@ -39,14 +39,6 @@ github_projects:
     github_user: akarazeev
     github_repo: REDE
     post_url: /proj-rede-en/
-  - title: Automation for macOS that allows to launch Jupyter notebooks directly from Finder with double click
-    github_user: akarazeev
-    github_repo: click_click_ipynb
-    post_url: /proj-click-click-ipynb-en/
-  - title: Set of projects with stepper motor (including demonstration of Quantum State Tomography)
-    github_user: akarazeevprojects
-    github_repo: StepperProjects
-    post_url: /demo-qst-en/
 ---
 Here you can find my [projects](https://akarazeevprojects.github.io/projects-en/) and [CV](files/karazeev_cv.pdf) (added below)
 
