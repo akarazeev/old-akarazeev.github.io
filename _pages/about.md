@@ -21,6 +21,11 @@ github_projects:
     github_user: akarazeev
     github_repo: qiskit-slack-bot
     post_url: /bot-qc-sl-en/
+  - title: Analysis of methods and drugs discussed in papers submitted to PubMed (created during a hackathon on bioinformatics Biohack2017)
+    github_user: akarazeev
+    github_repo: BioHack2017
+    post_url: /biohack-en/
+    extra: 🗞 <a href="http://news.ifmo.ru/en/science/life_science/news/6500/">ITMO.NEWS</a>
   - title: Converter of Jupyter notebooks to PDF
     github_user: akarazeevprojects
     github_repo: ipy2pdf
@@ -31,11 +36,6 @@ github_projects:
   - title: A series of jupyter notebooks dedicated to introduction to Quantum Computing
     github_user: RQC-QApp
     github_repo: Seminars
-  - title: Analysis of methods and drugs discussed in papers submitted to PubMed (created during a hackathon on bioinformatics Biohack2017)
-    github_user: akarazeev
-    github_repo: BioHack2017
-    post_url: /biohack-en/
-    extra: 🗞 <a href="http://news.ifmo.ru/ru/science/life_science/news/6500/">ITMO.NEWS</a>
   - title: Reverse Engineering in Dispersion Engineering
     github_user: akarazeev
     github_repo: REDE
