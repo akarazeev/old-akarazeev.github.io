@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[2nd Place Diploma]({{ site.url }}{{ site.baseurl }}/files/telegram_diploma_sos.PDF), [Project](https://github.com/akarazeev/SenseOfSpeech), [@SenseOfSpeech_bot](https://t.me/senseofspeech_bot) telegram-bot, [Presentation]({{ site.url }}{{ site.baseurl }}/files/SOS.pdf)
+[2nd Place Diploma]({{ site.url }}{{ site.baseurl }}/files/certificates/mastercard-telegram-sos.pdf), [Project](https://github.com/akarazeev/SenseOfSpeech), [@SenseOfSpeech_bot](https://t.me/senseofspeech_bot) telegram-bot, [Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/SOS.pdf)

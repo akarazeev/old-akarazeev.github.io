@@ -19,4 +19,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/files/qc_at_ya_may.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/qc_at_ya_may.pdf)

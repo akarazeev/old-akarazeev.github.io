@@ -1,7 +1,7 @@
 ---
 title: Предсказание Контекста
 lang: ru
-ref: prescontextprediction170411
+ref: projcontextprediction170411
 date: 2017-04-11 03:00:01 +03:00
 tags:
 - Python

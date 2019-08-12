@@ -66,7 +66,7 @@ Currently this post is available only in russian (will translate it soon...)
 
 Цель этого поста -- показать как можно поставить [`homebridge`](https://github.com/nfarina/homebridge) сервер на **Raspberry Pi**. Этот сервер позволит управлять через приложение **Home** (на iOS и macOS) подключенными к **Raspberry Pi** устройствами (лампочками, вентиляторами, etc.).
 
-Возможно, тебе будет интересно как я [делал "коробочку" с реле]({{ site.url }}/proj_homeautomation/), которой можно управлять до 4ёх устройств.
+Возможно, тебе будет интересно как я [делал "коробочку" с реле]({{ site.url }}/proj-homeautomation-en/), которой можно управлять до 4ёх устройств.
 
 {% include gallery id='gallery0' caption="Центр Управления, подключение и настройка нового устройства" %}
 
