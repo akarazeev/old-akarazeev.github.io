@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/files/quantum_full.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/quantum_full.pdf)

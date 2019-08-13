@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-1ое место, LauzHack2017 в EPFL, Швейцария. [Проект](https://github.com/akarazeev/SGS) на GitHub'e, [Devpost](https://devpost.com/software/nn-nerds), [Презентация]({{ site.url }}{{ site.baseurl }}/files/Presentation_NNNerds.pdf), [Пост](http://miptstream.ru/2017/11/18/lauzhack-2017/) на Потоке
+1ое место, LauzHack2017 в EPFL, Швейцария. [Проект](https://github.com/akarazeev/SGS) на GitHub'e, [Devpost](https://devpost.com/software/nn-nerds), [Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/Presentation_NNNerds.pdf), [Пост](http://miptstream.ru/2017/11/18/lauzhack-2017/) на Потоке

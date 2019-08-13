@@ -16,6 +16,6 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/files/app_in_the_restaurant.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/app_in_the_restaurant.pdf)
 
 {% include video id="YNgUMhhqIrs" provider="youtube" %}
