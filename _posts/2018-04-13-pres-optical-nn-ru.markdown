@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/optical_nn.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/optical_nn.pdf)

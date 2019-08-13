@@ -14,4 +14,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/simpleds.pdf)
+[Презентация]({{ site.url }}{{ site.baseurl }}/files/simpleds.pdf)

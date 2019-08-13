@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-LegalEngine - "qqmbr" team. [Project](https://github.com/akarazeev/LegalTech), [Devpost](https://devpost.com/software/legalengine), [Diploma]({{ site.url }}{{ site.baseurl }}/files/certificates/junction-2017.pdf)
+LegalEngine - "qqmbr" team. [Project](https://github.com/akarazeev/LegalTech), [Devpost](https://devpost.com/software/legalengine), [Diploma]({{ site.url }}{{ site.baseurl }}/files/Junction17-Certificate_participation.IgjcQtem.pdf)

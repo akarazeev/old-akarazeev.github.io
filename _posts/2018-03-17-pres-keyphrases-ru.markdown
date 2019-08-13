@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/keyphrases.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/keyphrases.pdf)

@@ -17,4 +17,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/BioHack2017), [Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/biohack_alzheimers.pdf), [Post](http://news.ifmo.ru/ru/science/life_science/news/6500/) on ITMO.NEWS
+[Project](https://github.com/akarazeev/BioHack2017), [Presentation]({{ site.url }}{{ site.baseurl }}/files/biohack_alzheimers.pdf), [Post](http://news.ifmo.ru/ru/science/life_science/news/6500/) on ITMO.NEWS

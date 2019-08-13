@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-Summer school on Bayesian methods in Deep Learning. [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/files/certificates/deepbayes-school.pdf)
+Summer school on Bayesian methods in Deep Learning. [Deep\|Bayes](http://deepbayes.ru), [Diploma]({{ site.url }}{{ site.baseurl }}/files/deepbayes_school.pdf)

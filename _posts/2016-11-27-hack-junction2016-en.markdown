@@ -16,6 +16,6 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/files/certificates/junction-2016.pdf)
+My first hackathon. Used Gensim and Twitter API. [Diploma]({{ site.url }}{{ site.baseurl }}/files/XAJMULJH.pdf)
 
 [Here]({{ site.url }}{{ site.baseurl }}/junction-2016-ru) you can find my review of the whole trip to Junction 2016

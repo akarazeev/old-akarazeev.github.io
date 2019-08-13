@@ -19,4 +19,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/presentation_BERT_XLNet_RoBERTa.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/presentation_BERT_XLNet_RoBERTa.pdf)

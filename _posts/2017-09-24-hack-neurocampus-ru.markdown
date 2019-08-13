@@ -15,4 +15,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[2ое место, диплом]({{ site.url }}{{ site.baseurl }}/files/certificates/mastercard-telegram-sos.pdf), [Проект](https://github.com/akarazeev/SenseOfSpeech) на GitHub'e, бот [@SenseOfSpeech_bot](https://t.me/senseofspeech_bot) для платформы Telegram, [Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/SOS.pdf)
+[2ое место, диплом]({{ site.url }}{{ site.baseurl }}/files/telegram_diploma_sos.PDF), [Проект](https://github.com/akarazeev/SenseOfSpeech) на GitHub'e, бот [@SenseOfSpeech_bot](https://t.me/senseofspeech_bot) для платформы Telegram, [Презентация]({{ site.url }}{{ site.baseurl }}/files/SOS.pdf)
