@@ -16,7 +16,7 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Presentation]({{ site.url }}{{ site.baseurl }}/files/bert.pdf)
+[Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/bert.pdf)
 
 Firstly I’d like to tell you about general problems of Natural Language Processing like Language Modelling, Sentence Classification, etc. Then I’ll move to newly proposed model called BERT and give an overview about its improvement in many Natural Language Processing tasks. In the end I’ll briefly summarise all my talk.
 
