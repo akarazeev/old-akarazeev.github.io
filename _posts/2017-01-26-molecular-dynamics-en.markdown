@@ -16,4 +16,4 @@ header:
 
 ![image-center]({{ page.header.teaser }}){: .align-center}
 
-[Project](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Presentation]({{ site.url }}{{ site.baseurl }}/files/molecular_dynamics.pdf)
+[Project](https://github.com/akarazeev/MolecularDynamics-3sem-MIPT-2015), [Presentation]({{ site.url }}{{ site.baseurl }}/files/presentations/molecular_dynamics.pdf)

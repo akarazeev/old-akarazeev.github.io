@@ -18,7 +18,7 @@ header:
 
 Первый хакатон по биоинформатике в Санкт-Петербурге. Было интересно
 
-[Проект](https://github.com/akarazeev/BioHack2017), [Презентация]({{ site.url }}{{ site.baseurl }}/files/biohack_alzheimers.pdf), [Пост](http://news.ifmo.ru/ru/science/life_science/news/6500/) на ITMO.NEWS
+[Проект](https://github.com/akarazeev/BioHack2017), [Презентация]({{ site.url }}{{ site.baseurl }}/files/presentations/biohack_alzheimers.pdf), [Пост](http://news.ifmo.ru/ru/science/life_science/news/6500/) на ITMO.NEWS
 
 Немного про те дни: в первый же день мы немного разобрались с проблемой, над которой нам предстояло работать, и принялись скачивать данные. К сожалению, были частые перебои с wi-fi и интернет попросту пропадал (помню как сетевые кабели тянулись вдоль всего коридора и по лестнице -- из подвала до нашего этажа, на котором хакатон и проходил)
 
