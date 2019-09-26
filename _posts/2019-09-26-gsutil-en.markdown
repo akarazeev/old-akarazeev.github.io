@@ -1,0 +1,15 @@
+---
+title: gsutil
+lang: en
+ref: gsutil260919
+date: 2019-09-26 03:00:01 +03:00
+tags:
+- gsutil
+- Google Cloud
+- Storage buckets
+layout: post
+header:
+  teaser: "/images/gsutil.jpg"
+---
+
+List specified bucket: `gsutil ls gs://<bucket_name>`
