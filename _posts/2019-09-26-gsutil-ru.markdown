@@ -12,4 +12,8 @@ header:
   teaser: "/images/gsutil.jpg"
 ---
 
-List specified bucket: `gsutil ls gs://<bucket_name>`
+Here I decided to put together all the things related to Google Cloud storage buckets.
+
+- To install the utility it's better to follow [these instructions](https://cloud.google.com/storage/docs/gsutil_install)
+- List specified bucket: `gsutil ls gs://<bucket_name>` (more about `ls` functionality can be found [here](https://cloud.google.com/storage/docs/gsutil/commands/ls))
+- Download specified bucket (or specified folder of the bucket): `gsutil -m cp -r gs://<bucket_name>/<folder> .` (`-m` is for multithreading way of downloading, more info can be found [here](https://cloud.google.com/storage/docs/gsutil/commands/cp))
