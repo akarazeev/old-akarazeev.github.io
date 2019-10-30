@@ -10,7 +10,7 @@ tags:
 - IBM
 layout: post
 header:
-  teaser: ""
+  teaser: "/images/rami-barends.jpg"
 ---
 
 Rami Barends about IBM's proposal of "simulation of the same task that can be performed on a classical system in 2.5 days" instead of 10,000 years
